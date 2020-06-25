@@ -1,0 +1,1043 @@
+#sky-spawner1
+menu_title: '&5&lSpawner Shop'
+open_command: spawnershop
+size: 53
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: spawner.shop
+      deny_commands:
+      - '[message] You dont have permission to open the spawner shop'
+items:
+  '0':
+    material: spawner
+    slot: 0
+    display_name: '&dSpawners'
+    lore:
+    - &2Passive Spawners
+  '1':
+    material: RED_STAINED_GLASS_PANE
+    slot: 1
+  '2':
+    material: spawner
+    slot: 2
+    display_name: '&dSpawners'
+    lore:
+    - &2Passive Spawners
+  '3':
+    material: RED_STAINED_GLASS_PANE
+    slot: 3
+  '4':
+    material: head;%player_name%
+    slot: 4
+    display_name: '&dHey &f%player_name%'
+    lore:
+    - &2The Spawner Shop
+    left_click_commands:
+    - '[player] help'
+    right_click_commands:
+    - '[player] help'
+  '5':
+    material: RED_STAINED_GLASS_PANE
+    slot: 5
+  '6':
+    material: spawner
+    slot: 6
+    display_name: '&dSpawners'
+    lore:
+    - &2Passive Spawners
+  '7':
+    material: RED_STAINED_GLASS_PANE
+    slot: 7
+  '8':
+    material: spawner
+    slot: 8
+    display_name: '&dSpawners'
+    lore:
+    - &2Passive Spawners
+  '9':
+    material: RED_STAINED_GLASS_PANE
+    slot: 9
+  '10':
+    material: RED_STAINED_GLASS_PANE
+    slot: 10
+  '11':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmI1Mjg0MWYyZmQ1ODllMGJjODRjYmFiZjllMWMyN2NiNzBjYWM5OGY4ZDZiM2RkMDY1ZTU1YTRkY2I3MGQ3NyJ9fX0='
+    slot: 11
+    display_name: '&dMooshroom Spawner'
+    lore:
+    - '&F$28000'
+    - '&2Click To Buy'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance_fixed%'
+          output: 28000
+          deny_commands:
+          - '[message] &FInsufficient Funds'
+          - '[message] &ASpawner Price &F$28000'
+          - '[message] &AYour Balance &F$%vault_eco_balance_fixed%'
+    right_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance_fixed%'
+          output: 28000
+          deny_commands:
+          - '[message] &FInsufficient Funds'
+          - '[message] &ASpawner Price &F$28000'
+          - '[message] &AYour Balance &F$%vault_eco_balance_fixed%'
+    left_click_commands:
+    - '[takemoney] 28000'
+    - '[sound] BLOCK_END_PORTAL_FRAME_FILL'
+    - '[console] minecraft:give %player_name% minecraft:spawner{BlockEntityTag:{SpawnData:{"id":"minecraft:mooshroom"},id:"minecraft:mob_spawner"},
+    display:{Name:''{"text":"Mooshroom Spawner"}''}} 1'
+    - '[message] You bought a Mooshroom Spawner'
+    - '[close]'
+    right_click_commands:
+    - '[takemoney] 28000'
+    - '[sound] BLOCK_END_PORTAL_FRAME_FILL'
+    - '[console] minecraft:give %player_name% minecraft:spawner{BlockEntityTag:{SpawnData:{"id":"minecraft:mooshroom"},id:"minecraft:mob_spawner"},
+    display:{Name:''{"text":"Mooshroom Spawner"}''}} 1'
+    - '[message] You bought a Mooshroom Spawner'
+    - '[close]'
+  '12':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjIxNjY4ZWY3Y2I3OWRkOWMyMmNlM2QxZjNmNGNiNmUyNTU5ODkzYjZkZjRhNDY5NTE0ZTY2N2MxNmFhNCJ9fX0='
+    slot: 12
+    display_name: '&dPig Spawner'
+    lore:
+    - '&F$21000'
+    - '&2Click To Buy'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance_fixed%'
+          output: 21000
+          deny_commands:
+          - '[message] &FInsufficient Funds'
+          - '[message] &ASpawner Price &F$21000'
+          - '[message] &AYour Balance &F$%vault_eco_balance_fixed%'
+    right_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance_fixed%'
+          output: 21000
+          deny_commands:
+          - '[message] &FInsufficient Funds'
+          - '[message] &ASpawner Price &F$21000'
+          - '[message] &AYour Balance &F$%vault_eco_balance_fixed%'
+    left_click_commands:
+    - '[takemoney] 21000'
+    - '[sound] BLOCK_END_PORTAL_FRAME_FILL'
+    - '[console] minecraft:give %player_name% minecraft:spawner{BlockEntityTag:{SpawnData:{"id":"minecraft:pig"},id:"minecraft:mob_spawner"},
+    display:{Name:''{"text":"Pig Spawner"}''}} 1'
+    - '[message] You bought a Pig Spawner'
+    - '[close]'
+    right_click_commands:
+    - '[takemoney] 21000'
+    - '[sound] BLOCK_END_PORTAL_FRAME_FILL'
+    - '[console] minecraft:give %player_name% minecraft:spawner{BlockEntityTag:{SpawnData:{"id":"minecraft:pig"},id:"minecraft:mob_spawner"},
+    display:{Name:''{"text":"Pig Spawner"}''}} 1'
+    - '[message] You bought a Pig Spawner'
+    - '[close]'
+  '13':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQ2MGMyZTNlZTgwOWU4ZWZkNTM2NjFlNTc2YTY4MzNjOGI5OWIzYmUzNzhlYzQ0ZjY2NWMyNmI3N2M2N2EifX19'
+    slot: 13
+    display_name: '&dChicken Spawner'
+    lore:
+    - '&F$21000'
+    - '&2Click To Buy'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance_fixed%'
+          output: 21000
+          deny_commands:
+          - '[message] &FInsufficient Funds'
+          - '[message] &ASpawner Price &F$21000'
+          - '[message] &AYour Balance &F$%vault_eco_balance_fixed%'
+    right_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance_fixed%'
+          output: 21000
+          deny_commands:
+          - '[message] &FInsufficient Funds'
+          - '[message] &ASpawner Price &F$21000'
+          - '[message] &AYour Balance &F$%vault_eco_balance_fixed%'
+    left_click_commands:
+    - '[takemoney] 21000'
+    - '[sound] BLOCK_END_PORTAL_FRAME_FILL'
+    - '[console] minecraft:give %player_name% minecraft:spawner{BlockEntityTag:{SpawnData:{"id":"minecraft:chicken"},id:"minecraft:mob_spawner"},
+    display:{Name:''{"text":"Chicken Spawner"}''}} 1'
+    - '[message] You bought a Chicken Spawner'
+    - '[close]'
+    right_click_commands:
+    - '[takemoney] 21000'
+    - '[sound] BLOCK_END_PORTAL_FRAME_FILL'
+    - '[console] minecraft:give %player_name% minecraft:spawner{BlockEntityTag:{SpawnData:{"id":"minecraft:chicken"},id:"minecraft:mob_spawner"},
+    display:{Name:''{"text":"Chicken Spawner"}''}} 1'
+    - '[message] You bought a Chicken Spawner'
+    - '[close]'
+  '14':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjMxZjljY2M2YjNlMzJlY2YxM2I4YTExYWMyOWNkMzNkMThjOTVmYzczZGI4YTY2YzVkNjU3Y2NiOGJlNzAifX19'
+    slot: 14
+    display_name: '&dSheep Spawner'
+    lore:
+    - '&F$21000'
+    - '&2Click To Buy'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance_fixed%'
+          output: 21000
+          deny_commands:
+          - '[message] &FInsufficient Funds'
+          - '[message] &ASpawner Price &F$21000'
+          - '[message] &AYour Balance &F$%vault_eco_balance_fixed%'
+    right_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance_fixed%'
+          output: 21000
+          deny_commands:
+          - '[message] &FInsufficient Funds'
+          - '[message] &ASpawner Price &F$21000'
+          - '[message] &AYour Balance &F$%vault_eco_balance_fixed%'
+    left_click_commands:
+    - '[takemoney] 21000'
+    - '[sound] BLOCK_END_PORTAL_FRAME_FILL'
+    - '[console] minecraft:give %player_name% minecraft:spawner{BlockEntityTag:{SpawnData:{"id":"minecraft:sheep"},id:"minecraft:mob_spawner"},
+    display:{Name:''{"text":"Sheep Spawner"}''}} 1'
+    - '[message] You bought a Sheep Spawner'
+    - '[close]'
+    right_click_commands:
+    - '[takemoney] 21000'
+    - '[sound] BLOCK_END_PORTAL_FRAME_FILL'
+    - '[console] minecraft:give %player_name% minecraft:spawner{BlockEntityTag:{SpawnData:{"id":"minecraft:sheep"},id:"minecraft:mob_spawner"},
+    display:{Name:''{"text":"Sheep Spawner"}''}} 1'
+    - '[message] You bought a Sheep Spawner'
+    - '[close]'
+  '15':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjY2MGU5MWUxZjVmYzUxMGI1Zjg2NTIwYTU1MTZhOTIxZjM3NjU3Zjk2NWZkYmIyMzNkYWQ4NDc0MDI5YTk2ZiJ9fX0='
+    slot: 15
+    display_name: '&dCow Spawner'
+    lore:
+    - '&F$21000'
+    - '&2Click To Buy'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance_fixed%'
+          output: 21000
+          deny_commands:
+          - '[message] &FInsufficient Funds'
+          - '[message] &ASpawner Price &F$21000'
+          - '[message] &AYour Balance &F$%vault_eco_balance_fixed%'
+    right_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance_fixed%'
+          output: 21000
+          deny_commands:
+          - '[message] &FInsufficient Funds'
+          - '[message] &ASpawner Price &F$21000'
+          - '[message] &AYour Balance &F$%vault_eco_balance_fixed%'
+    left_click_commands:
+    - '[takemoney] 21000'
+    - '[sound] BLOCK_END_PORTAL_FRAME_FILL'
+    - '[console] minecraft:give %player_name% minecraft:spawner{BlockEntityTag:{SpawnData:{"id":"minecraft:cow"},id:"minecraft:mob_spawner"},
+    display:{Name:''{"text":"Cow Spawner"}''}} 1'
+    - '[message] You bought a Cow Spawner'
+    - '[close]'
+    right_click_commands:
+    - '[takemoney] 21000'
+    - '[sound] BLOCK_END_PORTAL_FRAME_FILL'
+    - '[console] minecraft:give %player_name% minecraft:spawner{BlockEntityTag:{SpawnData:{"id":"minecraft:cow"},id:"minecraft:mob_spawner"},
+    display:{Name:''{"text":"Cow Spawner"}''}} 1'
+    - '[message] You bought a Cow Spawner'
+    - '[close]'
+  '16':
+    material: RED_STAINED_GLASS_PANE
+    slot: 16
+  '17':
+    material: RED_STAINED_GLASS_PANE
+    slot: 17
+  '18':
+    material: RED_STAINED_GLASS_PANE
+    slot: 18
+  '19':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZThhNGZiMjVhZmJjNmI3YWVjMTVhYmU4NzJmY2VhZDFlNWIzM2MxYWIxMjUyNTE0MWQ3N2JmZDI5OGZjMzJkOSJ9fX0='
+    slot: 19
+    display_name: '&dRabbit Spawner'
+    lore:
+    - '&F$21000'
+    - '&2Click To Buy'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance_fixed%'
+          output: 21000
+          deny_commands:
+          - '[message] &FInsufficient Funds'
+          - '[message] &ASpawner Price &F$21000'
+          - '[message] &AYour Balance &F$%vault_eco_balance_fixed%'
+    right_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance_fixed%'
+          output: 21000
+          deny_commands:
+          - '[message] &FInsufficient Funds'
+          - '[message] &ASpawner Price &F$21000'
+          - '[message] &AYour Balance &F$%vault_eco_balance_fixed%'
+    left_click_commands:
+    - '[takemoney] 21000'
+    - '[sound] BLOCK_END_PORTAL_FRAME_FILL'
+    - '[console] minecraft:give %player_name% minecraft:spawner{BlockEntityTag:{SpawnData:{"id":"minecraft:rabbit"},id:"minecraft:mob_spawner"},
+    display:{Name:''{"text":"Rabbit Spawner"}''}} 1'
+    - '[message] You bought a Rabbit Spawner'
+    - '[close]'
+    right_click_commands:
+    - '[takemoney] 21000'
+    - '[sound] BLOCK_END_PORTAL_FRAME_FILL'
+    - '[console] minecraft:give %player_name% minecraft:spawner{BlockEntityTag:{SpawnData:{"id":"minecraft:rabbit"},id:"minecraft:mob_spawner"},
+    display:{Name:''{"text":"Rabbit Spawner"}''}} 1'
+    - '[message] You bought a Rabbit Spawner'
+    - '[close]'
+  '20':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDg5NTRhNDJlNjllMDg4MWFlNmQyNGQ0MjgxNDU5YzE0NGEwZDVhOTY4YWVkMzVkNmQzZDczYTNjNjVkMjZhIn19fQ=='
+    slot: 20
+    display_name: '&dFox Spawner'
+    lore:
+    - '&F$28000'
+    - '&2Click To Buy'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance_fixed%'
+          output: 28000
+          deny_commands:
+          - '[message] &FInsufficient Funds'
+          - '[message] &ASpawner Price &F$28000'
+          - '[message] &AYour Balance &F$%vault_eco_balance_fixed%'
+    right_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance_fixed%'
+          output: 28000
+          deny_commands:
+          - '[message] &FInsufficient Funds'
+          - '[message] &ASpawner Price &F$28000'
+          - '[message] &AYour Balance &F$%vault_eco_balance_fixed%'
+    left_click_commands:
+    - '[takemoney] 28000'
+    - '[sound] BLOCK_END_PORTAL_FRAME_FILL'
+    - '[console] minecraft:give %player_name% minecraft:spawner{BlockEntityTag:{SpawnData:{"id":"minecraft:fox"},id:"minecraft:mob_spawner"},
+    display:{Name:''{"text":"Fox Spawner"}''}} 1'
+    - '[message] You bought a Fox Spawner'
+    - '[close]'
+    right_click_commands:
+    - '[takemoney] 28000'
+    - '[sound] BLOCK_END_PORTAL_FRAME_FILL'
+    - '[console] minecraft:give %player_name% minecraft:spawner{BlockEntityTag:{SpawnData:{"id":"minecraft:fox"},id:"minecraft:mob_spawner"},
+    display:{Name:''{"text":"Fox Spawner"}''}} 1'
+    - '[message] You bought a Fox Spawner'
+    - '[close]'
+  '21':
+    material: RED_STAINED_GLASS_PANE
+    slot: 21
+  '22':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjc2NjE5NjUyZmFmZWM5MGNlOThkZjUwMTNjNjNkYzZhNzc3NzZhYjI3ODczYjczZGFmYjJiNmJkZWIxODUifX19'
+    slot: 22
+    display_name: '&dBat Spawner'
+    lore:
+    - '&F$7000'
+    - '&2Click To Buy'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance_fixed%'
+          output: 7000
+          deny_commands:
+          - '[message] &FInsufficient Funds'
+          - '[message] &ASpawner Price &F$7000'
+          - '[message] &AYour Balance &F$%vault_eco_balance_fixed%'
+    right_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance_fixed%'
+          output: 7000
+          deny_commands:
+          - '[message] &FInsufficient Funds'
+          - '[message] &ASpawner Price &F$7000'
+          - '[message] &AYour Balance &F$%vault_eco_balance_fixed%'
+    left_click_commands:
+    - '[takemoney] 7000'
+    - '[sound] BLOCK_END_PORTAL_FRAME_FILL'
+    - '[console] minecraft:give %player_name% minecraft:spawner{BlockEntityTag:{SpawnData:{"id":"minecraft:bat"},id:"minecraft:mob_spawner"},
+    display:{Name:''{"text":"Bat Spawner"}''}} 1'
+    - '[message] You bought a Bat Spawner'
+    - '[close]'
+    right_click_commands:
+    - '[takemoney] 7000'
+    - '[sound] BLOCK_END_PORTAL_FRAME_FILL'
+    - '[console] minecraft:give %player_name% minecraft:spawner{BlockEntityTag:{SpawnData:{"id":"minecraft:bat"},id:"minecraft:mob_spawner"},
+    display:{Name:''{"text":"Bat Spawner"}''}} 1'
+    - '[message] You bought a Bat Spawner'
+    - '[close]'
+  '23':
+    material: RED_STAINED_GLASS_PANE
+    slot: 23
+  '24':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTliMzk4NmUzMmFmZmRiMjI3MzFiNjg3YWMwNTRhMjU4NTFmODYxNmE1YTNjNWFlNmJiOTJiOGVkMWM5YWUifX19'
+    slot: 24
+    display_name: '&dCat Spawner'
+    lore:
+    - '&F$14000'
+    - '&2Click To Buy'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance_fixed%'
+          output: 14000
+          deny_commands:
+          - '[message] &FInsufficient Funds'
+          - '[message] &ASpawner Price &F$14000'
+          - '[message] &AYour Balance &F$%vault_eco_balance_fixed%'
+    right_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance_fixed%'
+          output: 14000
+          deny_commands:
+          - '[message] &FInsufficient Funds'
+          - '[message] &ASpawner Price &F$14000'
+          - '[message] &AYour Balance &F$%vault_eco_balance_fixed%'
+    left_click_commands:
+    - '[takemoney] 14000'
+    - '[sound] BLOCK_END_PORTAL_FRAME_FILL'
+    - '[console] minecraft:give %player_name% minecraft:spawner{BlockEntityTag:{SpawnData:{"id":"minecraft:cat"},id:"minecraft:mob_spawner"},
+    display:{Name:''{"text":"Cat Spawner"}''}} 1'
+    - '[message] You bought a Cat Spawner'
+    - '[close]'
+    right_click_commands:
+    - '[takemoney] 14000'
+    - '[sound] BLOCK_END_PORTAL_FRAME_FILL'
+    - '[console] minecraft:give %player_name% minecraft:spawner{BlockEntityTag:{SpawnData:{"id":"minecraft:cat"},id:"minecraft:mob_spawner"},
+    display:{Name:''{"text":"Cat Spawner"}''}} 1'
+    - '[message] You bought a Cat Spawner'
+    - '[close]'
+  '25':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTY1N2NkNWMyOTg5ZmY5NzU3MGZlYzRkZGNkYzY5MjZhNjhhMzM5MzI1MGMxYmUxZjBiMTE0YTFkYjEifX19'
+    slot: 25
+    display_name: '&dOcelot Spawner'
+    lore:
+    - '&F$14000'
+    - '&2Click To Buy'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance_fixed%'
+          output: 14000
+          deny_commands:
+          - '[message] &FInsufficient Funds'
+          - '[message] &ASpawner Price &F$14000'
+          - '[message] &AYour Balance &F$%vault_eco_balance_fixed%'
+    right_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance_fixed%'
+          output: 14000
+          deny_commands:
+          - '[message] &FInsufficient Funds'
+          - '[message] &ASpawner Price &F$14000'
+          - '[message] &AYour Balance &F$%vault_eco_balance_fixed%'
+    left_click_commands:
+    - '[takemoney] 14000'
+    - '[sound] BLOCK_END_PORTAL_FRAME_FILL'
+    - '[console] minecraft:give %player_name% minecraft:spawner{BlockEntityTag:{SpawnData:{"id":"minecraft:ocelot"},id:"minecraft:mob_spawner"},
+    display:{Name:''{"text":"Ocelot Spawner"}''}} 1'
+    - '[message] You bought a Ocelot Spawner'
+    - '[close]'
+    right_click_commands:
+    - '[takemoney] 14000'
+    - '[sound] BLOCK_END_PORTAL_FRAME_FILL'
+    - '[console] minecraft:give %player_name% minecraft:spawner{BlockEntityTag:{SpawnData:{"id":"minecraft:ocelot"},id:"minecraft:mob_spawner"},
+    display:{Name:''{"text":"Ocelot Spawner"}''}} 1'
+    - '[message] You bought a Ocelot Spawner'
+    - '[close]'
+  '26':
+    material: RED_STAINED_GLASS_PANE
+    slot: 26
+  '27':
+    material: RED_STAINED_GLASS_PANE
+    slot: 27
+  '28':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMGE0MDUwZTdhYWNjNDUzOTIwMjY1OGZkYzMzOWRkMTgyZDdlMzIyZjlmYmNjNGQ1Zjk5YjU3MThhIn19fQ=='
+    slot: 28
+    display_name: '&dTurtle Spawner'
+    lore:
+    - '&F$28000'
+    - '&2Click To Buy'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance_fixed%'
+          output: 28000
+          deny_commands:
+          - '[message] &FInsufficient Funds'
+          - '[message] &ASpawner Price &F$28000'
+          - '[message] &AYour Balance &F$%vault_eco_balance_fixed%'
+    right_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance_fixed%'
+          output: 28000
+          deny_commands:
+          - '[message] &FInsufficient Funds'
+          - '[message] &ASpawner Price &F$28000'
+          - '[message] &AYour Balance &F$%vault_eco_balance_fixed%'
+    left_click_commands:
+    - '[takemoney] 28000'
+    - '[sound] BLOCK_END_PORTAL_FRAME_FILL'
+    - '[console] minecraft:give %player_name% minecraft:spawner{BlockEntityTag:{SpawnData:{"id":"minecraft:turtle"},id:"minecraft:mob_spawner"},
+    display:{Name:''{"text":"Turtle Spawner"}''}} 1'
+    - '[message] You bought a Turtle Spawner'
+    - '[close]'
+    right_click_commands:
+    - '[takemoney] 28000'
+    - '[sound] BLOCK_END_PORTAL_FRAME_FILL'
+    - '[console] minecraft:give %player_name% minecraft:spawner{BlockEntityTag:{SpawnData:{"id":"minecraft:turtle"},id:"minecraft:mob_spawner"},
+    display:{Name:''{"text":"Turtle Spawner"}''}} 1'
+    - '[message] You bought a Turtle Spawner'
+    - '[close]'
+  '29':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDZkZDVlNmFkZGI1NmFjYmM2OTRlYTRiYTU5MjNiMWIyNTY4ODE3OGZlZmZhNzIyOTAyOTllMjUwNWM5NzI4MSJ9fX0='
+    slot: 29
+    display_name: '&dTropical Fish Spawner'
+    lore:
+    - '&F$21000'
+    - '&2Click To Buy'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance_fixed%'
+          output: 21000
+          deny_commands:
+          - '[message] &FInsufficient Funds'
+          - '[message] &ASpawner Price &F$21000'
+          - '[message] &AYour Balance &F$%vault_eco_balance_fixed%'
+    right_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance_fixed%'
+          output: 21000
+          deny_commands:
+          - '[message] &FInsufficient Funds'
+          - '[message] &ASpawner Price &F$21000'
+          - '[message] &AYour Balance &F$%vault_eco_balance_fixed%'
+    left_click_commands:
+    - '[takemoney] 21000'
+    - '[sound] BLOCK_END_PORTAL_FRAME_FILL'
+    - '[console] minecraft:give %player_name% minecraft:spawner{BlockEntityTag:{SpawnData:{"id":"minecraft:tropical_fish"},id:"minecraft:mob_spawner"},
+    display:{Name:''{"text":"Tropical Fish Spawner"}''}} 1'
+    - '[message] You bought a Tropical Fish Spawner'
+    - '[close]'
+    right_click_commands:
+    - '[takemoney] 21000'
+    - '[sound] BLOCK_END_PORTAL_FRAME_FILL'
+    - '[console] minecraft:give %player_name% minecraft:spawner{BlockEntityTag:{SpawnData:{"id":"minecraft:tropical_fish"},id:"minecraft:mob_spawner"},
+    display:{Name:''{"text":"Tropical Fish Spawner"}''}} 1'
+    - '[message] You bought a Tropical Fish Spawner'
+    - '[close]'
+  '30':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGFlYjIxYTI1ZTQ2ODA2Y2U4NTM3ZmJkNjY2ODI4MWNmMTc2Y2VhZmU5NWFmOTBlOTRhNWZkODQ5MjQ4NzgifX19'
+    slot: 30
+    display_name: '&dSalmon Spawner'
+    lore:
+    - '&F$21000'
+    - '&2Click To Buy'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance_fixed%'
+          output: 21000
+          deny_commands:
+          - '[message] &FInsufficient Funds'
+          - '[message] &ASpawner Price &F$21000'
+          - '[message] &AYour Balance &F$%vault_eco_balance_fixed%'
+    right_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance_fixed%'
+          output: 21000
+          deny_commands:
+          - '[message] &FInsufficient Funds'
+          - '[message] &ASpawner Price &F$21000'
+          - '[message] &AYour Balance &F$%vault_eco_balance_fixed%'
+    left_click_commands:
+    - '[takemoney] 21000'
+    - '[sound] BLOCK_END_PORTAL_FRAME_FILL'
+    - '[console] minecraft:give %player_name% minecraft:spawner{BlockEntityTag:{SpawnData:{"id":"minecraft:salmon"},id:"minecraft:mob_spawner"},
+    display:{Name:''{"text":"Salmon Spawner"}''}} 1'
+    - '[message] You bought a Salmon Spawner'
+    - '[close]'
+    right_click_commands:
+    - '[takemoney] 21000'
+    - '[sound] BLOCK_END_PORTAL_FRAME_FILL'
+    - '[console] minecraft:give %player_name% minecraft:spawner{BlockEntityTag:{SpawnData:{"id":"minecraft:salmon"},id:"minecraft:mob_spawner"},
+    display:{Name:''{"text":"Salmon Spawner"}''}} 1'
+    - '[message] You bought a Salmon Spawner'
+    - '[close]'
+  '31':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGU5Njg4Yjk1MGQ4ODBiNTViN2FhMmNmY2Q3NmU1YTBmYTk0YWFjNmQxNmY3OGU4MzNmNzQ0M2VhMjlmZWQzIn19fQ=='
+    slot: 31
+    display_name: '&dDolphin Spawner'
+    lore:
+    - '&F$14000'
+    - '&2Click To Buy'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance_fixed%'
+          output: 14000
+          deny_commands:
+          - '[message] &FInsufficient Funds'
+          - '[message] &ASpawner Price &F$14000'
+          - '[message] &AYour Balance &F$%vault_eco_balance_fixed%'
+    right_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance_fixed%'
+          output: 14000
+          deny_commands:
+          - '[message] &FInsufficient Funds'
+          - '[message] &ASpawner Price &F$14000'
+          - '[message] &AYour Balance &F$%vault_eco_balance_fixed%'
+    left_click_commands:
+    - '[takemoney] 14000'
+    - '[sound] BLOCK_END_PORTAL_FRAME_FILL'
+    - '[console] minecraft:give %player_name% minecraft:spawner{BlockEntityTag:{SpawnData:{"id":"minecraft:dolphin"},id:"minecraft:mob_spawner"},
+    display:{Name:''{"text":"Dolphin Spawner"}''}} 1'
+    - '[message] You bought a Dolphin Spawner'
+    - '[close]'
+    right_click_commands:
+    - '[takemoney] 14000'
+    - '[sound] BLOCK_END_PORTAL_FRAME_FILL'
+    - '[console] minecraft:give %player_name% minecraft:spawner{BlockEntityTag:{SpawnData:{"id":"minecraft:dolphin"},id:"minecraft:mob_spawner"},
+    display:{Name:''{"text":"Dolphin Spawner"}''}} 1'
+    - '[message] You bought a Dolphin Spawner'
+    - '[close]'
+  '32':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzg5MmQ3ZGQ2YWFkZjM1Zjg2ZGEyN2ZiNjNkYTRlZGRhMjExZGY5NmQyODI5ZjY5MTQ2MmE0ZmIxY2FiMCJ9fX0='
+    slot: 32
+    display_name: '&dCod Spawner'
+    lore:
+    - '&F$21000'
+    - '&2Click To Buy'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance_fixed%'
+          output: 21000
+          deny_commands:
+          - '[message] &FInsufficient Funds'
+          - '[message] &ASpawner Price &F$21000'
+          - '[message] &AYour Balance &F$%vault_eco_balance_fixed%'
+    right_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance_fixed%'
+          output: 21000
+          deny_commands:
+          - '[message] &FInsufficient Funds'
+          - '[message] &ASpawner Price &F$21000'
+          - '[message] &AYour Balance &F$%vault_eco_balance_fixed%'
+    left_click_commands:
+    - '[takemoney] 21000'
+    - '[sound] BLOCK_END_PORTAL_FRAME_FILL'
+    - '[console] minecraft:give %player_name% minecraft:spawner{BlockEntityTag:{SpawnData:{"id":"minecraft:cod"},id:"minecraft:mob_spawner"},
+    display:{Name:''{"text":"Cod Spawner"}''}} 1'
+    - '[message] You bought a Cod Spawner'
+    - '[close]'
+    right_click_commands:
+    - '[takemoney] 21000'
+    - '[sound] BLOCK_END_PORTAL_FRAME_FILL'
+    - '[console] minecraft:give %player_name% minecraft:spawner{BlockEntityTag:{SpawnData:{"id":"minecraft:cod"},id:"minecraft:mob_spawner"},
+    display:{Name:''{"text":"Cod Spawner"}''}} 1'
+    - '[message] You bought a Cod Spawner'
+    - '[close]'
+  '33':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTcxNTI4NzZiYzNhOTZkZDJhMjI5OTI0NWVkYjNiZWVmNjQ3YzhhNTZhYzg4NTNhNjg3YzNlN2I1ZDhiYiJ9fX0='
+    slot: 33
+    display_name: '&dPufferfish Spawner'
+    lore:
+    - '&F$21000'
+    - '&2Click To Buy'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance_fixed%'
+          output: 21000
+          deny_commands:
+          - '[message] &FInsufficient Funds'
+          - '[message] &ASpawner Price &F$21000'
+          - '[message] &AYour Balance &F$%vault_eco_balance_fixed%'
+    right_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance_fixed%'
+          output: 21000
+          deny_commands:
+          - '[message] &FInsufficient Funds'
+          - '[message] &ASpawner Price &F$21000'
+          - '[message] &AYour Balance &F$%vault_eco_balance_fixed%'
+    left_click_commands:
+    - '[takemoney] 21000'
+    - '[sound] BLOCK_END_PORTAL_FRAME_FILL'
+    - '[console] minecraft:give %player_name% minecraft:spawner{BlockEntityTag:{SpawnData:{"id":"minecraft:pufferfish"},id:"minecraft:mob_spawner"},
+    display:{Name:''{"text":"Pufferfish Spawner"}''}} 1'
+    - '[message] You bought a Pufferfish Spawner'
+    - '[close]'
+    right_click_commands:
+    - '[takemoney] 21000'
+    - '[sound] BLOCK_END_PORTAL_FRAME_FILL'
+    - '[console] minecraft:give %player_name% minecraft:spawner{BlockEntityTag:{SpawnData:{"id":"minecraft:pufferfish"},id:"minecraft:mob_spawner"},
+    display:{Name:''{"text":"Pufferfish Spawner"}''}} 1'
+    - '[message] You bought a Pufferfish Spawner'
+    - '[close]'
+  '34':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMDE0MzNiZTI0MjM2NmFmMTI2ZGE0MzRiODczNWRmMWViNWIzY2IyY2VkZTM5MTQ1OTc0ZTljNDgzNjA3YmFjIn19fQ=='
+    slot: 34
+    display_name: '&dSquid Spawner'
+    lore:
+    - '&F$21000'
+    - '&2Click To Buy'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance_fixed%'
+          output: 21000
+          deny_commands:
+          - '[message] &FInsufficient Funds'
+          - '[message] &ASpawner Price &F$21000'
+          - '[message] &AYour Balance &F$%vault_eco_balance_fixed%'
+    right_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance_fixed%'
+          output: 21000
+          deny_commands:
+          - '[message] &FInsufficient Funds'
+          - '[message] &ASpawner Price &F$21000'
+          - '[message] &AYour Balance &F$%vault_eco_balance_fixed%'
+    left_click_commands:
+    - '[takemoney] 21000'
+    - '[sound] BLOCK_END_PORTAL_FRAME_FILL'
+    - '[console] minecraft:give %player_name% minecraft:spawner{BlockEntityTag:{SpawnData:{"id":"minecraft:squid"},id:"minecraft:mob_spawner"},
+    display:{Name:''{"text":"Squid Spawner"}''}} 1'
+    - '[message] You bought a Squid Spawner'
+    - '[close]'
+    right_click_commands:
+    - '[takemoney] 21000'
+    - '[sound] BLOCK_END_PORTAL_FRAME_FILL'
+    - '[console] minecraft:give %player_name% minecraft:spawner{BlockEntityTag:{SpawnData:{"id":"minecraft:squid"},id:"minecraft:mob_spawner"},
+    display:{Name:''{"text":"Squid Spawner"}''}} 1'
+    - '[message] You bought a Squid Spawner'
+    - '[close]'
+  '35':
+    material: RED_STAINED_GLASS_PANE
+    slot: 35
+  '36':
+    material: RED_STAINED_GLASS_PANE
+    slot: 36
+  '37':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDdlZmZjZTM1MTMyYzg2ZmY3MmJjYWU3N2RmYmIxZDIyNTg3ZTk0ZGYzY2JjMjU3MGVkMTdjZjg5NzNhIn19fQ=='
+    slot: 37
+    display_name: '&dSkeleton Horse Spawner'
+    lore:
+    - '&F$28000'
+    - '&2Click To Buy'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance_fixed%'
+          output: 28000
+          deny_commands:
+          - '[message] &FInsufficient Funds'
+          - '[message] &ASpawner Price &F$28000'
+          - '[message] &AYour Balance &F$%vault_eco_balance_fixed%'
+    right_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance_fixed%'
+          output: 28000
+          deny_commands:
+          - '[message] &FInsufficient Funds'
+          - '[message] &ASpawner Price &F$28000'
+          - '[message] &AYour Balance &F$%vault_eco_balance_fixed%'
+    left_click_commands:
+    - '[takemoney] 28000'
+    - '[sound] BLOCK_END_PORTAL_FRAME_FILL'
+    - '[console] minecraft:give %player_name% minecraft:spawner{BlockEntityTag:{SpawnData:{"id":"minecraft:skeleton_horse"},id:"minecraft:mob_spawner"},
+    display:{Name:''{"text":"Skeleton Horse Spawner"}''}} 1'
+    - '[message] You bought a Skeleton Horse Spawner'
+    - '[close]'
+    right_click_commands:
+    - '[takemoney] 28000'
+    - '[sound] BLOCK_END_PORTAL_FRAME_FILL'
+    - '[console] minecraft:give %player_name% minecraft:spawner{BlockEntityTag:{SpawnData:{"id":"minecraft:skeleton_horse"},id:"minecraft:mob_spawner"},
+    display:{Name:''{"text":"Skeleton Horse Spawner"}''}} 1'
+    - '[message] You bought a Skeleton Horse Spawner'
+    - '[close]'
+  '38':
+    material: RED_STAINED_GLASS_PANE
+    slot: 38
+  '39':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTYyNzIyMzNjMWViMWJmNDdiYWY1YzZjZjg2ZjkzZDE1YWY5NzA4YWQyY2ExOGY2YzkwMTUzNDk5MjI2ODg1In19fQ=='
+    slot: 39
+    display_name: '&dMule Spawner'
+    lore:
+    - '&F$21000'
+    - '&2Click To Buy'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance_fixed%'
+          output: 21000
+          deny_commands:
+          - '[message] &FInsufficient Funds'
+          - '[message] &ASpawner Price &F$21000'
+          - '[message] &AYour Balance &F$%vault_eco_balance_fixed%'
+    right_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance_fixed%'
+          output: 21000
+          deny_commands:
+          - '[message] &FInsufficient Funds'
+          - '[message] &ASpawner Price &F$21000'
+          - '[message] &AYour Balance &F$%vault_eco_balance_fixed%'
+    left_click_commands:
+    - '[takemoney] 21000'
+    - '[sound] BLOCK_END_PORTAL_FRAME_FILL'
+    - '[console] minecraft:give %player_name% minecraft:spawner{BlockEntityTag:{SpawnData:{"id":"minecraft:mule"},id:"minecraft:mob_spawner"},
+    display:{Name:''{"text":"Mule Spawner"}''}} 1'
+    - '[message] You bought a Mule Spawner'
+    - '[close]'
+    right_click_commands:
+    - '[takemoney] 21000'
+    - '[sound] BLOCK_END_PORTAL_FRAME_FILL'
+    - '[console] minecraft:give %player_name% minecraft:spawner{BlockEntityTag:{SpawnData:{"id":"minecraft:mule"},id:"minecraft:mob_spawner"},
+    display:{Name:''{"text":"Mule Spawner"}''}} 1'
+    - '[message] You bought a Mule Spawner'
+    - '[close]'
+  '40':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWYxNWMyN2NiN2MzNWE2ZTdhYTc2MzU3M2RkYmZmOTgwODUxNmJkYWJjMjNmMWNiNTE2MzkxOGM0YTEzOTIifX19'
+    slot: 40
+    display_name: '&dHorse Spawner'
+    lore:
+    - '&F$21000'
+    - '&2Click To Buy'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance_fixed%'
+          output: 21000
+          deny_commands:
+          - '[message] &FInsufficient Funds'
+          - '[message] &ASpawner Price &F$21000'
+          - '[message] &AYour Balance &F$%vault_eco_balance_fixed%'
+    right_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance_fixed%'
+          output: 21000
+          deny_commands:
+          - '[message] &FInsufficient Funds'
+          - '[message] &ASpawner Price &F$21000'
+          - '[message] &AYour Balance &F$%vault_eco_balance_fixed%'
+    left_click_commands:
+    - '[takemoney] 21000'
+    - '[sound] BLOCK_END_PORTAL_FRAME_FILL'
+    - '[console] minecraft:give %player_name% minecraft:spawner{BlockEntityTag:{SpawnData:{"id":"minecraft:horse"},id:"minecraft:mob_spawner"},
+    display:{Name:''{"text":"Horse Spawner"}''}} 1'
+    - '[message] You bought a Horse Spawner'
+    - '[close]'
+    right_click_commands:
+    - '[takemoney] 21000'
+    - '[sound] BLOCK_END_PORTAL_FRAME_FILL'
+    - '[console] minecraft:give %player_name% minecraft:spawner{BlockEntityTag:{SpawnData:{"id":"minecraft:horse"},id:"minecraft:mob_spawner"},
+    display:{Name:''{"text":"Horse Spawner"}''}} 1'
+    - '[message] You bought a Horse Spawner'
+    - '[close]'
+  '41':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGZiNmMzYzA1MmNmNzg3ZDIzNmEyOTE1ZjgwNzJiNzdjNTQ3NDk3NzE1ZDFkMmY4Y2JjOWQyNDFkODhhIn19fQ=='
+    slot: 41
+    display_name: '&dDonkey Spawner'
+    lore:
+    - '&F$14000'
+    - '&2Click To Buy'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance_fixed%'
+          output: 14000
+          deny_commands:
+          - '[message] &FInsufficient Funds'
+          - '[message] &ASpawner Price &F$14000'
+          - '[message] &AYour Balance &F$%vault_eco_balance_fixed%'
+    right_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance_fixed%'
+          output: 14000
+          deny_commands:
+          - '[message] &FInsufficient Funds'
+          - '[message] &ASpawner Price &F$14000'
+          - '[message] &AYour Balance &F$%vault_eco_balance_fixed%'
+    left_click_commands:
+    - '[takemoney] 14000'
+    - '[sound] BLOCK_END_PORTAL_FRAME_FILL'
+    - '[console] minecraft:give %player_name% minecraft:spawner{BlockEntityTag:{SpawnData:{"id":"minecraft:donkey"},id:"minecraft:mob_spawner"},
+    display:{Name:''{"text":"Donkey Spawner"}''}} 1'
+    - '[message] You bought a Donkey Spawner'
+    - '[close]'
+    right_click_commands:
+    - '[takemoney] 14000'
+    - '[sound] BLOCK_END_PORTAL_FRAME_FILL'
+    - '[console] minecraft:give %player_name% minecraft:spawner{BlockEntityTag:{SpawnData:{"id":"minecraft:donkey"},id:"minecraft:mob_spawner"},
+    display:{Name:''{"text":"Donkey Spawner"}''}} 1'
+    - '[message] You bought a Donkey Spawner'
+    - '[close]'
+  '42':
+    material: RED_STAINED_GLASS_PANE
+    slot: 42
+  '43':
+    material: 'basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDIyOTUwZjJkM2VmZGRiMThkZTg2ZjhmNTVhYzUxOGRjZTczZjEyYTZlMGY4NjM2ZDU1MWQ4ZWI0ODBjZWVjIn19fQ=='
+    slot: 43
+    display_name: '&dZombie Horse Spawner'
+    lore:
+    - '&F$28000'
+    - '&2Click To Buy'
+    left_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance_fixed%'
+          output: 28000
+          deny_commands:
+          - '[message] &FInsufficient Funds'
+          - '[message] &ASpawner Price &F$28000'
+          - '[message] &AYour Balance &F$%vault_eco_balance_fixed%'
+    right_click_requirement:
+      requirements:
+        money_requirement:
+          type: '>='
+          input: '%vault_eco_balance_fixed%'
+          output: 28000
+          deny_commands:
+          - '[message] &FInsufficient Funds'
+          - '[message] &ASpawner Price &F$28000'
+          - '[message] &AYour Balance &F$%vault_eco_balance_fixed%'
+    left_click_commands:
+    - '[takemoney] 28000'
+    - '[sound] BLOCK_END_PORTAL_FRAME_FILL'
+    - '[console] minecraft:give %player_name% minecraft:spawner{BlockEntityTag:{SpawnData:{"id":"minecraft:zombie_horse"},id:"minecraft:mob_spawner"},
+    display:{Name:''{"text":"Zombie Horse Spawner"}''}} 1'
+    - '[message] You bought a Zombie Horse Spawner'
+    - '[close]'
+    right_click_commands:
+    - '[takemoney] 28000'
+    - '[sound] BLOCK_END_PORTAL_FRAME_FILL'
+    - '[console] minecraft:give %player_name% minecraft:spawner{BlockEntityTag:{SpawnData:{"id":"minecraft:zombie_horse"},id:"minecraft:mob_spawner"},
+    display:{Name:''{"text":"Zombie Horse Spawner"}''}} 1'
+    - '[message] You bought a Zombie Horse Spawner'
+    - '[close]'
+  '44':
+    material: RED_STAINED_GLASS_PANE
+    slot: 44
+  '45':
+    material: barrier
+    slot: 45
+    display_name: '&dClose'
+    lore:
+    - &2Close Menu
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+  '46':
+    material: RED_STAINED_GLASS_PANE
+    slot: 46
+  '47':
+    material: RED_STAINED_GLASS_PANE
+    slot: 47
+  '48':
+    material: RED_STAINED_GLASS_PANE
+    slot: 48
+  '49':
+    material: paper
+    slot: 49
+    display_name: '&dPage1'
+    lore:
+    - &2Click For Next Page
+    left_click_commands:
+    - '[player] dm open spawner3'
+    right_click_commands:
+    - '[player] dm open spawner2'
+  '50':
+    material: RED_STAINED_GLASS_PANE
+    slot: 50
+  '51':
+    material: RED_STAINED_GLASS_PANE
+    slot: 51
+  '52':
+    material: RED_STAINED_GLASS_PANE
+    slot: 52
+  '53':
+    material: RED_STAINED_GLASS_PANE
+    slot: 53

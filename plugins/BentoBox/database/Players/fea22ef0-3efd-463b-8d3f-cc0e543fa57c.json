@@ -1,0 +1,24 @@
+{
+  "homeLocations": [
+    [
+      [
+        "caveblock_world",
+        -400.5,
+        62.0,
+        -0.5,
+        90.0,
+        30.0
+      ],
+      1
+    ]
+  ],
+  "uniqueId": "fea22ef0-3efd-463b-8d3f-cc0e543fa57c",
+  "playerName": "Smattox",
+  "resets": {},
+  "locale": "",
+  "deaths": {
+    "caveblock_world": 0
+  },
+  "pendingKicks": [],
+  "flagsDisplayMode": "BASIC"
+}

@@ -1,0 +1,24 @@
+{
+  "homeLocations": [
+    [
+      [
+        "caveblock_world",
+        399.5,
+        62.0,
+        -0.5,
+        90.0,
+        30.0
+      ],
+      1
+    ]
+  ],
+  "uniqueId": "10c49945-56f3-4a19-9f1f-8087fea92b06",
+  "playerName": "Eliasegg",
+  "resets": {},
+  "locale": "",
+  "deaths": {
+    "caveblock_world": 0
+  },
+  "pendingKicks": [],
+  "flagsDisplayMode": "ADVANCED"
+}

@@ -1,0 +1,7457 @@
+# Shop name can not contain formatting codes, '/' and ' '
+Bees:
+  Options:
+    page: 1
+    title: 1.15 Bees
+    lore: ''
+    permission: ''
+  '0':
+    mat: LIME_STAINED_GLASS_PANE
+  '1':
+    mat: LIME_STAINED_GLASS_PANE
+  '2':
+    mat: LIME_STAINED_GLASS_PANE
+  '3':
+    mat: LIME_STAINED_GLASS_PANE
+  '4':
+    mat: LIME_STAINED_GLASS_PANE
+  '5':
+    mat: LIME_STAINED_GLASS_PANE
+  '6':
+    mat: LIME_STAINED_GLASS_PANE
+  '7':
+    mat: LIME_STAINED_GLASS_PANE
+  '8':
+    mat: LIME_STAINED_GLASS_PANE
+  '9':
+    mat: LIME_STAINED_GLASS_PANE
+  '10':
+    mat: LIME_STAINED_GLASS_PANE
+  '11':
+    mat: LIME_STAINED_GLASS_PANE
+  '12':
+    mat: BEE_NEST
+    value: 49.875
+    median: -1
+    stock: -1
+    value2: 2.49375
+    tradeType: ''
+  '13':
+    mat: LIME_STAINED_GLASS_PANE
+  '14':
+    mat: BEEHIVE
+    value: 33.915
+    median: -1
+    stock: -1
+    value2: 1.69575
+    tradeType: ''
+  '15':
+    mat: LIME_STAINED_GLASS_PANE
+  '16':
+    mat: LIME_STAINED_GLASS_PANE
+  '17':
+    mat: LIME_STAINED_GLASS_PANE
+  '18':
+    mat: LIME_STAINED_GLASS_PANE
+  '19':
+    mat: LIME_STAINED_GLASS_PANE
+  '20':
+    mat: HONEY_BOTTLE
+    value: 47.25
+    median: -1
+    stock: -1
+    value2: 2.3625
+    tradeType: ''
+  '21':
+    mat: HONEY_BLOCK
+    value: 47.124
+    median: -1
+    stock: -1
+    value2: 2.3562
+    tradeType: ''
+  '22':
+    mat: LIME_STAINED_GLASS_PANE
+  '23':
+    mat: HONEYCOMB_BLOCK
+    value: 28.56
+    median: -1
+    stock: -1
+    value2: 1.428
+    tradeType: ''
+  '24':
+    mat: HONEYCOMB
+    value: 7
+    median: -1
+    stock: -1
+    value2: 0.35
+    tradeType: ''
+  '25':
+    mat: LIME_STAINED_GLASS_PANE
+  '26':
+    mat: LIME_STAINED_GLASS_PANE
+  '27':
+    mat: LIME_STAINED_GLASS_PANE
+  '28':
+    mat: LIME_STAINED_GLASS_PANE
+  '29':
+    mat: LIME_STAINED_GLASS_PANE
+  '30':
+    mat: LIME_STAINED_GLASS_PANE
+  '31':
+    mat: LIME_STAINED_GLASS_PANE
+  '32':
+    mat: LIME_STAINED_GLASS_PANE
+  '33':
+    mat: LIME_STAINED_GLASS_PANE
+  '34':
+    mat: LIME_STAINED_GLASS_PANE
+  '35':
+    mat: LIME_STAINED_GLASS_PANE
+  '36':
+    mat: LIME_STAINED_GLASS_PANE
+  '37':
+    mat: LIME_STAINED_GLASS_PANE
+  '38':
+    mat: LIME_STAINED_GLASS_PANE
+  '39':
+    mat: LIME_STAINED_GLASS_PANE
+  '40':
+    mat: LIME_STAINED_GLASS_PANE
+  '41':
+    mat: LIME_STAINED_GLASS_PANE
+  '42':
+    mat: LIME_STAINED_GLASS_PANE
+  '43':
+    mat: LIME_STAINED_GLASS_PANE
+  '44':
+    mat: LIME_STAINED_GLASS_PANE
+Blocks:
+  Options:
+    page: 5
+    title: Blocks
+    lore: ''
+    permission: ''
+  '0':
+    mat: LIME_STAINED_GLASS_PANE
+  '1':
+    mat: CLAY
+    value: 12.495
+    median: -1
+    stock: -1
+    value2: 0.62475
+    tradeType: ''
+  '2':
+    mat: GRAVEL
+    value: 875
+    median: -1
+    stock: -1
+    value2: -43.75
+    tradeType: BuyOnly
+  '3':
+    mat: LIME_STAINED_GLASS_PANE
+  '4':
+    mat: COARSE_DIRT
+    value: 1160.25
+    median: -1
+    stock: -1
+    value2: 58.0125
+    tradeType: ''
+  '5':
+    mat: LIME_STAINED_GLASS_PANE
+  '6':
+    mat: SAND
+    value: 70
+    median: -1
+    stock: -1
+    value2: 3.5
+    tradeType: ''
+  '7':
+    mat: RED_SAND
+    value: 70
+    median: -1
+    stock: -1
+    value2: 3.5
+    tradeType: ''
+  '8':
+    mat: LIME_STAINED_GLASS_PANE
+  '9':
+    mat: LIME_STAINED_GLASS_PANE
+  '10':
+    mat: LIME_STAINED_GLASS_PANE
+  '11':
+    mat: GRASS_PATH
+    value: 875
+    median: -1
+    stock: -1
+    value2: -43.75
+    tradeType: BuyOnly
+  '12':
+    mat: GRASS_BLOCK
+    value: 875
+    median: -1
+    stock: -1
+    value2: -43.75
+    tradeType: BuyOnly
+  '13':
+    mat: DIRT
+    value: 350
+    median: -1
+    stock: -1
+    value2: 17.5
+    tradeType: ''
+  '14':
+    mat: MYCELIUM
+    value: 875
+    median: -1
+    stock: -1
+    value2: -43.75
+    tradeType: BuyOnly
+  '15':
+    mat: PODZOL
+    value: 875
+    median: -1
+    stock: -1
+    value2: -43.75
+    tradeType: BuyOnly
+  '16':
+    mat: LIME_STAINED_GLASS_PANE
+  '17':
+    mat: LIME_STAINED_GLASS_PANE
+  '18':
+    mat: LIME_STAINED_GLASS_PANE
+  '19':
+    mat: NETHER_WART_BLOCK
+    value: 321.3
+    median: -1
+    stock: -1
+    value2: 16.065
+    tradeType: ''
+  '20':
+    mat: NETHERRACK
+    value: 12.25
+    median: -1
+    stock: -1
+    value2: 0.6125
+    tradeType: ''
+  '21':
+    mat: LIME_STAINED_GLASS_PANE
+  '22':
+    mat: SOUL_SAND
+    value: 1750
+    median: -1
+    stock: -1
+    value2: 87.5
+    tradeType: ''
+  '23':
+    mat: LIME_STAINED_GLASS_PANE
+  '24':
+    mat: MAGMA_BLOCK
+    value: 12.25
+    median: -1
+    stock: -1
+    value2: 0.6125
+    tradeType: ''
+  '25':
+    mat: GLOWSTONE
+    value: 7.14
+    median: -1
+    stock: -1
+    value2: 0.357
+    tradeType: ''
+  '26':
+    mat: LIME_STAINED_GLASS_PANE
+  '27':
+    mat: SPONGE
+    value: 14
+    median: -1
+    stock: -1
+    value2: 0.7
+    tradeType: ''
+  '28':
+    mat: SEA_LANTERN
+    value: 39.27
+    median: -1
+    stock: -1
+    value2: 1.9635
+    tradeType: ''
+  '29':
+    mat: LIME_STAINED_GLASS_PANE
+  '30':
+    mat: OBSIDIAN
+    value: 1451.408
+    median: -1
+    stock: -1
+    value2: 72.5704
+    tradeType: ''
+  '31':
+    mat: REDSTONE_BLOCK
+    value: 36.14625
+    median: -1
+    stock: -1
+    value2: 1.8073125
+    tradeType: ''
+  '32':
+    mat: SLIME_BLOCK
+    value: 6.426
+    median: -1
+    stock: -1
+    value2: 0.3213
+    tradeType: ''
+  '33':
+    mat: LIME_STAINED_GLASS_PANE
+  '34':
+    mat: SNOW_BLOCK
+    value: 5.712
+    median: -1
+    stock: -1
+    value2: 0.2856
+    tradeType: ''
+  '35':
+    mat: BONE_BLOCK
+    value: 1.310904
+    median: -1
+    stock: -1
+    value2: 0.0655452
+    tradeType: ''
+  '36':
+    mat: LIME_STAINED_GLASS_PANE
+  '37':
+    mat: BOOKSHELF
+    value: 60.738552
+    median: -1
+    stock: -1
+    value2: 3.0369276
+    tradeType: ''
+  '38':
+    mat: LIME_STAINED_GLASS_PANE
+  '39':
+    mat: ICE
+    value: 0.7
+    median: -1
+    stock: -1
+    value2: 0.035
+    tradeType: ''
+  '40':
+    mat: PACKED_ICE
+    value: 6.426
+    median: -1
+    stock: -1
+    value2: 0.3213
+    tradeType: ''
+  '41':
+    mat: BLUE_ICE
+    value: 58.99068
+    median: -1
+    stock: -1
+    value2: 2.949534
+    tradeType: ''
+  '42':
+    mat: LIME_STAINED_GLASS_PANE
+  '43':
+    mat: HAY_BLOCK
+    value: 32.13
+    median: -1
+    stock: -1
+    value2: 1.6065
+    tradeType: ''
+  '44':
+    mat: LIME_STAINED_GLASS_PANE
+  '45':
+    mat: STONE_BRICKS
+    value: 4.641
+    median: -1
+    stock: -1
+    value2: 0.23205
+    tradeType: ''
+  '46':
+    mat: COBBLESTONE
+    value: 3.5
+    median: -1
+    stock: -1
+    value2: 0.175
+    tradeType: ''
+  '47':
+    mat: ANDESITE
+    value: 12.25
+    median: -1
+    stock: -1
+    value2: 0.6125
+    tradeType: ''
+  '48':
+    mat: GRANITE
+    value: 12.25
+    median: -1
+    stock: -1
+    value2: 0.6125
+    tradeType: ''
+  '49':
+    mat: DIORITE
+    value: 12.25
+    median: -1
+    stock: -1
+    value2: 0.6125
+    tradeType: ''
+  '50':
+    mat: STONE
+    value: 4.55
+    median: -1
+    stock: -1
+    value2: 0.2275
+    tradeType: ''
+  '51':
+    mat: SMOOTH_QUARTZ
+    value: 35.322
+    median: -1
+    stock: -1
+    value2: 1.7661
+    tradeType: ''
+  '52':
+    mat: SMOOTH_SANDSTONE
+    value: 286.65
+    median: -1
+    stock: -1
+    value2: 14.3325
+    tradeType: ''
+  '53':
+    mat: SMOOTH_RED_SANDSTONE
+    value: 291.312
+    median: -1
+    stock: -1
+    value2: 14.5656
+    tradeType: ''
+  '54':
+    mat: MOSSY_STONE_BRICKS
+    value: 11.87382
+    median: -1
+    stock: -1
+    value2: 0.593691
+    tradeType: ''
+  '55':
+    mat: MOSSY_COBBLESTONE
+    value: 10.71
+    median: -1
+    stock: -1
+    value2: 0.5355
+    tradeType: ''
+  '56':
+    mat: POLISHED_ANDESITE
+    value: 13.3
+    median: -1
+    stock: -1
+    value2: 0.665
+    tradeType: ''
+  '57':
+    mat: POLISHED_GRANITE
+    value: 13.3
+    median: -1
+    stock: -1
+    value2: 0.665
+    tradeType: ''
+  '58':
+    mat: POLISHED_DIORITE
+    value: 13.3
+    median: -1
+    stock: -1
+    value2: 0.665
+    tradeType: ''
+  '59':
+    mat: SMOOTH_STONE
+    value: 5.6
+    median: -1
+    stock: -1
+    value2: 0.28
+    tradeType: ''
+  '60':
+    mat: QUARTZ_BLOCK
+    value: 34.272
+    median: -1
+    stock: -1
+    value2: 1.7136
+    tradeType: ''
+  '61':
+    mat: SANDSTONE
+    value: 285.6
+    median: -1
+    stock: -1
+    value2: 14.28
+    tradeType: ''
+  '62':
+    mat: RED_SANDSTONE
+    value: 285.6
+    median: -1
+    stock: -1
+    value2: 14.28
+    tradeType: ''
+  '63':
+    mat: LIME_STAINED_GLASS_PANE
+  '64':
+    mat: LIME_STAINED_GLASS_PANE
+  '65':
+    mat: LIME_STAINED_GLASS_PANE
+  '66':
+    mat: LIME_STAINED_GLASS_PANE
+  '67':
+    mat: LIME_STAINED_GLASS_PANE
+  '68':
+    mat: LIME_STAINED_GLASS_PANE
+  '69':
+    mat: LIME_STAINED_GLASS_PANE
+  '70':
+    mat: LIME_STAINED_GLASS_PANE
+  '71':
+    mat: LIME_STAINED_GLASS_PANE
+  '72':
+    mat: CRACKED_STONE_BRICKS
+    value: 5.691
+    median: -1
+    stock: -1
+    value2: 0.28455
+    tradeType: ''
+  '73':
+    mat: PRISMARINE
+    value: 14.28
+    median: -1
+    stock: -1
+    value2: 0.714
+    tradeType: ''
+  '74':
+    mat: DARK_PRISMARINE
+    value: 33.558
+    median: -1
+    stock: -1
+    value2: 1.6779
+    tradeType: ''
+  '75':
+    mat: NETHER_BRICKS
+    value: 54.264
+    median: -1
+    stock: -1
+    value2: 2.7132
+    tradeType: ''
+  '76':
+    mat: END_STONE
+    value: 85.75
+    median: -1
+    stock: -1
+    value2: 4.2875
+    tradeType: ''
+  '77':
+    mat: PURPUR_BLOCK
+    value: 147.084
+    median: -1
+    stock: -1
+    value2: 7.3542
+    tradeType: ''
+  '78':
+    mat: QUARTZ_PILLAR
+    value: 34.95744
+    median: -1
+    stock: -1
+    value2: 1.747872
+    tradeType: ''
+  '79':
+    mat: CUT_SANDSTONE
+    value: 1165.248
+    median: -1
+    stock: -1
+    value2: 58.2624
+    tradeType: ''
+  '80':
+    mat: CUT_RED_SANDSTONE
+    value: 1165.248
+    median: -1
+    stock: -1
+    value2: 58.2624
+    tradeType: ''
+  '81':
+    mat: CHISELED_STONE_BRICKS
+    value: 4.8284964
+    median: -1
+    stock: -1
+    value2: 0.24142482
+    tradeType: ''
+  '82':
+    mat: PRISMARINE_BRICKS
+    value: 49.1589
+    median: -1
+    stock: -1
+    value2: 2.457945
+    tradeType: ''
+  '83':
+    mat: BRICKS
+    value: 16.779
+    median: -1
+    stock: -1
+    value2: 0.83895
+    tradeType: ''
+  '84':
+    mat: RED_NETHER_BRICKS
+    value: 100.50264
+    median: -1
+    stock: -1
+    value2: 5.025132
+    tradeType: ''
+  '85':
+    mat: END_STONE_BRICKS
+    value: 349.86
+    median: -1
+    stock: -1
+    value2: 17.493
+    tradeType: ''
+  '86':
+    mat: PURPUR_PILLAR
+    value: 153.0261936
+    median: -1
+    stock: -1
+    value2: 7.65130968
+    tradeType: ''
+  '87':
+    mat: CHISELED_QUARTZ_BLOCK
+    value: 35.6565888
+    median: -1
+    stock: -1
+    value2: 1.78282944
+    tradeType: ''
+  '88':
+    mat: CHISELED_SANDSTONE
+    value: 297.13824
+    median: -1
+    stock: -1
+    value2: 14.856912
+    tradeType: ''
+  '89':
+    mat: CHISELED_RED_SANDSTONE
+    value: 297.13824
+    median: -1
+    stock: -1
+    value2: 14.856912
+    tradeType: ''
+  '90':
+    mat: STONE_BRICK_SLAB
+    value: 2.36691
+    median: -1
+    stock: -1
+    value2: 0.1183455
+    tradeType: ''
+  '91':
+    mat: COBBLESTONE_SLAB
+    value: 1.785
+    median: -1
+    stock: -1
+    value2: 0.08925
+    tradeType: ''
+  '92':
+    mat: ANDESITE_SLAB
+    value: 6.2475
+    median: -1
+    stock: -1
+    value2: 0.312375
+    tradeType: ''
+  '93':
+    mat: GRANITE_SLAB
+    value: 6.2475
+    median: -1
+    stock: -1
+    value2: 0.312375
+    tradeType: ''
+  '94':
+    mat: DIORITE_SLAB
+    value: 6.2475
+    median: -1
+    stock: -1
+    value2: 0.312375
+    tradeType: ''
+  '95':
+    mat: STONE_SLAB
+    value: 2.3205
+    median: -1
+    stock: -1
+    value2: 0.116025
+    tradeType: ''
+  '96':
+    mat: SMOOTH_SANDSTONE_SLAB
+    value: 146.1915
+    median: -1
+    stock: -1
+    value2: 7.309575
+    tradeType: ''
+  '97':
+    mat: SMOOTH_RED_SANDSTONE_SLAB
+    value: 148.56912
+    median: -1
+    stock: -1
+    value2: 7.428456
+    tradeType: ''
+  '98':
+    mat: SMOOTH_QUARTZ_SLAB
+    value: 18.01422
+    median: -1
+    stock: -1
+    value2: 0.900711
+    tradeType: ''
+  '99':
+    mat: MOSSY_STONE_BRICK_SLAB
+    value: 6.0556482
+    median: -1
+    stock: -1
+    value2: 0.30278241
+    tradeType: ''
+  '100':
+    mat: MOSSY_COBBLESTONE_SLAB
+    value: 5.4621
+    median: -1
+    stock: -1
+    value2: 0.273105
+    tradeType: ''
+  '101':
+    mat: POLISHED_ANDESITE_SLAB
+    value: 6.783
+    median: -1
+    stock: -1
+    value2: 0.33915
+    tradeType: ''
+  '102':
+    mat: POLISHED_GRANITE_SLAB
+    value: 6.783
+    median: -1
+    stock: -1
+    value2: 0.33915
+    tradeType: ''
+  '103':
+    mat: POLISHED_DIORITE_SLAB
+    value: 6.783
+    median: -1
+    stock: -1
+    value2: 0.33915
+    tradeType: ''
+  '104':
+    mat: SMOOTH_STONE_SLAB
+    value: 2.856
+    median: -1
+    stock: -1
+    value2: 0.1428
+    tradeType: ''
+  '105':
+    mat: SANDSTONE_SLAB
+    value: 145.656
+    median: -1
+    stock: -1
+    value2: 7.2828
+    tradeType: ''
+  '106':
+    mat: RED_SANDSTONE_SLAB
+    value: 145.656
+    median: -1
+    stock: -1
+    value2: 7.2828
+    tradeType: ''
+  '107':
+    mat: QUARTZ_SLAB
+    value: 17.47872
+    median: -1
+    stock: -1
+    value2: 0.873936
+    tradeType: ''
+  '108':
+    mat: LIME_STAINED_GLASS_PANE
+  '109':
+    mat: LIME_STAINED_GLASS_PANE
+  '110':
+    mat: LIME_STAINED_GLASS_PANE
+  '111':
+    mat: LIME_STAINED_GLASS_PANE
+  '112':
+    mat: LIME_STAINED_GLASS_PANE
+  '113':
+    mat: LIME_STAINED_GLASS_PANE
+  '114':
+    mat: CUT_SANDSTONE_SLAB
+    value: 594.27648
+    median: -1
+    stock: -1
+    value2: 29.713824
+    tradeType: ''
+  '115':
+    mat: CUT_RED_SANDSTONE_SLAB
+    value: 594.27648
+    median: -1
+    stock: -1
+    value2: 29.713824
+    tradeType: ''
+  '116':
+    mat: LIME_STAINED_GLASS_PANE
+  '117':
+    mat: PRISMARINE_BRICK_SLAB
+    value: 16.3863
+    median: -1
+    stock: -1
+    value2: 0.819315
+    tradeType: ''
+  '118':
+    mat: PRISMARINE_SLAB
+    value: 7.2828
+    median: -1
+    stock: -1
+    value2: 0.36414
+    tradeType: ''
+  '119':
+    mat: DARK_PRISMARINE_SLAB
+    value: 17.11458
+    median: -1
+    stock: -1
+    value2: 0.855729
+    tradeType: ''
+  '120':
+    mat: NETHER_BRICK_SLAB
+    value: 6.783
+    median: -1
+    stock: -1
+    value2: 0.33915
+    tradeType: ''
+  '121':
+    mat: RED_NETHER_BRICK_SLAB
+    value: 98.532
+    median: -1
+    stock: -1
+    value2: 4.9266
+    tradeType: ''
+  '122':
+    mat: LIME_STAINED_GLASS_PANE
+  '123':
+    mat: PURPUR_SLAB
+    value: 75.01284
+    median: -1
+    stock: -1
+    value2: 3.750642
+    tradeType: ''
+  '124':
+    mat: END_STONE_BRICK_SLAB
+    value: 178.4286
+    median: -1
+    stock: -1
+    value2: 8.92143
+    tradeType: ''
+  '125':
+    mat: BRICK_SLAB
+    value: 2.097375
+    median: -1
+    stock: -1
+    value2: 0.10486875
+    tradeType: ''
+  '126':
+    mat: LIME_STAINED_GLASS_PANE
+  '127':
+    mat: LIME_STAINED_GLASS_PANE
+  '128':
+    mat: LIME_STAINED_GLASS_PANE
+  '129':
+    mat: LIME_STAINED_GLASS_PANE
+  '130':
+    mat: LIME_STAINED_GLASS_PANE
+  '131':
+    mat: LIME_STAINED_GLASS_PANE
+  '132':
+    mat: LIME_STAINED_GLASS_PANE
+  '133':
+    mat: LIME_STAINED_GLASS_PANE
+  '134':
+    mat: LIME_STAINED_GLASS_PANE
+  '135':
+    mat: STONE_BRICK_STAIRS
+    value: 7.10073
+    median: -1
+    stock: -1
+    value2: 0.3550365
+    tradeType: ''
+  '136':
+    mat: COBBLESTONE_STAIRS
+    value: 5.355
+    median: -1
+    stock: -1
+    value2: 0.26775
+    tradeType: ''
+  '137':
+    mat: ANDESITE_STAIRS
+    value: 5.355
+    median: -1
+    stock: -1
+    value2: 0.26775
+    tradeType: ''
+  '138':
+    mat: GRANITE_STAIRS
+    value: 18.7425
+    median: -1
+    stock: -1
+    value2: 0.937125
+    tradeType: ''
+  '139':
+    mat: DIORITE_STAIRS
+    value: 18.7425
+    median: -1
+    stock: -1
+    value2: 0.937125
+    tradeType: ''
+  '140':
+    mat: STONE_STAIRS
+    value: 6.9615
+    median: -1
+    stock: -1
+    value2: 0.348075
+    tradeType: ''
+  '141':
+    mat: SMOOTH_SANDSTONE_STAIRS
+    value: 438.5745
+    median: -1
+    stock: -1
+    value2: 21.928725
+    tradeType: ''
+  '142':
+    mat: SMOOTH_RED_SANDSTONE_STAIRS
+    value: 445.70736
+    median: -1
+    stock: -1
+    value2: 22.285368
+    tradeType: ''
+  '143':
+    mat: SMOOTH_QUARTZ_STAIRS
+    value: 54.04266
+    median: -1
+    stock: -1
+    value2: 2.702133
+    tradeType: ''
+  '144':
+    mat: MOSSY_STONE_BRICK_STAIRS
+    value: 18.1669446
+    median: -1
+    stock: -1
+    value2: 0.90834723
+    tradeType: ''
+  '145':
+    mat: MOSSY_COBBLESTONE_STAIRS
+    value: 16.3863
+    median: -1
+    stock: -1
+    value2: 0.819315
+    tradeType: ''
+  '146':
+    mat: POLISHED_ANDESITE_STAIRS
+    value: 20.349
+    median: -1
+    stock: -1
+    value2: 1.01745
+    tradeType: ''
+  '147':
+    mat: POLISHED_GRANITE_STAIRS
+    value: 20.349
+    median: -1
+    stock: -1
+    value2: 1.01745
+    tradeType: ''
+  '148':
+    mat: POLISHED_DIORITE_STAIRS
+    value: 20.349
+    median: -1
+    stock: -1
+    value2: 1.01745
+    tradeType: ''
+  '149':
+    mat: LIME_STAINED_GLASS_PANE
+  '150':
+    mat: SANDSTONE_STAIRS
+    value: 436.968
+    median: -1
+    stock: -1
+    value2: 21.8484
+    tradeType: ''
+  '151':
+    mat: RED_SANDSTONE_STAIRS
+    value: 436.968
+    median: -1
+    stock: -1
+    value2: 21.8484
+    tradeType: ''
+  '152':
+    mat: QUARTZ_STAIRS
+    value: 52.43616
+    median: -1
+    stock: -1
+    value2: 2.621808
+    tradeType: ''
+  '153':
+    mat: PRISMARINE_STAIRS
+    value: 21.8484
+    median: -1
+    stock: -1
+    value2: 1.09242
+    tradeType: ''
+  '154':
+    mat: PRISMARINE_BRICK_STAIRS
+    value: 32.13
+    median: -1
+    stock: -1
+    value2: 1.6065
+    tradeType: ''
+  '155':
+    mat: DARK_PRISMARINE_STAIRS
+    value: 51.34374
+    median: -1
+    stock: -1
+    value2: 2.567187
+    tradeType: ''
+  '156':
+    mat: NETHER_BRICK_STAIRS
+    value: 20.349
+    median: -1
+    stock: -1
+    value2: 1.01745
+    tradeType: ''
+  '157':
+    mat: RED_NETHER_BRICK_STAIRS
+    value: 50.25132
+    median: -1
+    stock: -1
+    value2: 2.512566
+    tradeType: ''
+  '158':
+    mat: LIME_STAINED_GLASS_PANE
+  '159':
+    mat: PURPUR_STAIRS
+    value: 225.03852
+    median: -1
+    stock: -1
+    value2: 11.251926
+    tradeType: ''
+  '160':
+    mat: END_STONE_BRICK_STAIRS
+    value: 535.2858
+    median: -1
+    stock: -1
+    value2: 26.76429
+    tradeType: ''
+  '161':
+    mat: BRICK_STAIRS
+    value: 6.292125
+    median: -1
+    stock: -1
+    value2: 0.31460625
+    tradeType: ''
+  '162':
+    mat: COBBLESTONE_WALL
+    value: 3.57
+    median: -1
+    stock: -1
+    value2: 0.1785
+    tradeType: ''
+  '163':
+    mat: STONE_BRICK_WALL
+    value: 4.641
+    median: -1
+    stock: -1
+    value2: 0.23205
+    tradeType: ''
+  '164':
+    mat: NETHER_BRICK_WALL
+    value: 13.566
+    median: -1
+    stock: -1
+    value2: 0.6783
+    tradeType: ''
+  '165':
+    mat: PRISMARINE_WALL
+    value: 14.5656
+    median: -1
+    stock: -1
+    value2: 0.72828
+    tradeType: ''
+  '166':
+    mat: LIME_STAINED_GLASS_PANE
+  '167':
+    mat: BRICK_WALL
+    value: 4.19475
+    median: -1
+    stock: -1
+    value2: 0.2097375
+    tradeType: ''
+  '168':
+    mat: ANDESITE_WALL
+    value: 12.495
+    median: -1
+    stock: -1
+    value2: 0.62475
+    tradeType: ''
+  '169':
+    mat: GRANITE_WALL
+    value: 12.495
+    median: -1
+    stock: -1
+    value2: 0.62475
+    tradeType: ''
+  '170':
+    mat: DIORITE_WALL
+    value: 12.495
+    median: -1
+    stock: -1
+    value2: 0.62475
+    tradeType: ''
+  '171':
+    mat: MOSSY_COBBLESTONE_WALL
+    value: 10.9242
+    median: -1
+    stock: -1
+    value2: 0.54621
+    tradeType: ''
+  '172':
+    mat: MOSSY_STONE_BRICK_WALL
+    value: 12.1112964
+    median: -1
+    stock: -1
+    value2: 0.60556482
+    tradeType: ''
+  '173':
+    mat: RED_NETHER_BRICK_WALL
+    value: 150.75396
+    median: -1
+    stock: -1
+    value2: 7.537698
+    tradeType: ''
+  '174':
+    mat: LIME_STAINED_GLASS_PANE
+  '175':
+    mat: NETHER_BRICK_FENCE
+    value: 13.566
+    median: -1
+    stock: -1
+    value2: 0.6783
+    tradeType: ''
+  '176':
+    mat: LIME_STAINED_GLASS_PANE
+  '177':
+    mat: SANDSTONE_WALL
+    value: 291.312
+    median: -1
+    stock: -1
+    value2: 14.5656
+    tradeType: ''
+  '178':
+    mat: RED_SANDSTONE_WALL
+    value: 291.312
+    median: -1
+    stock: -1
+    value2: 14.5656
+    tradeType: ''
+  '179':
+    mat: END_STONE_BRICK_WALL
+    value: 87.465
+    median: -1
+    stock: -1
+    value2: 4.37325
+    tradeType: ''
+  '180':
+    mat: LIME_STAINED_GLASS_PANE
+  '181':
+    mat: LIME_STAINED_GLASS_PANE
+  '182':
+    mat: LIME_STAINED_GLASS_PANE
+  '183':
+    mat: LIME_STAINED_GLASS_PANE
+  '184':
+    mat: LIME_STAINED_GLASS_PANE
+  '185':
+    mat: LIME_STAINED_GLASS_PANE
+  '186':
+    mat: LIME_STAINED_GLASS_PANE
+  '187':
+    mat: LIME_STAINED_GLASS_PANE
+  '188':
+    mat: LIME_STAINED_GLASS_PANE
+  '189':
+    mat: LIME_STAINED_GLASS_PANE
+  '190':
+    mat: TUBE_CORAL_BLOCK
+    value: 70
+    median: -1
+    stock: -1
+    value2: 3.5
+    tradeType: ''
+  '191':
+    mat: BRAIN_CORAL_BLOCK
+    value: 70
+    median: -1
+    stock: -1
+    value2: 3.5
+    tradeType: ''
+  '192':
+    mat: LIME_STAINED_GLASS_PANE
+  '193':
+    mat: BUBBLE_CORAL_BLOCK
+    value: 70
+    median: -1
+    stock: -1
+    value2: 3.5
+    tradeType: ''
+  '194':
+    mat: LIME_STAINED_GLASS_PANE
+  '195':
+    mat: FIRE_CORAL_BLOCK
+    value: 70
+    median: -1
+    stock: -1
+    value2: 3.5
+    tradeType: ''
+  '196':
+    mat: HORN_CORAL_BLOCK
+    value: 70
+    median: -1
+    stock: -1
+    value2: 3.5
+    tradeType: ''
+  '197':
+    mat: LIME_STAINED_GLASS_PANE
+  '198':
+    mat: LIME_STAINED_GLASS_PANE
+  '199':
+    mat: DEAD_TUBE_CORAL_BLOCK
+    value: 35
+    median: -1
+    stock: -1
+    value2: 1.75
+    tradeType: ''
+  '200':
+    mat: DEAD_BRAIN_CORAL_BLOCK
+    value: 35
+    median: -1
+    stock: -1
+    value2: 1.75
+    tradeType: ''
+  '201':
+    mat: LIME_STAINED_GLASS_PANE
+  '202':
+    mat: DEAD_BUBBLE_CORAL_BLOCK
+    value: 35
+    median: -1
+    stock: -1
+    value2: 1.75
+    tradeType: ''
+  '203':
+    mat: LIME_STAINED_GLASS_PANE
+  '204':
+    mat: DEAD_FIRE_CORAL_BLOCK
+    value: 35
+    median: -1
+    stock: -1
+    value2: 1.75
+    tradeType: ''
+  '205':
+    mat: DEAD_HORN_CORAL_BLOCK
+    value: 35
+    median: -1
+    stock: -1
+    value2: 1.75
+    tradeType: ''
+  '206':
+    mat: LIME_STAINED_GLASS_PANE
+  '207':
+    mat: LIME_STAINED_GLASS_PANE
+  '208':
+    mat: LIME_STAINED_GLASS_PANE
+  '209':
+    mat: LIME_STAINED_GLASS_PANE
+  '210':
+    mat: LIME_STAINED_GLASS_PANE
+  '211':
+    mat: LIME_STAINED_GLASS_PANE
+  '212':
+    mat: LIME_STAINED_GLASS_PANE
+  '213':
+    mat: LIME_STAINED_GLASS_PANE
+  '214':
+    mat: LIME_STAINED_GLASS_PANE
+  '215':
+    mat: LIME_STAINED_GLASS_PANE
+  '216':
+    mat: LIME_STAINED_GLASS_PANE
+  '217':
+    mat: LIME_STAINED_GLASS_PANE
+  '218':
+    mat: LIME_STAINED_GLASS_PANE
+  '219':
+    mat: LIME_STAINED_GLASS_PANE
+  '220':
+    mat: LIME_STAINED_GLASS_PANE
+  '221':
+    mat: LIME_STAINED_GLASS_PANE
+  '222':
+    mat: LIME_STAINED_GLASS_PANE
+  '223':
+    mat: LIME_STAINED_GLASS_PANE
+  '224':
+    mat: LIME_STAINED_GLASS_PANE
+Foods:
+  Options:
+    page: 1
+    title: Foodstuffs
+    lore: ''
+    permission: ''
+  '0':
+    mat: BEEF
+    value: 14
+    median: -1
+    stock: -1
+    value2: 0.7
+    tradeType: ''
+  '1':
+    mat: PORKCHOP
+    value: 14
+    median: -1
+    stock: -1
+    value2: 0.7
+    tradeType: ''
+  '2':
+    mat: CHICKEN
+    value: 14
+    median: -1
+    stock: -1
+    value2: 0.7
+    tradeType: ''
+  '3':
+    mat: RABBIT
+    value: 14
+    median: -1
+    stock: -1
+    value2: 0.7
+    tradeType: ''
+  '4':
+    mat: LIME_STAINED_GLASS_PANE
+  '5':
+    mat: POTATO
+    value: 3.5
+    median: -1
+    stock: -1
+    value2: 0.175
+    tradeType: ''
+  '6':
+    mat: MUTTON
+    value: 14
+    median: -1
+    stock: -1
+    value2: 0.7
+    tradeType: ''
+  '7':
+    mat: COD
+    value: 9.8
+    median: -1
+    stock: -1
+    value2: 0.49
+    tradeType: ''
+  '8':
+    mat: SALMON
+    value: 12.25
+    median: -1
+    stock: -1
+    value2: 0.6125
+    tradeType: ''
+  '9':
+    mat: COOKED_BEEF
+    value: 15.05
+    median: -1
+    stock: -1
+    value2: 0.7525
+    tradeType: ''
+  '10':
+    mat: COOKED_PORKCHOP
+    value: 15.05
+    median: -1
+    stock: -1
+    value2: 0.7525
+    tradeType: ''
+  '11':
+    mat: COOKED_CHICKEN
+    value: 15.05
+    median: -1
+    stock: -1
+    value2: 0.7525
+    tradeType: ''
+  '12':
+    mat: COOKED_RABBIT
+    value: 15.05
+    median: -1
+    stock: -1
+    value2: 0.7525
+    tradeType: ''
+  '13':
+    mat: LIME_STAINED_GLASS_PANE
+  '14':
+    mat: BAKED_POTATO
+    value: 4.55
+    median: -1
+    stock: -1
+    value2: 0.2275
+    tradeType: ''
+  '15':
+    mat: COOKED_MUTTON
+    value: 15.05
+    median: -1
+    stock: -1
+    value2: 0.7525
+    tradeType: ''
+  '16':
+    mat: COOKED_COD
+    value: 10.85
+    median: -1
+    stock: -1
+    value2: 0.5425
+    tradeType: ''
+  '17':
+    mat: COOKED_SALMON
+    value: 13.3
+    median: -1
+    stock: -1
+    value2: 0.665
+    tradeType: ''
+  '18':
+    mat: LIME_STAINED_GLASS_PANE
+  '19':
+    mat: LIME_STAINED_GLASS_PANE
+  '20':
+    mat: LIME_STAINED_GLASS_PANE
+  '21':
+    mat: RABBIT_STEW
+    value: 28.54241775
+    median: -1
+    stock: -1
+    value2: 1.427120888
+    tradeType: ''
+  '22':
+    mat: BEETROOT_SOUP
+    value: 22.11641775
+    median: -1
+    stock: -1
+    value2: 1.105820888
+    tradeType: ''
+  '23':
+    mat: MUSHROOM_STEW
+    value: 9.26441775
+    median: -1
+    stock: -1
+    value2: 0.463220888
+    tradeType: ''
+  '24':
+    mat: LIME_STAINED_GLASS_PANE
+  '25':
+    mat: LIME_STAINED_GLASS_PANE
+  '26':
+    mat: LIME_STAINED_GLASS_PANE
+  '27':
+    mat: CARROT
+    value: 3.5
+    median: -1
+    stock: -1
+    value2: 0.175
+    tradeType: ''
+  '28':
+    mat: MELON_SLICE
+    value: 2.1
+    median: -1
+    stock: -1
+    value2: 0.105
+    tradeType: ''
+  '29':
+    mat: LIME_STAINED_GLASS_PANE
+  '30':
+    mat: APPLE
+    value: 21
+    median: -1
+    stock: -1
+    value2: 1.05
+    tradeType: ''
+  '31':
+    mat: GOLDEN_APPLE
+    value: 50.75
+    median: -1
+    stock: -1
+    value2: 2.5375
+    tradeType: ''
+  '32':
+    mat: ENCHANTED_GOLDEN_APPLE
+    value: 105
+    median: -1
+    stock: -1
+    value2: -5.25
+    tradeType: BuyOnly
+  '33':
+    mat: LIME_STAINED_GLASS_PANE
+  '34':
+    mat: BEETROOT
+    value: 3.5
+    median: -1
+    stock: -1
+    value2: 0.175
+    tradeType: ''
+  '35':
+    mat: SWEET_BERRIES
+    value: 3.5
+    median: -1
+    stock: -1
+    value2: 0.175
+    tradeType: ''
+  '36':
+    mat: LIME_STAINED_GLASS_PANE
+  '37':
+    mat: PUMPKIN_PIE
+    value: 20.0634
+    median: -1
+    stock: -1
+    value2: 1.00317
+    tradeType: ''
+  '38':
+    mat: BREAD
+    value: 10.71
+    median: -1
+    stock: -1
+    value2: 0.5355
+    tradeType: ''
+  '39':
+    mat: LIME_STAINED_GLASS_PANE
+  '40':
+    mat: POPPED_CHORUS_FRUIT
+    value: 36.05
+    median: -1
+    stock: -1
+    value2: 1.8025
+    tradeType: ''
+  '41':
+    mat: LIME_STAINED_GLASS_PANE
+  '42':
+    mat: COOKIE
+    value: 14.28
+    median: -1
+    stock: -1
+    value2: 0.714
+    tradeType: ''
+  '43':
+    mat: CAKE
+    value: 62.9748
+    median: -1
+    stock: -1
+    value2: 3.14874
+    tradeType: ''
+  '44':
+    mat: LIME_STAINED_GLASS_PANE
+Dye:
+  Options:
+    page: 2
+    title: Dye
+    lore: ''
+    permission: ''
+  '0':
+    mat: LIME_STAINED_GLASS_PANE
+  '1':
+    mat: LIME_STAINED_GLASS_PANE
+  '2':
+    mat: LIME_STAINED_GLASS_PANE
+  '3':
+    mat: LIME_STAINED_GLASS_PANE
+  '4':
+    mat: LIME_STAINED_GLASS_PANE
+  '5':
+    mat: LIME_STAINED_GLASS_PANE
+  '6':
+    mat: LIME_STAINED_GLASS_PANE
+  '7':
+    mat: LIME_STAINED_GLASS_PANE
+  '8':
+    mat: LIME_STAINED_GLASS_PANE
+  '9':
+    mat: LIME_STAINED_GLASS_PANE
+  '10':
+    mat: WHITE_DYE
+    value: 3.57
+    median: -1
+    stock: -1
+    value2: -0.1785
+    tradeType: BuyOnly
+  '11':
+    mat: YELLOW_DYE
+    value: 3.57
+    median: -1
+    stock: -1
+    value2: -0.1785
+    tradeType: BuyOnly
+  '12':
+    mat: ORANGE_DYE
+    value: 3.57
+    median: -1
+    stock: -1
+    value2: -0.1785
+    tradeType: BuyOnly
+  '13':
+    mat: PINK_DYE
+    value: 3.57
+    median: -1
+    stock: -1
+    value2: -0.1785
+    tradeType: BuyOnly
+  '14':
+    mat: MAGENTA_DYE
+    value: 3.57
+    median: -1
+    stock: -1
+    value2: -0.1785
+    tradeType: BuyOnly
+  '15':
+    mat: PURPLE_DYE
+    value: 3.57
+    median: -1
+    stock: -1
+    value2: -0.1785
+    tradeType: BuyOnly
+  '16':
+    mat: RED_DYE
+    value: 3.57
+    median: -1
+    stock: -1
+    value2: -0.1785
+    tradeType: BuyOnly
+  '17':
+    mat: LIME_STAINED_GLASS_PANE
+  '18':
+    mat: LIME_STAINED_GLASS_PANE
+  '19':
+    mat: LIGHT_BLUE_DYE
+    value: 3.57
+    median: -1
+    stock: -1
+    value2: -0.1785
+    tradeType: BuyOnly
+  '20':
+    mat: CYAN_DYE
+    value: 3.57
+    median: -1
+    stock: -1
+    value2: -0.1785
+    tradeType: BuyOnly
+  '21':
+    mat: BLUE_DYE
+    value: 3.57
+    median: -1
+    stock: -1
+    value2: -0.1785
+    tradeType: BuyOnly
+  '22':
+    mat: GREEN_DYE
+    value: 3.57
+    median: -1
+    stock: -1
+    value2: -0.1785
+    tradeType: BuyOnly
+  '23':
+    mat: LIME_DYE
+    value: 3.57
+    median: -1
+    stock: -1
+    value2: -0.1785
+    tradeType: BuyOnly
+  '24':
+    mat: BROWN_DYE
+    value: 3.57
+    median: -1
+    stock: -1
+    value2: -0.1785
+    tradeType: BuyOnly
+  '25':
+    mat: LIME_STAINED_GLASS_PANE
+  '26':
+    mat: LIME_STAINED_GLASS_PANE
+  '27':
+    mat: LIME_STAINED_GLASS_PANE
+  '28':
+    mat: LIME_STAINED_GLASS_PANE
+  '29':
+    mat: LIME_STAINED_GLASS_PANE
+  '30':
+    mat: LIGHT_GRAY_DYE
+    value: 3.57
+    median: -1
+    stock: -1
+    value2: -0.1785
+    tradeType: BuyOnly
+  '31':
+    mat: GRAY_DYE
+    value: 3.57
+    median: -1
+    stock: -1
+    value2: -0.1785
+    tradeType: BuyOnly
+  '32':
+    mat: BLACK_DYE
+    value: 3.57
+    median: -1
+    stock: -1
+    value2: -0.1785
+    tradeType: BuyOnly
+  '33':
+    mat: LIME_STAINED_GLASS_PANE
+  '34':
+    mat: LIME_STAINED_GLASS_PANE
+  '35':
+    mat: LIME_STAINED_GLASS_PANE
+  '36':
+    mat: LIME_STAINED_GLASS_PANE
+  '37':
+    mat: LIME_STAINED_GLASS_PANE
+  '38':
+    mat: LIME_STAINED_GLASS_PANE
+  '39':
+    mat: LIME_STAINED_GLASS_PANE
+  '40':
+    mat: LIME_STAINED_GLASS_PANE
+  '41':
+    mat: LIME_STAINED_GLASS_PANE
+  '42':
+    mat: LIME_STAINED_GLASS_PANE
+  '43':
+    mat: LIME_STAINED_GLASS_PANE
+  '44':
+    mat: LIME_STAINED_GLASS_PANE
+  '45':
+    mat: LIME_STAINED_GLASS_PANE
+  '46':
+    mat: LIME_STAINED_GLASS_PANE
+  '47':
+    mat: LIME_STAINED_GLASS_PANE
+  '48':
+    mat: LIME_STAINED_GLASS_PANE
+  '49':
+    mat: LIME_STAINED_GLASS_PANE
+  '50':
+    mat: LIME_STAINED_GLASS_PANE
+  '51':
+    mat: LIME_STAINED_GLASS_PANE
+  '52':
+    mat: LIME_STAINED_GLASS_PANE
+  '53':
+    mat: LIME_STAINED_GLASS_PANE
+  '54':
+    mat: LIME_STAINED_GLASS_PANE
+  '55':
+    mat: OXEYE_DAISY
+    value: 3.5
+    median: -1
+    stock: -1
+    value2: -0.175
+    tradeType: BuyOnly
+  '56':
+    mat: WHITE_TULIP
+    value: 3.5
+    median: -1
+    stock: -1
+    value2: -0.175
+    tradeType: BuyOnly
+  '57':
+    mat: AZURE_BLUET
+    value: 3.5
+    median: -1
+    stock: -1
+    value2: -0.175
+    tradeType: BuyOnly
+  '58':
+    mat: LILY_OF_THE_VALLEY
+    value: 7
+    median: -1
+    stock: -1
+    value2: -0.35
+    tradeType: BuyOnly
+  '59':
+    mat: SUNFLOWER
+    value: 3.5
+    median: -1
+    stock: -1
+    value2: -0.175
+    tradeType: BuyOnly
+  '60':
+    mat: DANDELION
+    value: 3.5
+    median: -1
+    stock: -1
+    value2: -0.175
+    tradeType: BuyOnly
+  '61':
+    mat: ORANGE_TULIP
+    value: 3.5
+    median: -1
+    stock: -1
+    value2: -0.175
+    tradeType: BuyOnly
+  '62':
+    mat: LIME_STAINED_GLASS_PANE
+  '63':
+    mat: LIME_STAINED_GLASS_PANE
+  '64':
+    mat: LILAC
+    value: 3.5
+    median: -1
+    stock: -1
+    value2: -0.175
+    tradeType: BuyOnly
+  '65':
+    mat: PINK_TULIP
+    value: 3.5
+    median: -1
+    stock: -1
+    value2: -0.175
+    tradeType: BuyOnly
+  '66':
+    mat: PEONY
+    value: 3.5
+    median: -1
+    stock: -1
+    value2: -0.175
+    tradeType: BuyOnly
+  '67':
+    mat: ALLIUM
+    value: 3.5
+    median: -1
+    stock: -1
+    value2: -0.175
+    tradeType: BuyOnly
+  '68':
+    mat: ROSE_BUSH
+    value: 3.5
+    median: -1
+    stock: -1
+    value2: -0.175
+    tradeType: BuyOnly
+  '69':
+    mat: POPPY
+    value: 1.4
+    median: -1
+    stock: -1
+    value2: -0.07
+    tradeType: BuyOnly
+  '70':
+    mat: RED_TULIP
+    value: 3.5
+    median: -1
+    stock: -1
+    value2: -0.175
+    tradeType: BuyOnly
+  '71':
+    mat: LIME_STAINED_GLASS_PANE
+  '72':
+    mat: LIME_STAINED_GLASS_PANE
+  '73':
+    mat: LIME_STAINED_GLASS_PANE
+  '74':
+    mat: LIME_STAINED_GLASS_PANE
+  '75':
+    mat: CORNFLOWER
+    value: 3.5
+    median: -1
+    stock: -1
+    value2: -0.175
+    tradeType: BuyOnly
+  '76':
+    mat: BLUE_ORCHID
+    value: 3.5
+    median: -1
+    stock: -1
+    value2: -0.175
+    tradeType: BuyOnly
+  '77':
+    mat: WITHER_ROSE
+    value: 105
+    median: -1
+    stock: -1
+    value2: -5.25
+    tradeType: BuyOnly
+  '78':
+    mat: LIME_STAINED_GLASS_PANE
+  '79':
+    mat: LIME_STAINED_GLASS_PANE
+  '80':
+    mat: LIME_STAINED_GLASS_PANE
+  '81':
+    mat: SEAGRASS
+    value: 14
+    median: -1
+    stock: -1
+    value2: 0.7
+    tradeType: ''
+  '82':
+    mat: SEA_PICKLE
+    value: 21
+    median: -1
+    stock: -1
+    value2: 1.05
+    tradeType: ''
+  '83':
+    mat: LILY_PAD
+    value: 3.5
+    median: -1
+    stock: -1
+    value2: -0.175
+    tradeType: BuyOnly
+  '84':
+    mat: VINE
+    value: 7
+    median: -1
+    stock: -1
+    value2: 0.35
+    tradeType: ''
+  '85':
+    mat: LIME_STAINED_GLASS_PANE
+  '86':
+    mat: GRASS
+    value: 3.5
+    median: -1
+    stock: -1
+    value2: -0.175
+    tradeType: BuyOnly
+  '87':
+    mat: TALL_GRASS
+    value: 3.5
+    median: -1
+    stock: -1
+    value2: -0.175
+    tradeType: BuyOnly
+  '88':
+    mat: FERN
+    value: 2.1
+    median: -1
+    stock: -1
+    value2: -0.105
+    tradeType: BuyOnly
+  '89':
+    mat: LARGE_FERN
+    value: 3.5
+    median: -1
+    stock: -1
+    value2: -0.175
+    tradeType: BuyOnly
+Transport:
+  Options:
+    page: 1
+    title: Transport
+    lore: ''
+    permission: ''
+  '0':
+    mat: TNT_MINECART
+    value: 381.61872
+    median: -1
+    stock: -1
+    value2: 19.080936
+    tradeType: ''
+  '1':
+    mat: LIME_STAINED_GLASS_PANE
+  '2':
+    mat: HOPPER_MINECART
+    value: 182.3642251
+    median: -1
+    stock: -1
+    value2: 9.118211256
+    tradeType: ''
+  '3':
+    mat: LIME_STAINED_GLASS_PANE
+  '4':
+    mat: MINECART
+    value: 85.68
+    median: -1
+    stock: -1
+    value2: 4.284
+    tradeType: ''
+  '5':
+    mat: LIME_STAINED_GLASS_PANE
+  '6':
+    mat: CHEST_MINECART
+    value: 94.822056
+    median: -1
+    stock: -1
+    value2: 4.7411028
+    tradeType: ''
+  '7':
+    mat: LIME_STAINED_GLASS_PANE
+  '8':
+    mat: FURNACE_MINECART
+    value: 116.5248
+    median: -1
+    stock: -1
+    value2: 5.82624
+    tradeType: ''
+  '9':
+    mat: LIME_STAINED_GLASS_PANE
+  '10':
+    mat: LIME_STAINED_GLASS_PANE
+  '11':
+    mat: SADDLE
+    value: 70
+    median: -1
+    stock: -1
+    value2: 3.5
+    tradeType: ''
+  '12':
+    mat: LIME_STAINED_GLASS_PANE
+  '13':
+    mat: COMMAND_BLOCK_MINECART
+    median: -1
+    stock: -1
+    tradeType: BuyOnly
+  '14':
+    mat: LIME_STAINED_GLASS_PANE
+  '15':
+    mat: CARROT_ON_A_STICK
+    value: 6.73856421
+    median: -1
+    stock: -1
+    value2: 0.336928211
+    tradeType: ''
+  '16':
+    mat: LIME_STAINED_GLASS_PANE
+  '17':
+    mat: LIME_STAINED_GLASS_PANE
+  '18':
+    mat: LIME_STAINED_GLASS_PANE
+  '19':
+    mat: POWERED_RAIL
+    value: 23.23775475
+    median: -1
+    stock: -1
+    value2: -1.161887738
+    tradeType: BuyOnly
+  '20':
+    mat: RAIL
+    value: 6.455017406
+    median: -1
+    stock: -1
+    value2: -0.32275087
+    tradeType: BuyOnly
+  '21':
+    mat: LIME_STAINED_GLASS_PANE
+  '22':
+    mat: ELYTRA
+    value: 12320
+    median: -1
+    stock: -1
+    value2: -616
+    tradeType: BuyOnly
+  '23':
+    mat: LIME_STAINED_GLASS_PANE
+  '24':
+    mat: ACTIVATOR_RAIL
+    value: 18.05244935
+    median: -1
+    stock: -1
+    value2: -0.902622467
+    tradeType: BuyOnly
+  '25':
+    mat: DETECTOR_RAIL
+    value: 19.383315
+    median: -1
+    stock: -1
+    value2: -0.96916575
+    tradeType: BuyOnly
+  '26':
+    mat: LIME_STAINED_GLASS_PANE
+  '27':
+    mat: LIME_STAINED_GLASS_PANE
+  '28':
+    mat: OAK_BOAT
+    value: 5.4621
+    median: -1
+    stock: -1
+    value2: 0.273105
+    tradeType: ''
+  '29':
+    mat: BIRCH_BOAT
+    value: 5.4621
+    median: -1
+    stock: -1
+    value2: 0.273105
+    tradeType: ''
+  '30':
+    mat: ACACIA_BOAT
+    value: 5.4621
+    median: -1
+    stock: -1
+    value2: 0.273105
+    tradeType: ''
+  '31':
+    mat: LIME_STAINED_GLASS_PANE
+  '32':
+    mat: SPRUCE_BOAT
+    value: 5.4621
+    median: -1
+    stock: -1
+    value2: 0.273105
+    tradeType: ''
+  '33':
+    mat: DARK_OAK_BOAT
+    value: 5.4621
+    median: -1
+    stock: -1
+    value2: 0.273105
+    tradeType: ''
+  '34':
+    mat: JUNGLE_BOAT
+    value: 5.4621
+    median: -1
+    stock: -1
+    value2: 0.273105
+    tradeType: ''
+  '35':
+    mat: LIME_STAINED_GLASS_PANE
+  '36':
+    mat: LIME_STAINED_GLASS_PANE
+  '37':
+    mat: LIME_STAINED_GLASS_PANE
+  '38':
+    mat: LIME_STAINED_GLASS_PANE
+  '39':
+    mat: LIME_STAINED_GLASS_PANE
+  '40':
+    mat: LIME_STAINED_GLASS_PANE
+  '41':
+    mat: LIME_STAINED_GLASS_PANE
+  '42':
+    mat: LIME_STAINED_GLASS_PANE
+  '43':
+    mat: LIME_STAINED_GLASS_PANE
+  '44':
+    mat: LIME_STAINED_GLASS_PANE
+Farming:
+  Options:
+    page: 1
+    title: Farming
+    lore: ''
+    permission: ''
+  '0':
+    mat: LIME_STAINED_GLASS_PANE
+  '1':
+    mat: COCOA_BEANS
+    value: 7
+    median: -1
+    stock: -1
+    value2: 0.35
+    tradeType: ''
+  '2':
+    mat: MELON_SEEDS
+    value: 2.1
+    median: -1
+    stock: -1
+    value2: 0.105
+    tradeType: ''
+  '3':
+    mat: LIME_STAINED_GLASS_PANE
+  '4':
+    mat: WHEAT_SEEDS
+    value: 1.4
+    median: -1
+    stock: -1
+    value2: 0.07
+    tradeType: ''
+  '5':
+    mat: LIME_STAINED_GLASS_PANE
+  '6':
+    mat: PUMPKIN_SEEDS
+    value: 3.5
+    median: -1
+    stock: -1
+    value2: 0.175
+    tradeType: ''
+  '7':
+    mat: LIME_STAINED_GLASS_PANE
+  '8':
+    mat: BEETROOT_SEEDS
+    value: 3.5
+    median: -1
+    stock: -1
+    value2: 0.175
+    tradeType: ''
+  '9':
+    mat: LIME_STAINED_GLASS_PANE
+  '10':
+    mat: LIME_STAINED_GLASS_PANE
+  '11':
+    mat: MELON
+    value: 19.278
+    median: -1
+    stock: -1
+    value2: 0.9639
+    tradeType: ''
+  '12':
+    mat: LIME_STAINED_GLASS_PANE
+  '13':
+    mat: CACTUS
+    value: 3.5
+    median: -1
+    stock: -1
+    value2: 0.175
+    tradeType: ''
+  '14':
+    mat: LIME_STAINED_GLASS_PANE
+  '15':
+    mat: PUMPKIN
+    value: 14
+    median: -1
+    stock: -1
+    value2: 0.7
+    tradeType: ''
+  '16':
+    mat: LIME_STAINED_GLASS_PANE
+  '17':
+    mat: LIME_STAINED_GLASS_PANE
+  '18':
+    mat: LIME_STAINED_GLASS_PANE
+  '19':
+    mat: SWEET_BERRIES
+    value: 3.5
+    median: -1
+    stock: -1
+    value2: 0.175
+    tradeType: ''
+  '20':
+    mat: SUGAR_CANE
+    value: 3.5
+    median: -1
+    stock: -1
+    value2: 0.175
+    tradeType: ''
+  '21':
+    mat: MELON_SLICE
+    value: 2.1
+    median: -1
+    stock: -1
+    value2: 0.105
+    tradeType: ''
+  '22':
+    mat: WHEAT
+    value: 3.5
+    median: -1
+    stock: -1
+    value2: 0.175
+    tradeType: ''
+  '23':
+    mat: POTATO
+    value: 3.5
+    median: -1
+    stock: -1
+    value2: 0.175
+    tradeType: ''
+  '24':
+    mat: CARROT
+    value: 3.5
+    median: -1
+    stock: -1
+    value2: 0.175
+    tradeType: ''
+  '25':
+    mat: BEETROOT
+    value: 3.5
+    median: -1
+    stock: -1
+    value2: 0.175
+    tradeType: ''
+  '26':
+    mat: LIME_STAINED_GLASS_PANE
+  '27':
+    mat: DRIED_KELP
+    value: 3.15
+    median: -1
+    stock: -1
+    value2: 0.1575
+    tradeType: ''
+  '28':
+    mat: KELP
+    value: 2.1
+    median: -1
+    stock: -1
+    value2: 0.105
+    tradeType: ''
+  '29':
+    mat: LIME_STAINED_GLASS_PANE
+  '30':
+    mat: BROWN_MUSHROOM
+    value: 4.2
+    median: -1
+    stock: -1
+    value2: 0.21
+    tradeType: ''
+  '31':
+    mat: NETHER_WART
+    value: 35
+    median: -1
+    stock: -1
+    value2: 1.75
+    tradeType: ''
+  '32':
+    mat: RED_MUSHROOM
+    value: 4.2
+    median: -1
+    stock: -1
+    value2: 0.21
+    tradeType: ''
+  '33':
+    mat: LIME_STAINED_GLASS_PANE
+  '34':
+    mat: BAMBOO
+    value: 0.7
+    median: -1
+    stock: -1
+    value2: 0.035
+    tradeType: ''
+  '35':
+    mat: DRIED_KELP_BLOCK
+    value: 28.917
+    median: -1
+    stock: -1
+    value2: 1.44585
+    tradeType: ''
+  '36':
+    mat: LIME_STAINED_GLASS_PANE
+  '37':
+    mat: LIME_STAINED_GLASS_PANE
+  '38':
+    mat: CHORUS_FRUIT
+    value: 35
+    median: -1
+    stock: -1
+    value2: 1.75
+    tradeType: ''
+  '39':
+    mat: LIME_STAINED_GLASS_PANE
+  '40':
+    mat: BONE_MEAL
+    value: 0.1428
+    median: -1
+    stock: -1
+    value2: 0.00714
+    tradeType: ''
+  '41':
+    mat: LIME_STAINED_GLASS_PANE
+  '42':
+    mat: CHORUS_FLOWER
+    value: 42
+    median: -1
+    stock: -1
+    value2: 2.1
+    tradeType: ''
+  '43':
+    mat: LIME_STAINED_GLASS_PANE
+  '44':
+    mat: LIME_STAINED_GLASS_PANE
+Terracotta:
+  Options:
+    page: 2
+    title: Terracotta
+    lore: ''
+    permission: ''
+  '0':
+    mat: LIME_STAINED_GLASS_PANE
+  '1':
+    mat: LIME_STAINED_GLASS_PANE
+  '2':
+    mat: LIME_STAINED_GLASS_PANE
+  '3':
+    mat: LIME_STAINED_GLASS_PANE
+  '4':
+    mat: TERRACOTTA
+    value: 13.545
+    median: -1
+    stock: -1
+    value2: 0.67725
+    tradeType: ''
+  '5':
+    mat: LIME_STAINED_GLASS_PANE
+  '6':
+    mat: LIME_STAINED_GLASS_PANE
+  '7':
+    mat: LIME_STAINED_GLASS_PANE
+  '8':
+    mat: LIME_STAINED_GLASS_PANE
+  '9':
+    mat: LIME_STAINED_GLASS_PANE
+  '10':
+    mat: WHITE_TERRACOTTA
+    value: 14.271075
+    median: -1
+    stock: -1
+    value2: 0.71355375
+    tradeType: ''
+  '11':
+    mat: YELLOW_TERRACOTTA
+    value: 14.271075
+    median: -1
+    stock: -1
+    value2: 0.71355375
+    tradeType: ''
+  '12':
+    mat: ORANGE_TERRACOTTA
+    value: 14.271075
+    median: -1
+    stock: -1
+    value2: 0.71355375
+    tradeType: ''
+  '13':
+    mat: PINK_TERRACOTTA
+    value: 14.271075
+    median: -1
+    stock: -1
+    value2: 0.71355375
+    tradeType: ''
+  '14':
+    mat: MAGENTA_TERRACOTTA
+    value: 14.271075
+    median: -1
+    stock: -1
+    value2: 0.71355375
+    tradeType: ''
+  '15':
+    mat: PURPLE_TERRACOTTA
+    value: 14.271075
+    median: -1
+    stock: -1
+    value2: 0.71355375
+    tradeType: ''
+  '16':
+    mat: RED_TERRACOTTA
+    value: 14.271075
+    median: -1
+    stock: -1
+    value2: 0.71355375
+    tradeType: ''
+  '17':
+    mat: LIME_STAINED_GLASS_PANE
+  '18':
+    mat: LIME_STAINED_GLASS_PANE
+  '19':
+    mat: LIGHT_BLUE_TERRACOTTA
+    value: 14.271075
+    median: -1
+    stock: -1
+    value2: 0.71355375
+    tradeType: ''
+  '20':
+    mat: CYAN_TERRACOTTA
+    value: 14.271075
+    median: -1
+    stock: -1
+    value2: 0.71355375
+    tradeType: ''
+  '21':
+    mat: BLUE_TERRACOTTA
+    value: 14.271075
+    median: -1
+    stock: -1
+    value2: 0.71355375
+    tradeType: ''
+  '22':
+    mat: GREEN_TERRACOTTA
+    value: 14.271075
+    median: -1
+    stock: -1
+    value2: 0.71355375
+    tradeType: ''
+  '23':
+    mat: LIME_TERRACOTTA
+    value: 14.271075
+    median: -1
+    stock: -1
+    value2: 0.71355375
+    tradeType: ''
+  '24':
+    mat: BROWN_TERRACOTTA
+    value: 14.271075
+    median: -1
+    stock: -1
+    value2: 0.71355375
+    tradeType: ''
+  '25':
+    mat: LIME_STAINED_GLASS_PANE
+  '26':
+    mat: LIME_STAINED_GLASS_PANE
+  '27':
+    mat: LIME_STAINED_GLASS_PANE
+  '28':
+    mat: LIME_STAINED_GLASS_PANE
+  '29':
+    mat: LIME_STAINED_GLASS_PANE
+  '30':
+    mat: LIGHT_GRAY_TERRACOTTA
+    value: 14.271075
+    median: -1
+    stock: -1
+    value2: 0.71355375
+    tradeType: ''
+  '31':
+    mat: GRAY_TERRACOTTA
+    value: 13.200075
+    median: -1
+    stock: -1
+    value2: 0.66000375
+    tradeType: ''
+  '32':
+    mat: BLACK_TERRACOTTA
+    value: 14.271075
+    median: -1
+    stock: -1
+    value2: 0.71355375
+    tradeType: ''
+  '33':
+    mat: LIME_STAINED_GLASS_PANE
+  '34':
+    mat: LIME_STAINED_GLASS_PANE
+  '35':
+    mat: LIME_STAINED_GLASS_PANE
+  '36':
+    mat: LIME_STAINED_GLASS_PANE
+  '37':
+    mat: LIME_STAINED_GLASS_PANE
+  '38':
+    mat: LIME_STAINED_GLASS_PANE
+  '39':
+    mat: LIME_STAINED_GLASS_PANE
+  '40':
+    mat: LIME_STAINED_GLASS_PANE
+  '41':
+    mat: LIME_STAINED_GLASS_PANE
+  '42':
+    mat: LIME_STAINED_GLASS_PANE
+  '43':
+    mat: LIME_STAINED_GLASS_PANE
+  '44':
+    mat: LIME_STAINED_GLASS_PANE
+  '45':
+    mat: LIME_STAINED_GLASS_PANE
+  '46':
+    mat: LIME_STAINED_GLASS_PANE
+  '47':
+    mat: LIME_STAINED_GLASS_PANE
+  '48':
+    mat: LIME_STAINED_GLASS_PANE
+  '49':
+    mat: LIME_STAINED_GLASS_PANE
+  '50':
+    mat: LIME_STAINED_GLASS_PANE
+  '51':
+    mat: LIME_STAINED_GLASS_PANE
+  '52':
+    mat: LIME_STAINED_GLASS_PANE
+  '53':
+    mat: LIME_STAINED_GLASS_PANE
+  '54':
+    mat: LIME_STAINED_GLASS_PANE
+  '55':
+    mat: WHITE_GLAZED_TERRACOTTA
+    value: 15.321075
+    median: -1
+    stock: -1
+    value2: 0.76605375
+    tradeType: ''
+  '56':
+    mat: YELLOW_GLAZED_TERRACOTTA
+    value: 15.321075
+    median: -1
+    stock: -1
+    value2: 0.76605375
+    tradeType: ''
+  '57':
+    mat: ORANGE_GLAZED_TERRACOTTA
+    value: 15.321075
+    median: -1
+    stock: -1
+    value2: 0.76605375
+    tradeType: ''
+  '58':
+    mat: PINK_GLAZED_TERRACOTTA
+    value: 15.321075
+    median: -1
+    stock: -1
+    value2: 0.76605375
+    tradeType: ''
+  '59':
+    mat: MAGENTA_GLAZED_TERRACOTTA
+    value: 15.321075
+    median: -1
+    stock: -1
+    value2: 0.76605375
+    tradeType: ''
+  '60':
+    mat: PURPLE_GLAZED_TERRACOTTA
+    value: 15.321075
+    median: -1
+    stock: -1
+    value2: 0.76605375
+    tradeType: ''
+  '61':
+    mat: RED_GLAZED_TERRACOTTA
+    value: 15.321075
+    median: -1
+    stock: -1
+    value2: 0.76605375
+    tradeType: ''
+  '62':
+    mat: LIME_STAINED_GLASS_PANE
+  '63':
+    mat: LIME_STAINED_GLASS_PANE
+  '64':
+    mat: LIGHT_BLUE_GLAZED_TERRACOTTA
+    value: 15.321075
+    median: -1
+    stock: -1
+    value2: 0.76605375
+    tradeType: ''
+  '65':
+    mat: CYAN_GLAZED_TERRACOTTA
+    value: 15.321075
+    median: -1
+    stock: -1
+    value2: 0.76605375
+    tradeType: ''
+  '66':
+    mat: BLUE_GLAZED_TERRACOTTA
+    value: 15.321075
+    median: -1
+    stock: -1
+    value2: 0.76605375
+    tradeType: ''
+  '67':
+    mat: GREEN_GLAZED_TERRACOTTA
+    value: 15.321075
+    median: -1
+    stock: -1
+    value2: 0.76605375
+    tradeType: ''
+  '68':
+    mat: LIME_GLAZED_TERRACOTTA
+    value: 15.321075
+    median: -1
+    stock: -1
+    value2: 0.76605375
+    tradeType: ''
+  '69':
+    mat: BROWN_GLAZED_TERRACOTTA
+    value: 15.321075
+    median: -1
+    stock: -1
+    value2: 0.76605375
+    tradeType: ''
+  '70':
+    mat: LIME_STAINED_GLASS_PANE
+  '71':
+    mat: LIME_STAINED_GLASS_PANE
+  '72':
+    mat: LIME_STAINED_GLASS_PANE
+  '73':
+    mat: LIME_STAINED_GLASS_PANE
+  '74':
+    mat: LIME_STAINED_GLASS_PANE
+  '75':
+    mat: LIGHT_GRAY_GLAZED_TERRACOTTA
+    value: 15.321075
+    median: -1
+    stock: -1
+    value2: 0.76605375
+    tradeType: ''
+  '76':
+    mat: GRAY_GLAZED_TERRACOTTA
+    value: 14.250075
+    median: -1
+    stock: -1
+    value2: 0.71250375
+    tradeType: ''
+  '77':
+    mat: BLACK_GLAZED_TERRACOTTA
+    value: 15.321075
+    median: -1
+    stock: -1
+    value2: 0.76605375
+    tradeType: ''
+  '78':
+    mat: LIME_STAINED_GLASS_PANE
+  '79':
+    mat: LIME_STAINED_GLASS_PANE
+  '80':
+    mat: LIME_STAINED_GLASS_PANE
+  '81':
+    mat: LIME_STAINED_GLASS_PANE
+  '82':
+    mat: LIME_STAINED_GLASS_PANE
+  '83':
+    mat: LIME_STAINED_GLASS_PANE
+  '84':
+    mat: LIME_STAINED_GLASS_PANE
+  '85':
+    mat: LIME_STAINED_GLASS_PANE
+  '86':
+    mat: LIME_STAINED_GLASS_PANE
+  '87':
+    mat: LIME_STAINED_GLASS_PANE
+  '88':
+    mat: LIME_STAINED_GLASS_PANE
+  '89':
+    mat: LIME_STAINED_GLASS_PANE
+Concrete:
+  Options:
+    page: 2
+    title: Concrete
+    lore: ''
+    permission: ''
+  '0':
+    mat: LIME_STAINED_GLASS_PANE
+  '1':
+    mat: LIME_STAINED_GLASS_PANE
+  '2':
+    mat: LIME_STAINED_GLASS_PANE
+  '3':
+    mat: LIME_STAINED_GLASS_PANE
+  '4':
+    mat: LIME_STAINED_GLASS_PANE
+  '5':
+    mat: LIME_STAINED_GLASS_PANE
+  '6':
+    mat: LIME_STAINED_GLASS_PANE
+  '7':
+    mat: LIME_STAINED_GLASS_PANE
+  '8':
+    mat: LIME_STAINED_GLASS_PANE
+  '9':
+    mat: LIME_STAINED_GLASS_PANE
+  '10':
+    mat: WHITE_CONCRETE
+    value: 492.0532785
+    median: -1
+    stock: -1
+    value2: 24.60266393
+    tradeType: ''
+  '11':
+    mat: YELLOW_CONCRETE
+    value: 492.0532785
+    median: -1
+    stock: -1
+    value2: 24.60266393
+    tradeType: ''
+  '12':
+    mat: ORANGE_CONCRETE
+    value: 492.0532785
+    median: -1
+    stock: -1
+    value2: 24.60266393
+    tradeType: ''
+  '13':
+    mat: PINK_CONCRETE
+    value: 492.0532785
+    median: -1
+    stock: -1
+    value2: 24.60266393
+    tradeType: ''
+  '14':
+    mat: MAGENTA_CONCRETE
+    value: 492.0532785
+    median: -1
+    stock: -1
+    value2: 24.60266393
+    tradeType: ''
+  '15':
+    mat: PURPLE_CONCRETE
+    value: 492.0532785
+    median: -1
+    stock: -1
+    value2: 24.60266393
+    tradeType: ''
+  '16':
+    mat: RED_CONCRETE
+    value: 492.0532785
+    median: -1
+    stock: -1
+    value2: 24.60266393
+    tradeType: ''
+  '17':
+    mat: LIME_STAINED_GLASS_PANE
+  '18':
+    mat: LIME_STAINED_GLASS_PANE
+  '19':
+    mat: LIGHT_BLUE_CONCRETE
+    value: 492.0532785
+    median: -1
+    stock: -1
+    value2: 24.60266393
+    tradeType: ''
+  '20':
+    mat: CYAN_CONCRETE
+    value: 492.0532785
+    median: -1
+    stock: -1
+    value2: 24.60266393
+    tradeType: ''
+  '21':
+    mat: BLUE_CONCRETE
+    value: 492.0532785
+    median: -1
+    stock: -1
+    value2: 24.60266393
+    tradeType: ''
+  '22':
+    mat: GREEN_CONCRETE
+    value: 492.0532785
+    median: -1
+    stock: -1
+    value2: 24.60266393
+    tradeType: ''
+  '23':
+    mat: LIME_CONCRETE
+    value: 492.0532785
+    median: -1
+    stock: -1
+    value2: 24.60266393
+    tradeType: ''
+  '24':
+    mat: BROWN_CONCRETE
+    value: 492.0532785
+    median: -1
+    stock: -1
+    value2: 24.60266393
+    tradeType: ''
+  '25':
+    mat: LIME_STAINED_GLASS_PANE
+  '26':
+    mat: LIME_STAINED_GLASS_PANE
+  '27':
+    mat: LIME_STAINED_GLASS_PANE
+  '28':
+    mat: LIME_STAINED_GLASS_PANE
+  '29':
+    mat: LIME_STAINED_GLASS_PANE
+  '30':
+    mat: LIGHT_GRAY_CONCRETE
+    value: 492.0532785
+    median: -1
+    stock: -1
+    value2: 24.60266393
+    tradeType: ''
+  '31':
+    mat: GRAY_CONCRETE
+    value: 492.0532785
+    median: -1
+    stock: -1
+    value2: 24.60266393
+    tradeType: ''
+  '32':
+    mat: BLACK_CONCRETE
+    value: 492.0532785
+    median: -1
+    stock: -1
+    value2: 24.60266393
+    tradeType: ''
+  '33':
+    mat: LIME_STAINED_GLASS_PANE
+  '34':
+    mat: LIME_STAINED_GLASS_PANE
+  '35':
+    mat: LIME_STAINED_GLASS_PANE
+  '36':
+    mat: LIME_STAINED_GLASS_PANE
+  '37':
+    mat: LIME_STAINED_GLASS_PANE
+  '38':
+    mat: LIME_STAINED_GLASS_PANE
+  '39':
+    mat: LIME_STAINED_GLASS_PANE
+  '40':
+    mat: LIME_STAINED_GLASS_PANE
+  '41':
+    mat: LIME_STAINED_GLASS_PANE
+  '42':
+    mat: LIME_STAINED_GLASS_PANE
+  '43':
+    mat: LIME_STAINED_GLASS_PANE
+  '44':
+    mat: LIME_STAINED_GLASS_PANE
+  '45':
+    mat: LIME_STAINED_GLASS_PANE
+  '46':
+    mat: LIME_STAINED_GLASS_PANE
+  '47':
+    mat: LIME_STAINED_GLASS_PANE
+  '48':
+    mat: LIME_STAINED_GLASS_PANE
+  '49':
+    mat: LIME_STAINED_GLASS_PANE
+  '50':
+    mat: LIME_STAINED_GLASS_PANE
+  '51':
+    mat: LIME_STAINED_GLASS_PANE
+  '52':
+    mat: LIME_STAINED_GLASS_PANE
+  '53':
+    mat: LIME_STAINED_GLASS_PANE
+  '54':
+    mat: LIME_STAINED_GLASS_PANE
+  '55':
+    mat: WHITE_CONCRETE_POWDER
+    value: 482.405175
+    median: -1
+    stock: -1
+    value2: 24.12025875
+    tradeType: ''
+  '56':
+    mat: YELLOW_CONCRETE_POWDER
+    value: 482.405175
+    median: -1
+    stock: -1
+    value2: 24.12025875
+    tradeType: ''
+  '57':
+    mat: ORANGE_CONCRETE_POWDER
+    value: 482.405175
+    median: -1
+    stock: -1
+    value2: 24.12025875
+    tradeType: ''
+  '58':
+    mat: PINK_CONCRETE_POWDER
+    value: 482.405175
+    median: -1
+    stock: -1
+    value2: 24.12025875
+    tradeType: ''
+  '59':
+    mat: MAGENTA_CONCRETE_POWDER
+    value: 482.405175
+    median: -1
+    stock: -1
+    value2: 24.12025875
+    tradeType: ''
+  '60':
+    mat: PURPLE_CONCRETE_POWDER
+    value: 482.405175
+    median: -1
+    stock: -1
+    value2: 24.12025875
+    tradeType: ''
+  '61':
+    mat: RED_CONCRETE_POWDER
+    value: 482.405175
+    median: -1
+    stock: -1
+    value2: 24.12025875
+    tradeType: ''
+  '62':
+    mat: LIME_STAINED_GLASS_PANE
+  '63':
+    mat: LIME_STAINED_GLASS_PANE
+  '64':
+    mat: LIGHT_BLUE_CONCRETE_POWDER
+    value: 482.405175
+    median: -1
+    stock: -1
+    value2: 24.12025875
+    tradeType: ''
+  '65':
+    mat: CYAN_CONCRETE_POWDER
+    value: 482.405175
+    median: -1
+    stock: -1
+    value2: 24.12025875
+    tradeType: ''
+  '66':
+    mat: BLUE_CONCRETE_POWDER
+    value: 482.405175
+    median: -1
+    stock: -1
+    value2: 24.12025875
+    tradeType: ''
+  '67':
+    mat: GREEN_CONCRETE_POWDER
+    value: 482.405175
+    median: -1
+    stock: -1
+    value2: 24.12025875
+    tradeType: ''
+  '68':
+    mat: LIME_CONCRETE_POWDER
+    value: 482.405175
+    median: -1
+    stock: -1
+    value2: 24.12025875
+    tradeType: ''
+  '69':
+    mat: BROWN_CONCRETE_POWDER
+    value: 482.405175
+    median: -1
+    stock: -1
+    value2: 24.12025875
+    tradeType: ''
+  '70':
+    mat: LIME_STAINED_GLASS_PANE
+  '71':
+    mat: LIME_STAINED_GLASS_PANE
+  '72':
+    mat: LIME_STAINED_GLASS_PANE
+  '73':
+    mat: LIME_STAINED_GLASS_PANE
+  '74':
+    mat: LIME_STAINED_GLASS_PANE
+  '75':
+    mat: LIGHT_GRAY_CONCRETE_POWDER
+    value: 482.405175
+    median: -1
+    stock: -1
+    value2: 24.12025875
+    tradeType: ''
+  '76':
+    mat: GRAY_CONCRETE_POWDER
+    value: 482.405175
+    median: -1
+    stock: -1
+    value2: 24.12025875
+    tradeType: ''
+  '77':
+    mat: BLACK_CONCRETE_POWDER
+    value: 482.405175
+    median: -1
+    stock: -1
+    value2: 24.12025875
+    tradeType: ''
+  '78':
+    mat: LIME_STAINED_GLASS_PANE
+  '79':
+    mat: LIME_STAINED_GLASS_PANE
+  '80':
+    mat: LIME_STAINED_GLASS_PANE
+  '81':
+    mat: LIME_STAINED_GLASS_PANE
+  '82':
+    mat: LIME_STAINED_GLASS_PANE
+  '83':
+    mat: LIME_STAINED_GLASS_PANE
+  '84':
+    mat: LIME_STAINED_GLASS_PANE
+  '85':
+    mat: LIME_STAINED_GLASS_PANE
+  '86':
+    mat: LIME_STAINED_GLASS_PANE
+  '87':
+    mat: LIME_STAINED_GLASS_PANE
+  '88':
+    mat: LIME_STAINED_GLASS_PANE
+  '89':
+    mat: LIME_STAINED_GLASS_PANE
+Glass:
+  Options:
+    page: 2
+    title: Glass & Panes
+    lore: ''
+    permission: ''
+  '0':
+    mat: LIME_STAINED_GLASS_PANE
+  '1':
+    mat: LIME_STAINED_GLASS_PANE
+  '2':
+    mat: LIME_STAINED_GLASS_PANE
+  '3':
+    mat: LIME_STAINED_GLASS_PANE
+  '4':
+    mat: GLASS
+    value: 36.05
+    median: -1
+    stock: -1
+    value2: 1.8025
+    tradeType: ''
+  '5':
+    mat: LIME_STAINED_GLASS_PANE
+  '6':
+    mat: LIME_STAINED_GLASS_PANE
+  '7':
+    mat: LIME_STAINED_GLASS_PANE
+  '8':
+    mat: LIME_STAINED_GLASS_PANE
+  '9':
+    mat: LIME_STAINED_GLASS_PANE
+  '10':
+    mat: WHITE_STAINED_GLASS
+    value: 37.226175
+    median: -1
+    stock: -1
+    value2: 1.86130875
+    tradeType: ''
+  '11':
+    mat: YELLOW_STAINED_GLASS
+    value: 37.226175
+    median: -1
+    stock: -1
+    value2: 1.86130875
+    tradeType: ''
+  '12':
+    mat: ORANGE_STAINED_GLASS
+    value: 37.226175
+    median: -1
+    stock: -1
+    value2: 1.86130875
+    tradeType: ''
+  '13':
+    mat: PINK_STAINED_GLASS
+    value: 37.226175
+    median: -1
+    stock: -1
+    value2: 1.86130875
+    tradeType: ''
+  '14':
+    mat: MAGENTA_STAINED_GLASS
+    value: 37.226175
+    median: -1
+    stock: -1
+    value2: 1.86130875
+    tradeType: ''
+  '15':
+    mat: PURPLE_STAINED_GLASS
+    value: 37.226175
+    median: -1
+    stock: -1
+    value2: 1.86130875
+    tradeType: ''
+  '16':
+    mat: RED_STAINED_GLASS
+    value: 37.226175
+    median: -1
+    stock: -1
+    value2: 1.86130875
+    tradeType: ''
+  '17':
+    mat: LIME_STAINED_GLASS_PANE
+  '18':
+    mat: LIME_STAINED_GLASS_PANE
+  '19':
+    mat: LIGHT_BLUE_STAINED_GLASS
+    value: 37.226175
+    median: -1
+    stock: -1
+    value2: 1.86130875
+    tradeType: ''
+  '20':
+    mat: CYAN_STAINED_GLASS
+    value: 37.226175
+    median: -1
+    stock: -1
+    value2: 1.86130875
+    tradeType: ''
+  '21':
+    mat: BLUE_STAINED_GLASS
+    value: 37.226175
+    median: -1
+    stock: -1
+    value2: 1.86130875
+    tradeType: ''
+  '22':
+    mat: GREEN_STAINED_GLASS
+    value: 37.226175
+    median: -1
+    stock: -1
+    value2: 1.86130875
+    tradeType: ''
+  '23':
+    mat: LIME_STAINED_GLASS
+    value: 37.226175
+    median: -1
+    stock: -1
+    value2: 1.86130875
+    tradeType: ''
+  '24':
+    mat: BROWN_STAINED_GLASS
+    value: 37.226175
+    median: -1
+    stock: -1
+    value2: 1.86130875
+    tradeType: ''
+  '25':
+    mat: LIME_STAINED_GLASS_PANE
+  '26':
+    mat: LIME_STAINED_GLASS_PANE
+  '27':
+    mat: LIME_STAINED_GLASS_PANE
+  '28':
+    mat: LIME_STAINED_GLASS_PANE
+  '29':
+    mat: LIME_STAINED_GLASS_PANE
+  '30':
+    mat: LIGHT_GRAY_STAINED_GLASS
+    value: 37.226175
+    median: -1
+    stock: -1
+    value2: 1.86130875
+    tradeType: ''
+  '31':
+    mat: GRAY_STAINED_GLASS
+    value: 37.226175
+    median: -1
+    stock: -1
+    value2: 1.86130875
+    tradeType: ''
+  '32':
+    mat: BLACK_STAINED_GLASS
+    value: 37.226175
+    median: -1
+    stock: -1
+    value2: 1.86130875
+    tradeType: ''
+  '33':
+    mat: LIME_STAINED_GLASS_PANE
+  '34':
+    mat: LIME_STAINED_GLASS_PANE
+  '35':
+    mat: LIME_STAINED_GLASS_PANE
+  '36':
+    mat: LIME_STAINED_GLASS_PANE
+  '37':
+    mat: LIME_STAINED_GLASS_PANE
+  '38':
+    mat: LIME_STAINED_GLASS_PANE
+  '39':
+    mat: LIME_STAINED_GLASS_PANE
+  '40':
+    mat: LIME_STAINED_GLASS_PANE
+  '41':
+    mat: LIME_STAINED_GLASS_PANE
+  '42':
+    mat: LIME_STAINED_GLASS_PANE
+  '43':
+    mat: LIME_STAINED_GLASS_PANE
+  '44':
+    mat: LIME_STAINED_GLASS_PANE
+  '45':
+    mat: LIME_STAINED_GLASS_PANE
+  '46':
+    mat: LIME_STAINED_GLASS_PANE
+  '47':
+    mat: LIME_STAINED_GLASS_PANE
+  '48':
+    mat: LIME_STAINED_GLASS_PANE
+  '49':
+    mat: GLASS_PANE
+    value: 13.789125
+    median: -1
+    stock: -1
+    value2: 0.68945625
+    tradeType: ''
+  '50':
+    mat: LIME_STAINED_GLASS_PANE
+  '51':
+    mat: LIME_STAINED_GLASS_PANE
+  '52':
+    mat: LIME_STAINED_GLASS_PANE
+  '53':
+    mat: LIME_STAINED_GLASS_PANE
+  '54':
+    mat: LIME_STAINED_GLASS_PANE
+  '55':
+    mat: WHITE_STAINED_GLASS_PANE
+    value: 14.23901194
+    median: -1
+    stock: -1
+    value2: 0.711950597
+    tradeType: ''
+  '56':
+    mat: YELLOW_STAINED_GLASS_PANE
+    value: 14.23901194
+    median: -1
+    stock: -1
+    value2: 0.711950597
+    tradeType: ''
+  '57':
+    mat: ORANGE_STAINED_GLASS_PANE
+    value: 14.23901194
+    median: -1
+    stock: -1
+    value2: 0.711950597
+    tradeType: ''
+  '58':
+    mat: PINK_STAINED_GLASS_PANE
+    value: 14.23901194
+    median: -1
+    stock: -1
+    value2: 0.711950597
+    tradeType: ''
+  '59':
+    mat: MAGENTA_STAINED_GLASS_PANE
+    value: 14.23901194
+    median: -1
+    stock: -1
+    value2: 0.711950597
+    tradeType: ''
+  '60':
+    mat: PURPLE_STAINED_GLASS_PANE
+    value: 14.23901194
+    median: -1
+    stock: -1
+    value2: 0.711950597
+    tradeType: ''
+  '61':
+    mat: RED_STAINED_GLASS_PANE
+    value: 14.23901194
+    median: -1
+    stock: -1
+    value2: 0.711950597
+    tradeType: ''
+  '62':
+    mat: LIME_STAINED_GLASS_PANE
+  '63':
+    mat: LIME_STAINED_GLASS_PANE
+  '64':
+    mat: LIGHT_BLUE_STAINED_GLASS_PANE
+    value: 14.23901194
+    median: -1
+    stock: -1
+    value2: 0.711950597
+    tradeType: ''
+  '65':
+    mat: CYAN_STAINED_GLASS_PANE
+    value: 14.23901194
+    median: -1
+    stock: -1
+    value2: 0.711950597
+    tradeType: ''
+  '66':
+    mat: BLUE_STAINED_GLASS_PANE
+    value: 14.23901194
+    median: -1
+    stock: -1
+    value2: 0.711950597
+    tradeType: ''
+  '67':
+    mat: GREEN_STAINED_GLASS_PANE
+    value: 14.23901194
+    median: -1
+    stock: -1
+    value2: 0.711950597
+    tradeType: ''
+  '68':
+    mat: LIME_STAINED_GLASS_PANE
+    value: 14.23901194
+    median: -1
+    stock: -1
+    value2: 0.711950597
+    tradeType: ''
+  '69':
+    mat: BROWN_STAINED_GLASS_PANE
+    value: 14.23901194
+    median: -1
+    stock: -1
+    value2: 0.711950597
+    tradeType: ''
+  '70':
+    mat: LIME_STAINED_GLASS_PANE
+  '71':
+    mat: LIME_STAINED_GLASS_PANE
+  '72':
+    mat: LIME_STAINED_GLASS_PANE
+  '73':
+    mat: LIME_STAINED_GLASS_PANE
+  '74':
+    mat: LIME_STAINED_GLASS_PANE
+  '75':
+    mat: LIGHT_GRAY_STAINED_GLASS_PANE
+    value: 14.23901194
+    median: -1
+    stock: -1
+    value2: 0.711950597
+    tradeType: ''
+  '76':
+    mat: GRAY_STAINED_GLASS_PANE
+    value: 14.23901194
+    median: -1
+    stock: -1
+    value2: 0.711950597
+    tradeType: ''
+  '77':
+    mat: BLACK_STAINED_GLASS_PANE
+    value: 14.23901194
+    median: -1
+    stock: -1
+    value2: 0.711950597
+    tradeType: ''
+  '78':
+    mat: LIME_STAINED_GLASS_PANE
+  '79':
+    mat: LIME_STAINED_GLASS_PANE
+  '80':
+    mat: LIME_STAINED_GLASS_PANE
+  '81':
+    mat: LIME_STAINED_GLASS_PANE
+  '82':
+    mat: LIME_STAINED_GLASS_PANE
+  '83':
+    mat: LIME_STAINED_GLASS_PANE
+  '84':
+    mat: LIME_STAINED_GLASS_PANE
+  '85':
+    mat: LIME_STAINED_GLASS_PANE
+  '86':
+    mat: LIME_STAINED_GLASS_PANE
+  '87':
+    mat: LIME_STAINED_GLASS_PANE
+  '88':
+    mat: LIME_STAINED_GLASS_PANE
+  '89':
+    mat: LIME_STAINED_GLASS_PANE
+MobDrops:
+  Options:
+    page: 1
+    title: Mob Drops
+    lore: ''
+    permission: ''
+  '0':
+    mat: BONE
+    value: 0.42
+    median: -1
+    stock: -1
+    value2: 0.021
+    tradeType: ''
+  '1':
+    mat: ARROW
+    value: 0.4284
+    median: -1
+    stock: -1
+    value2: 0.02142
+    tradeType: ''
+  '2':
+    mat: LIME_STAINED_GLASS_PANE
+  '3':
+    mat: ROTTEN_FLESH
+    value: 0.56
+    median: -1
+    stock: -1
+    value2: 0.028
+    tradeType: ''
+  '4':
+    mat: ENDER_PEARL
+    value: 7
+    median: -1
+    stock: -1
+    value2: 0.35
+    tradeType: ''
+  '5':
+    mat: GUNPOWDER
+    value: 0.56
+    median: -1
+    stock: -1
+    value2: 0.028
+    tradeType: ''
+  '6':
+    mat: LIME_STAINED_GLASS_PANE
+  '7':
+    mat: STRING
+    value: 0.56
+    median: -1
+    stock: -1
+    value2: 0.028
+    tradeType: ''
+  '8':
+    mat: SPIDER_EYE
+    value: 3.5
+    median: -1
+    stock: -1
+    value2: 0.175
+    tradeType: ''
+  '9':
+    mat: LIME_STAINED_GLASS_PANE
+  '10':
+    mat: SLIME_BALL
+    value: 0.7
+    median: -1
+    stock: -1
+    value2: 0.035
+    tradeType: ''
+  '11':
+    mat: MAGMA_CREAM
+    value: 1.80642
+    median: -1
+    stock: -1
+    value2: 0.090321
+    tradeType: ''
+  '12':
+    mat: LIME_STAINED_GLASS_PANE
+  '13':
+    mat: NETHER_STAR
+    value: 9625
+    median: -1
+    stock: -1
+    value2: -481.25
+    tradeType: BuyOnly
+  '14':
+    mat: LIME_STAINED_GLASS_PANE
+  '15':
+    mat: GHAST_TEAR
+    value: 14
+    median: -1
+    stock: -1
+    value2: 0.7
+    tradeType: ''
+  '16':
+    mat: GOLD_NUGGET
+    value: 2.45
+    median: -1
+    stock: -1
+    value2: 0.1225
+    tradeType: ''
+  '17':
+    mat: LIME_STAINED_GLASS_PANE
+  '18':
+    mat: PHANTOM_MEMBRANE
+    value: 3.5
+    median: -1
+    stock: -1
+    value2: 0.175
+    tradeType: ''
+  '19':
+    mat: LIME_STAINED_GLASS_PANE
+  '20':
+    mat: LIME_STAINED_GLASS_PANE
+  '21':
+    mat: STICK
+    value: 0.455175
+    median: -1
+    stock: -1
+    value2: 0.02275875
+    tradeType: ''
+  '22':
+    mat: SUGAR
+    value: 3.57
+    median: -1
+    stock: -1
+    value2: 0.1785
+    tradeType: ''
+  '23':
+    mat: REDSTONE
+    value: 3.9375
+    median: -1
+    stock: -1
+    value2: 0.196875
+    tradeType: ''
+  '24':
+    mat: GLASS_BOTTLE
+    value: 36.771
+    median: -1
+    stock: -1
+    value2: 1.83855
+    tradeType: ''
+  '25':
+    mat: LIME_STAINED_GLASS_PANE
+  '26':
+    mat: RABBIT_FOOT
+    value: 7
+    median: -1
+    stock: -1
+    value2: 0.35
+    tradeType: ''
+  '27':
+    mat: LIME_STAINED_GLASS_PANE
+  '28':
+    mat: PRISMARINE_CRYSTALS
+    value: 4.9
+    median: -1
+    stock: -1
+    value2: 0.245
+    tradeType: ''
+  '29':
+    mat: PRISMARINE_SHARD
+    value: 3.5
+    median: -1
+    stock: -1
+    value2: 0.175
+    tradeType: ''
+  '30':
+    mat: LIME_STAINED_GLASS_PANE
+  '31':
+    mat: LIME_STAINED_GLASS_PANE
+  '32':
+    mat: LIME_STAINED_GLASS_PANE
+  '33':
+    mat: BLAZE_ROD
+    value: 2.1
+    median: -1
+    stock: -1
+    value2: 0.105
+    tradeType: ''
+  '34':
+    mat: SHULKER_SHELL
+    value: 21
+    median: -1
+    stock: -1
+    value2: 1.05
+    tradeType: ''
+  '35':
+    mat: LIME_STAINED_GLASS_PANE
+  '36':
+    mat: SCUTE
+    value: 3.5
+    median: -1
+    stock: -1
+    value2: 0.175
+    tradeType: ''
+  '37':
+    mat: INK_SAC
+    value: 4.9
+    median: -1
+    stock: -1
+    value2: 0.245
+    tradeType: ''
+  '38':
+    mat: LIME_STAINED_GLASS_PANE
+  '39':
+    mat: LEATHER
+    value: 7
+    median: -1
+    stock: -1
+    value2: 0.35
+    tradeType: ''
+  '40':
+    mat: LIME_STAINED_GLASS_PANE
+  '41':
+    mat: RABBIT_HIDE
+    value: 1.75
+    median: -1
+    stock: -1
+    value2: 0.0875
+    tradeType: ''
+  '42':
+    mat: LIME_STAINED_GLASS_PANE
+  '43':
+    mat: EGG
+    value: 2.1
+    median: -1
+    stock: -1
+    value2: 0.105
+    tradeType: ''
+  '44':
+    mat: FEATHER
+    value: 0.42
+    median: -1
+    stock: -1
+    value2: 0.021
+    tradeType: ''
+Misc:
+  Options:
+    page: 3
+    title: Miscellaneous
+    lore: ''
+    permission: ''
+  '0':
+    mat: BOOK
+    value: 18.0642
+    median: -1
+    stock: -1
+    value2: 0.90321
+    tradeType: ''
+  '1':
+    mat: WRITABLE_BOOK
+    value: 23.851884
+    median: -1
+    stock: -1
+    value2: 1.1925942
+    tradeType: ''
+  '2':
+    mat: LIME_STAINED_GLASS_PANE
+  '3':
+    mat: WATER_BUCKET
+    value: 51.408
+    median: -1
+    stock: -1
+    value2: -2.5704
+    tradeType: BuyOnly
+  '4':
+    mat: MILK_BUCKET
+    value: 58.408
+    median: -1
+    stock: -1
+    value2: 2.9204
+    tradeType: ''
+  '5':
+    mat: LAVA_BUCKET
+    value: 1451.408
+    median: -1
+    stock: -1
+    value2: -72.5704
+    tradeType: BuyOnly
+  '6':
+    mat: LIME_STAINED_GLASS_PANE
+  '7':
+    mat: CARVED_PUMPKIN
+    value: 14.28
+    median: -1
+    stock: -1
+    value2: 0.714
+    tradeType: ''
+  '8':
+    mat: JACK_O_LANTERN
+    value: 16.86883102
+    median: -1
+    stock: -1
+    value2: 0.843441551
+    tradeType: ''
+  '9':
+    mat: LIME_STAINED_GLASS_PANE
+  '10':
+    mat: LIME_STAINED_GLASS_PANE
+  '11':
+    mat: ZOMBIE_HEAD
+    value: 525
+    median: -1
+    stock: -1
+    value2: -26.25
+    tradeType: BuyOnly
+  '12':
+    mat: CREEPER_HEAD
+    value: 385
+    median: -1
+    stock: -1
+    value2: -19.25
+    tradeType: BuyOnly
+  '13':
+    mat: DRAGON_HEAD
+    value: 21000
+    median: -1
+    stock: -1
+    value2: -1050
+    tradeType: BuyOnly
+  '14':
+    mat: SKELETON_SKULL
+    value: 385
+    median: -1
+    stock: -1
+    value2: -19.25
+    tradeType: BuyOnly
+  '15':
+    mat: WITHER_SKELETON_SKULL
+    value: 2187.5
+    median: -1
+    stock: -1
+    value2: -109.375
+    tradeType: BuyOnly
+  '16':
+    mat: LIME_STAINED_GLASS_PANE
+  '17':
+    mat: LIME_STAINED_GLASS_PANE
+  '18':
+    mat: ITEM_FRAME
+    value: 10.854228
+    median: -1
+    stock: -1
+    value2: 0.5427114
+    tradeType: ''
+  '19':
+    mat: LIME_STAINED_GLASS_PANE
+  '20':
+    mat: COD_BUCKET
+    value: 51.408
+    median: -1
+    stock: -1
+    value2: 2.5704
+    tradeType: ''
+  '21':
+    mat: SALMON_BUCKET
+    value: 63.658
+    median: -1
+    stock: -1
+    value2: 3.1829
+    tradeType: ''
+  '22':
+    mat: BUCKET
+    value: 51.408
+    median: -1
+    stock: -1
+    value2: 2.5704
+    tradeType: ''
+  '23':
+    mat: TROPICAL_FISH_BUCKET
+    value: 65.268
+    median: -1
+    stock: -1
+    value2: 3.2634
+    tradeType: ''
+  '24':
+    mat: PUFFERFISH_BUCKET
+    value: 64.498
+    median: -1
+    stock: -1
+    value2: 3.2249
+    tradeType: ''
+  '25':
+    mat: LIME_STAINED_GLASS_PANE
+  '26':
+    mat: PAINTING
+    value: 8.957844
+    median: -1
+    stock: -1
+    value2: 0.4478922
+    tradeType: ''
+  '27':
+    mat: LIME_STAINED_GLASS_PANE
+  '28':
+    mat: LIME_STAINED_GLASS_PANE
+  '29':
+    mat: ENDER_EYE
+    value: 8.23242
+    median: -1
+    stock: -1
+    value2: 0.411621
+    tradeType: ''
+  '30':
+    mat: END_ROD
+    value: 7
+    median: -1
+    stock: -1
+    value2: 0.35
+    tradeType: ''
+  '31':
+    mat: BEACON
+    value: 17699.3425
+    median: -1
+    stock: -1
+    value2: -884.967125
+    tradeType: BuyOnly
+  '32':
+    mat: END_CRYSTAL
+    value: 87.5
+    median: -1
+    stock: -1
+    value2: -4.375
+    tradeType: BuyOnly
+  '33':
+    mat: EXPERIENCE_BOTTLE
+    value: 2695
+    median: -1
+    stock: -1
+    value2: -134.75
+    tradeType: BuyOnly
+  '34':
+    mat: LIME_STAINED_GLASS_PANE
+  '35':
+    mat: LIME_STAINED_GLASS_PANE
+  '36':
+    mat: LIME_STAINED_GLASS_PANE
+  '37':
+    mat: NAUTILUS_SHELL
+    value: 175
+    median: -1
+    stock: -1
+    value2: 8.75
+    tradeType: ''
+  '38':
+    mat: HEART_OF_THE_SEA
+    value: 385
+    median: -1
+    stock: -1
+    value2: 19.25
+    tradeType: ''
+  '39':
+    mat: CONDUIT
+    value: 2231.25
+    median: -1
+    stock: -1
+    value2: 111.5625
+    tradeType: ''
+  '40':
+    mat: LIME_STAINED_GLASS_PANE
+  '41':
+    mat: BELL
+    value: 15750
+    median: -1
+    stock: -1
+    value2: -787.5
+    tradeType: BuyOnly
+  '42':
+    mat: LANTERN
+    value: 17.53523102
+    median: -1
+    stock: -1
+    value2: -0.876761551
+    tradeType: BuyOnly
+  '43':
+    mat: LEAD
+    value: 2.9988
+    median: -1
+    stock: -1
+    value2: 0.14994
+    tradeType: ''
+  '44':
+    mat: LIME_STAINED_GLASS_PANE
+  '45':
+    mat: LIME_STAINED_GLASS_PANE
+  '46':
+    mat: TURTLE_EGG
+    value: 35
+    median: -1
+    stock: -1
+    value2: 1.75
+    tradeType: ''
+  '47':
+    mat: DRAGON_EGG
+    value: 94500
+    median: -1
+    stock: -1
+    value2: -4725
+    tradeType: BuyOnly
+  '48':
+    mat: LIME_STAINED_GLASS_PANE
+  '49':
+    mat: TROPICAL_FISH
+    value: 13.86
+    median: -1
+    stock: -1
+    value2: 0.693
+    tradeType: ''
+  '50':
+    mat: LIME_STAINED_GLASS_PANE
+  '51':
+    mat: SNOWBALL
+    value: 1.4
+    median: -1
+    stock: -1
+    value2: 0.07
+    tradeType: ''
+  '52':
+    mat: CLAY_BALL
+    value: 3.0625
+    median: -1
+    stock: -1
+    value2: 0.153125
+    tradeType: ''
+  '53':
+    mat: LIME_STAINED_GLASS_PANE
+  '54':
+    mat: NOTE_BLOCK
+    value: 11.29905
+    median: -1
+    stock: -1
+    value2: 0.5649525
+    tradeType: ''
+  '55':
+    mat: LIME_STAINED_GLASS_PANE
+  '56':
+    mat: LIME_STAINED_GLASS_PANE
+  '57':
+    mat: LIME_STAINED_GLASS_PANE
+  '58':
+    mat: LIME_STAINED_GLASS_PANE
+  '59':
+    mat: LIME_STAINED_GLASS_PANE
+  '60':
+    mat: LIME_STAINED_GLASS_PANE
+  '61':
+    mat: LIME_STAINED_GLASS_PANE
+  '62':
+    mat: SCAFFOLDING
+    value: 4.8552
+    median: -1
+    stock: -1
+    value2: 0.24276
+    tradeType: ''
+  '63':
+    mat: LIME_STAINED_GLASS_PANE
+  '64':
+    mat: IRON_NUGGET
+    value: 1.866666667
+    median: -1
+    stock: -1
+    value2: 0.093333333
+    tradeType: ''
+  '65':
+    mat: IRON_BARS
+    value: 6.426
+    median: -1
+    stock: -1
+    value2: 0.3213
+    tradeType: ''
+  '66':
+    mat: LIME_STAINED_GLASS_PANE
+  '67':
+    mat: ARMOR_STAND
+    value: 5.152581
+    median: -1
+    stock: -1
+    value2: -0.25762905
+    tradeType: BuyOnly
+  '68':
+    mat: LIME_STAINED_GLASS_PANE
+  '69':
+    mat: COBWEB
+    value: 7
+    median: -1
+    stock: -1
+    value2: 0.35
+    tradeType: ''
+  '70':
+    mat: DEAD_BUSH
+    value: 2.333333333
+    median: -1
+    stock: -1
+    value2: -0.116666667
+    tradeType: BuyOnly
+  '71':
+    mat: LIME_STAINED_GLASS_PANE
+  '72':
+    mat: LIME_STAINED_GLASS_PANE
+  '73':
+    mat: LIME_STAINED_GLASS_PANE
+  '74':
+    mat: LIME_STAINED_GLASS_PANE
+  '75':
+    mat: BRICK
+    value: 4.1125
+    median: -1
+    stock: -1
+    value2: 0.205625
+    tradeType: ''
+  '76':
+    mat: LIME_STAINED_GLASS_PANE
+  '77':
+    mat: NETHER_BRICK
+    value: 13.3
+    median: -1
+    stock: -1
+    value2: 0.665
+    tradeType: ''
+  '78':
+    mat: LIME_STAINED_GLASS_PANE
+  '79':
+    mat: LIME_STAINED_GLASS_PANE
+  '80':
+    mat: LIME_STAINED_GLASS_PANE
+  '81':
+    mat: PAPER
+    value: 3.57
+    median: -1
+    stock: -1
+    value2: 0.1785
+    tradeType: ''
+  '82':
+    mat: LADDER
+    value: 1.0833165
+    median: -1
+    stock: -1
+    value2: 0.054165825
+    tradeType: ''
+  '83':
+    mat: LIME_STAINED_GLASS_PANE
+  '84':
+    mat: LIME_STAINED_GLASS_PANE
+  '85':
+    mat: POISONOUS_POTATO
+    value: 3.5
+    median: -1
+    stock: -1
+    value2: 0.175
+    tradeType: ''
+  '86':
+    mat: LIME_STAINED_GLASS_PANE
+  '87':
+    mat: LIME_STAINED_GLASS_PANE
+  '88':
+    mat: BOWL
+    value: 0.6827625
+    median: -1
+    stock: -1
+    value2: 0.034138125
+    tradeType: ''
+  '89':
+    mat: FLOWER_POT
+    value: 12.58425
+    median: -1
+    stock: -1
+    value2: 0.6292125
+    tradeType: ''
+  '90':
+    mat: TUBE_CORAL
+    value: 21
+    median: -1
+    stock: -1
+    value2: 1.05
+    tradeType: ''
+  '91':
+    mat: TUBE_CORAL_FAN
+    value: 21
+    median: -1
+    stock: -1
+    value2: 1.05
+    tradeType: ''
+  '92':
+    mat: DEAD_TUBE_CORAL
+    value: 35
+    median: -1
+    stock: -1
+    value2: 1.75
+    tradeType: ''
+  '93':
+    mat: DEAD_TUBE_CORAL_FAN
+    value: 35
+    median: -1
+    stock: -1
+    value2: 1.75
+    tradeType: ''
+  '94':
+    mat: LIME_STAINED_GLASS_PANE
+  '95':
+    mat: MUSIC_DISC_11
+    value: 1750
+    median: -1
+    stock: -1
+    value2: 87.5
+    tradeType: ''
+  '96':
+    mat: MUSIC_DISC_13
+    value: 1750
+    median: -1
+    stock: -1
+    value2: 87.5
+    tradeType: ''
+  '97':
+    mat: MUSIC_DISC_BLOCKS
+    value: 1750
+    median: -1
+    stock: -1
+    value2: 87.5
+    tradeType: ''
+  '98':
+    mat: MUSIC_DISC_CAT
+    value: 1750
+    median: -1
+    stock: -1
+    value2: 87.5
+    tradeType: ''
+  '99':
+    mat: BRAIN_CORAL
+    value: 21
+    median: -1
+    stock: -1
+    value2: 1.05
+    tradeType: ''
+  '100':
+    mat: BRAIN_CORAL_FAN
+    value: 21
+    median: -1
+    stock: -1
+    value2: 1.05
+    tradeType: ''
+  '101':
+    mat: DEAD_BRAIN_CORAL
+    value: 35
+    median: -1
+    stock: -1
+    value2: 1.75
+    tradeType: ''
+  '102':
+    mat: DEAD_BRAIN_CORAL_FAN
+    value: 35
+    median: -1
+    stock: -1
+    value2: 1.75
+    tradeType: ''
+  '103':
+    mat: LIME_STAINED_GLASS_PANE
+  '104':
+    mat: LIME_STAINED_GLASS_PANE
+  '105':
+    mat: LIME_STAINED_GLASS_PANE
+  '106':
+    mat: LIME_STAINED_GLASS_PANE
+  '107':
+    mat: LIME_STAINED_GLASS_PANE
+  '108':
+    mat: BUBBLE_CORAL
+    value: 21
+    median: -1
+    stock: -1
+    value2: 1.05
+    tradeType: ''
+  '109':
+    mat: BUBBLE_CORAL_FAN
+    value: 21
+    median: -1
+    stock: -1
+    value2: 1.05
+    tradeType: ''
+  '110':
+    mat: DEAD_BUBBLE_CORAL
+    value: 35
+    median: -1
+    stock: -1
+    value2: 1.75
+    tradeType: ''
+  '111':
+    mat: DEAD_BUBBLE_CORAL_FAN
+    value: 35
+    median: -1
+    stock: -1
+    value2: 1.75
+    tradeType: ''
+  '112':
+    mat: LIME_STAINED_GLASS_PANE
+  '113':
+    mat: MUSIC_DISC_CHIRP
+    value: 1750
+    median: -1
+    stock: -1
+    value2: 87.5
+    tradeType: ''
+  '114':
+    mat: MUSIC_DISC_FAR
+    value: 1750
+    median: -1
+    stock: -1
+    value2: 87.5
+    tradeType: ''
+  '115':
+    mat: MUSIC_DISC_MALL
+    value: 1750
+    median: -1
+    stock: -1
+    value2: 87.5
+    tradeType: ''
+  '116':
+    mat: MUSIC_DISC_MELLOHI
+    value: 1750
+    median: -1
+    stock: -1
+    value2: 87.5
+    tradeType: ''
+  '117':
+    mat: FIRE_CORAL
+    value: 21
+    median: -1
+    stock: -1
+    value2: 1.05
+    tradeType: ''
+  '118':
+    mat: FIRE_CORAL_FAN
+    value: 21
+    median: -1
+    stock: -1
+    value2: 1.05
+    tradeType: ''
+  '119':
+    mat: DEAD_FIRE_CORAL
+    value: 35
+    median: -1
+    stock: -1
+    value2: 1.75
+    tradeType: ''
+  '120':
+    mat: DEAD_FIRE_CORAL_FAN
+    value: 35
+    median: -1
+    stock: -1
+    value2: 1.75
+    tradeType: ''
+  '121':
+    mat: LIME_STAINED_GLASS_PANE
+  '122':
+    mat: LIME_STAINED_GLASS_PANE
+  '123':
+    mat: LIME_STAINED_GLASS_PANE
+  '124':
+    mat: LIME_STAINED_GLASS_PANE
+  '125':
+    mat: LIME_STAINED_GLASS_PANE
+  '126':
+    mat: HORN_CORAL
+    value: 21
+    median: -1
+    stock: -1
+    value2: 1.05
+    tradeType: ''
+  '127':
+    mat: HORN_CORAL_FAN
+    value: 21
+    median: -1
+    stock: -1
+    value2: 1.05
+    tradeType: ''
+  '128':
+    mat: DEAD_HORN_CORAL
+    value: 35
+    median: -1
+    stock: -1
+    value2: 1.75
+    tradeType: ''
+  '129':
+    mat: DEAD_HORN_CORAL_FAN
+    value: 35
+    median: -1
+    stock: -1
+    value2: 1.75
+    tradeType: ''
+  '130':
+    mat: LIME_STAINED_GLASS_PANE
+  '131':
+    mat: MUSIC_DISC_STAL
+    value: 1750
+    median: -1
+    stock: -1
+    value2: 87.5
+    tradeType: ''
+  '132':
+    mat: MUSIC_DISC_STRAD
+    value: 1750
+    median: -1
+    stock: -1
+    value2: 87.5
+    tradeType: ''
+  '133':
+    mat: MUSIC_DISC_WAIT
+    value: 1750
+    median: -1
+    stock: -1
+    value2: 87.5
+    tradeType: ''
+  '134':
+    mat: MUSIC_DISC_WARD
+    value: 1750
+    median: -1
+    stock: -1
+    value2: 87.5
+    tradeType: ''
+  '135':
+    mat: LIME_STAINED_GLASS_PANE
+  '136':
+    mat: LIME_STAINED_GLASS_PANE
+  '137':
+    mat: LIME_STAINED_GLASS_PANE
+  '138':
+    mat: LIME_STAINED_GLASS_PANE
+  '139':
+    mat: LIME_STAINED_GLASS_PANE
+  '140':
+    mat: LIME_STAINED_GLASS_PANE
+  '141':
+    mat: LIME_STAINED_GLASS_PANE
+  '142':
+    mat: LIME_STAINED_GLASS_PANE
+  '143':
+    mat: LIME_STAINED_GLASS_PANE
+  '144':
+    mat: LIME_STAINED_GLASS_PANE
+  '145':
+    mat: LIME_STAINED_GLASS_PANE
+  '146':
+    mat: LIME_STAINED_GLASS_PANE
+  '147':
+    mat: LIME_STAINED_GLASS_PANE
+  '148':
+    mat: LIME_STAINED_GLASS_PANE
+  '149':
+    mat: LIME_STAINED_GLASS_PANE
+  '150':
+    mat: LIME_STAINED_GLASS_PANE
+  '151':
+    mat: LIME_STAINED_GLASS_PANE
+  '152':
+    mat: LIME_STAINED_GLASS_PANE
+  '153':
+    mat: LIME_STAINED_GLASS_PANE
+  '154':
+    mat: LIME_STAINED_GLASS_PANE
+  '155':
+    mat: LIME_STAINED_GLASS_PANE
+  '156':
+    mat: LIME_STAINED_GLASS_PANE
+  '157':
+    mat: LIME_STAINED_GLASS_PANE
+  '158':
+    mat: LIME_STAINED_GLASS_PANE
+  '159':
+    mat: LIME_STAINED_GLASS_PANE
+  '160':
+    mat: LIME_STAINED_GLASS_PANE
+  '161':
+    mat: LIME_STAINED_GLASS_PANE
+  '162':
+    mat: LIME_STAINED_GLASS_PANE
+  '163':
+    mat: LIME_STAINED_GLASS_PANE
+  '164':
+    mat: LIME_STAINED_GLASS_PANE
+  '165':
+    mat: LIME_STAINED_GLASS_PANE
+  '166':
+    mat: LIME_STAINED_GLASS_PANE
+  '167':
+    mat: LIME_STAINED_GLASS_PANE
+  '168':
+    mat: LIME_STAINED_GLASS_PANE
+  '169':
+    mat: LIME_STAINED_GLASS_PANE
+  '170':
+    mat: LIME_STAINED_GLASS_PANE
+  '171':
+    mat: LIME_STAINED_GLASS_PANE
+  '172':
+    mat: LIME_STAINED_GLASS_PANE
+  '173':
+    mat: LIME_STAINED_GLASS_PANE
+  '174':
+    mat: LIME_STAINED_GLASS_PANE
+  '175':
+    mat: LIME_STAINED_GLASS_PANE
+  '176':
+    mat: LIME_STAINED_GLASS_PANE
+  '177':
+    mat: LIME_STAINED_GLASS_PANE
+  '178':
+    mat: LIME_STAINED_GLASS_PANE
+  '179':
+    mat: LIME_STAINED_GLASS_PANE
+Ores:
+  Options:
+    page: 1
+    title: Ores & Ingots
+    lore: ''
+    permission: ''
+  '0':
+    mat: LIME_STAINED_GLASS_PANE
+  '1':
+    mat: LIME_STAINED_GLASS_PANE
+  '2':
+    mat: LIME_STAINED_GLASS_PANE
+  '3':
+    mat: LIME_STAINED_GLASS_PANE
+  '4':
+    mat: LIME_STAINED_GLASS_PANE
+  '5':
+    mat: LIME_STAINED_GLASS_PANE
+  '6':
+    mat: LIME_STAINED_GLASS_PANE
+  '7':
+    mat: LIME_STAINED_GLASS_PANE
+  '8':
+    mat: LIME_STAINED_GLASS_PANE
+  '9':
+    mat: LIME_STAINED_GLASS_PANE
+  '10':
+    mat: DIAMOND
+    value: 420
+    median: -1
+    stock: -1
+    value2: 21
+    tradeType: ''
+  '11':
+    mat: EMERALD
+    value: 42
+    median: -1
+    stock: -1
+    value2: 2.1
+    tradeType: ''
+  '12':
+    mat: GOLD_INGOT
+    value: 22.05
+    median: -1
+    stock: -1
+    value2: 1.1025
+    tradeType: ''
+  '13':
+    mat: IRON_INGOT
+    value: 16.8
+    median: -1
+    stock: -1
+    value2: 0.84
+    tradeType: ''
+  '14':
+    mat: REDSTONE
+    value: 3.9375
+    median: -1
+    stock: -1
+    value2: 0.196875
+    tradeType: ''
+  '15':
+    mat: LAPIS_LAZULI
+    value: 4.2
+    median: -1
+    stock: -1
+    value2: 0.21
+    tradeType: ''
+  '16':
+    mat: COAL
+    value: 8.4
+    median: -1
+    stock: -1
+    value2: 0.42
+    tradeType: ''
+  '17':
+    mat: LIME_STAINED_GLASS_PANE
+  '18':
+    mat: LIME_STAINED_GLASS_PANE
+  '19':
+    mat: DIAMOND_BLOCK
+    value: 3855.6
+    median: -1
+    stock: -1
+    value2: 192.78
+    tradeType: ''
+  '20':
+    mat: EMERALD_BLOCK
+    value: 385.56
+    median: -1
+    stock: -1
+    value2: 19.278
+    tradeType: ''
+  '21':
+    mat: GOLD_BLOCK
+    value: 202.419
+    median: -1
+    stock: -1
+    value2: 10.12095
+    tradeType: ''
+  '22':
+    mat: IRON_BLOCK
+    value: 154.224
+    median: -1
+    stock: -1
+    value2: 7.7112
+    tradeType: ''
+  '23':
+    mat: REDSTONE_BLOCK
+    value: 36.14625
+    median: -1
+    stock: -1
+    value2: 1.8073125
+    tradeType: ''
+  '24':
+    mat: LAPIS_BLOCK
+    value: 38.556
+    median: -1
+    stock: -1
+    value2: 1.9278
+    tradeType: ''
+  '25':
+    mat: COAL_BLOCK
+    value: 77.112
+    median: -1
+    stock: -1
+    value2: 3.8556
+    tradeType: ''
+  '26':
+    mat: LIME_STAINED_GLASS_PANE
+  '27':
+    mat: LIME_STAINED_GLASS_PANE
+  '28':
+    mat: DIAMOND_ORE
+    value: 525
+    median: -1
+    stock: -1
+    value2: 26.25
+    tradeType: ''
+  '29':
+    mat: EMERALD_ORE
+    value: 52.5
+    median: -1
+    stock: -1
+    value2: 2.625
+    tradeType: ''
+  '30':
+    mat: GOLD_ORE
+    value: 21
+    median: -1
+    stock: -1
+    value2: 1.05
+    tradeType: ''
+  '31':
+    mat: IRON_ORE
+    value: 15.75
+    median: -1
+    stock: -1
+    value2: 0.7875
+    tradeType: ''
+  '32':
+    mat: REDSTONE_ORE
+    value: 15.75
+    median: -1
+    stock: -1
+    value2: 0.7875
+    tradeType: ''
+  '33':
+    mat: LAPIS_ORE
+    value: 21
+    median: -1
+    stock: -1
+    value2: 1.05
+    tradeType: ''
+  '34':
+    mat: COAL_ORE
+    value: 10.5
+    median: -1
+    stock: -1
+    value2: 0.525
+    tradeType: ''
+  '35':
+    mat: LIME_STAINED_GLASS_PANE
+  '36':
+    mat: LIME_STAINED_GLASS_PANE
+  '37':
+    mat: LIME_STAINED_GLASS_PANE
+  '38':
+    mat: QUARTZ
+    value: 8.4
+    median: -1
+    stock: -1
+    value2: 0.42
+    tradeType: ''
+  '39':
+    mat: NETHER_QUARTZ_ORE
+    value: 10.5
+    median: -1
+    stock: -1
+    value2: 0.525
+    tradeType: ''
+  '40':
+    mat: LIME_STAINED_GLASS_PANE
+  '41':
+    mat: FLINT
+    value: 875
+    median: -1
+    stock: -1
+    value2: -43.75
+    tradeType: BuyOnly
+  '42':
+    mat: CHARCOAL
+    value: 1.9425
+    median: -1
+    stock: -1
+    value2: -0.097125
+    tradeType: BuyOnly
+  '43':
+    mat: LIME_STAINED_GLASS_PANE
+  '44':
+    mat: LIME_STAINED_GLASS_PANE
+Brewing:
+  Options:
+    page: 1
+    title: Brewing
+    lore: ''
+    permission: ''
+  '0':
+    mat: LIME_STAINED_GLASS_PANE
+  '1':
+    mat: LIME_STAINED_GLASS_PANE
+  '2':
+    mat: LIME_STAINED_GLASS_PANE
+  '3':
+    mat: GLASS_BOTTLE
+    value: 36.771
+    median: -1
+    stock: -1
+    value2: 1.83855
+    tradeType: ''
+  '4':
+    mat: LIME_STAINED_GLASS_PANE
+  '5':
+    mat: DRAGON_BREATH
+    value: 7700
+    median: -1
+    stock: -1
+    value2: -385
+    tradeType: BuyOnly
+  '6':
+    mat: LIME_STAINED_GLASS_PANE
+  '7':
+    mat: LIME_STAINED_GLASS_PANE
+  '8':
+    mat: LIME_STAINED_GLASS_PANE
+  '9':
+    mat: LIME_STAINED_GLASS_PANE
+  '10':
+    mat: NETHER_WART
+    value: 35
+    median: -1
+    stock: -1
+    value2: 1.75
+    tradeType: ''
+  '11':
+    mat: GUNPOWDER
+    value: 0.56
+    median: -1
+    stock: -1
+    value2: 0.028
+    tradeType: ''
+  '12':
+    mat: LIME_STAINED_GLASS_PANE
+  '13':
+    mat: LIME_STAINED_GLASS_PANE
+  '14':
+    mat: LIME_STAINED_GLASS_PANE
+  '15':
+    mat: BLAZE_ROD
+    value: 2.1
+    median: -1
+    stock: -1
+    value2: 0.105
+    tradeType: ''
+  '16':
+    mat: BLAZE_POWDER
+    value: 1.071
+    median: -1
+    stock: -1
+    value2: 0.05355
+    tradeType: ''
+  '17':
+    mat: LIME_STAINED_GLASS_PANE
+  '18':
+    mat: SLIME_BALL
+    value: 0.7
+    median: -1
+    stock: -1
+    value2: 0.035
+    tradeType: ''
+  '19':
+    mat: MAGMA_CREAM
+    value: 1.80642
+    median: -1
+    stock: -1
+    value2: 0.090321
+    tradeType: ''
+  '20':
+    mat: LIME_STAINED_GLASS_PANE
+  '21':
+    mat: SUGAR
+    value: 3.57
+    median: -1
+    stock: -1
+    value2: 0.1785
+    tradeType: ''
+  '22':
+    mat: LIME_STAINED_GLASS_PANE
+  '23':
+    mat: REDSTONE
+    value: 3.9375
+    median: -1
+    stock: -1
+    value2: 0.196875
+    tradeType: ''
+  '24':
+    mat: LIME_STAINED_GLASS_PANE
+  '25':
+    mat: SPIDER_EYE
+    value: 3.5
+    median: -1
+    stock: -1
+    value2: 0.175
+    tradeType: ''
+  '26':
+    mat: FERMENTED_SPIDER_EYE
+    value: 11.4954
+    median: -1
+    stock: -1
+    value2: 0.57477
+    tradeType: ''
+  '27':
+    mat: LIME_STAINED_GLASS_PANE
+  '28':
+    mat: LIME_STAINED_GLASS_PANE
+  '29':
+    mat: LIME_STAINED_GLASS_PANE
+  '30':
+    mat: GLISTERING_MELON_SLICE
+    value: 24.633
+    median: -1
+    stock: -1
+    value2: 1.23165
+    tradeType: ''
+  '31':
+    mat: GLOWSTONE_DUST
+    value: 1.785
+    median: -1
+    stock: -1
+    value2: 0.08925
+    tradeType: ''
+  '32':
+    mat: GOLDEN_CARROT
+    value: 26.061
+    median: -1
+    stock: -1
+    value2: 1.30305
+    tradeType: ''
+  '33':
+    mat: LIME_STAINED_GLASS_PANE
+  '34':
+    mat: LIME_STAINED_GLASS_PANE
+  '35':
+    mat: LIME_STAINED_GLASS_PANE
+  '36':
+    mat: RABBIT_FOOT
+    value: 7
+    median: -1
+    stock: -1
+    value2: 0.35
+    tradeType: ''
+  '37':
+    mat: LIME_STAINED_GLASS_PANE
+  '38':
+    mat: PHANTOM_MEMBRANE
+    value: 3.5
+    median: -1
+    stock: -1
+    value2: 0.175
+    tradeType: ''
+  '39':
+    mat: LIME_STAINED_GLASS_PANE
+  '40':
+    mat: PUFFERFISH
+    value: 13.09
+    median: -1
+    stock: -1
+    value2: 0.6545
+    tradeType: ''
+  '41':
+    mat: LIME_STAINED_GLASS_PANE
+  '42':
+    mat: TURTLE_HELMET
+    value: 350
+    median: -1
+    stock: -1
+    value2: 17.5
+    tradeType: ''
+  '43':
+    mat: LIME_STAINED_GLASS_PANE
+  '44':
+    mat: GHAST_TEAR
+    value: 14
+    median: -1
+    stock: -1
+    value2: 0.7
+    tradeType: ''
+Redstone:
+  Options:
+    page: 1
+    title: Redstone
+    lore: ''
+    permission: ''
+  '0':
+    mat: DROPPER
+    value: 29.00625
+    median: -1
+    stock: -1
+    value2: 1.4503125
+    tradeType: ''
+  '1':
+    mat: DISPENSER
+    value: 32.17481421
+    median: -1
+    stock: -1
+    value2: 1.608740711
+    tradeType: ''
+  '2':
+    mat: PISTON
+    value: 38.1633
+    median: -1
+    stock: -1
+    value2: 1.908165
+    tradeType: ''
+  '3':
+    mat: STICKY_PISTON
+    value: 39.640566
+    median: -1
+    stock: -1
+    value2: 1.9820283
+    tradeType: ''
+  '4':
+    mat: LIME_STAINED_GLASS_PANE
+  '5':
+    mat: OBSERVER
+    value: 37.57425
+    median: -1
+    stock: -1
+    value2: 1.8787125
+    tradeType: ''
+  '6':
+    mat: REDSTONE_LAMP
+    value: 23.3478
+    median: -1
+    stock: -1
+    value2: 1.16739
+    tradeType: ''
+  '7':
+    mat: JUKEBOX
+    value: 435.6828
+    median: -1
+    stock: -1
+    value2: 21.78414
+    tradeType: ''
+  '8':
+    mat: TNT
+    value: 288.456
+    median: -1
+    stock: -1
+    value2: 14.4228
+    tradeType: ''
+  '9':
+    mat: LIME_STAINED_GLASS_PANE
+  '10':
+    mat: LIME_STAINED_GLASS_PANE
+  '11':
+    mat: REDSTONE
+    value: 3.9375
+    median: -1
+    stock: -1
+    value2: 0.196875
+    tradeType: ''
+  '12':
+    mat: REDSTONE_BLOCK
+    value: 36.14625
+    median: -1
+    stock: -1
+    value2: 1.8073125
+    tradeType: ''
+  '13':
+    mat: REDSTONE_TORCH
+    value: 4.4805285
+    median: -1
+    stock: -1
+    value2: 0.224026425
+    tradeType: ''
+  '14':
+    mat: COMPARATOR
+    value: 35.9325855
+    median: -1
+    stock: -1
+    value2: 1.796629275
+    tradeType: ''
+  '15':
+    mat: REPEATER
+    value: 27.07952814
+    median: -1
+    stock: -1
+    value2: 1.353976407
+    tradeType: ''
+  '16':
+    mat: LIME_STAINED_GLASS_PANE
+  '17':
+    mat: LIME_STAINED_GLASS_PANE
+  '18':
+    mat: LIME_STAINED_GLASS_PANE
+  '19':
+    mat: LIME_STAINED_GLASS_PANE
+  '20':
+    mat: HOPPER
+    value: 93.108456
+    median: -1
+    stock: -1
+    value2: 4.6554228
+    tradeType: ''
+  '21':
+    mat: LEVER
+    value: 4.0342785
+    median: -1
+    stock: -1
+    value2: 0.201713925
+    tradeType: ''
+  '22':
+    mat: LIME_STAINED_GLASS_PANE
+  '23':
+    mat: TRIPWIRE_HOOK
+    value: 9.25531425
+    median: -1
+    stock: -1
+    value2: 0.462765713
+    tradeType: ''
+  '24':
+    mat: STONE_BUTTON
+    value: 4.641
+    median: -1
+    stock: -1
+    value2: 0.23205
+    tradeType: ''
+  '25':
+    mat: LIME_STAINED_GLASS_PANE
+  '26':
+    mat: LIME_STAINED_GLASS_PANE
+  '27':
+    mat: LIME_STAINED_GLASS_PANE
+  '28':
+    mat: LIME_STAINED_GLASS_PANE
+  '29':
+    mat: IRON_TRAPDOOR
+    value: 68.544
+    median: -1
+    stock: -1
+    value2: 3.4272
+    tradeType: ''
+  '30':
+    mat: STONE_PRESSURE_PLATE
+    value: 9.282
+    median: -1
+    stock: -1
+    value2: 0.4641
+    tradeType: ''
+  '31':
+    mat: HEAVY_WEIGHTED_PRESSURE_PLATE
+    value: 44.982
+    median: -1
+    stock: -1
+    value2: 2.2491
+    tradeType: ''
+  '32':
+    mat: LIGHT_WEIGHTED_PRESSURE_PLATE
+    value: 34.272
+    median: -1
+    stock: -1
+    value2: 1.7136
+    tradeType: ''
+  '33':
+    mat: IRON_DOOR
+    value: 34.272
+    median: -1
+    stock: -1
+    value2: 1.7136
+    tradeType: ''
+  '34':
+    mat: LIME_STAINED_GLASS_PANE
+  '35':
+    mat: LIME_STAINED_GLASS_PANE
+  '36':
+    mat: LIME_STAINED_GLASS_PANE
+  '37':
+    mat: LIME_STAINED_GLASS_PANE
+  '38':
+    mat: LIME_STAINED_GLASS_PANE
+  '39':
+    mat: DAYLIGHT_DETECTOR
+    value: 137.4098355
+    median: -1
+    stock: -1
+    value2: 6.870491775
+    tradeType: ''
+  '40':
+    mat: CLOCK
+    value: 93.98025
+    median: -1
+    stock: -1
+    value2: -4.6990125
+    tradeType: BuyOnly
+  '41':
+    mat: COMPASS
+    value: 72.56025
+    median: -1
+    stock: -1
+    value2: -3.6280125
+    tradeType: BuyOnly
+  '42':
+    mat: LIME_STAINED_GLASS_PANE
+  '43':
+    mat: LIME_STAINED_GLASS_PANE
+  '44':
+    mat: LIME_STAINED_GLASS_PANE
+Crafting:
+  Options:
+    page: 2
+    title: Crafting & Storage
+    lore: ''
+    permission: ''
+  '0':
+    mat: LIME_STAINED_GLASS_PANE
+  '1':
+    mat: LIME_STAINED_GLASS_PANE
+  '2':
+    mat: LIME_STAINED_GLASS_PANE
+  '3':
+    mat: LIME_STAINED_GLASS_PANE
+  '4':
+    mat: LIME_STAINED_GLASS_PANE
+  '5':
+    mat: LIME_STAINED_GLASS_PANE
+  '6':
+    mat: LIME_STAINED_GLASS_PANE
+  '7':
+    mat: LIME_STAINED_GLASS_PANE
+  '8':
+    mat: LIME_STAINED_GLASS_PANE
+  '9':
+    mat: LIME_STAINED_GLASS_PANE
+  '10':
+    mat: LIME_STAINED_GLASS_PANE
+  '11':
+    mat: LIME_STAINED_GLASS_PANE
+  '12':
+    mat: COMPOSTER
+    value: 18.85079952
+    median: -1
+    stock: -1
+    value2: -0.942539976
+    tradeType: BuyOnly
+  '13':
+    mat: LIME_STAINED_GLASS_PANE
+  '14':
+    mat: CRAFTING_TABLE
+    value: 3.6414
+    median: -1
+    stock: -1
+    value2: -0.18207
+    tradeType: BuyOnly
+  '15':
+    mat: LIME_STAINED_GLASS_PANE
+  '16':
+    mat: LIME_STAINED_GLASS_PANE
+  '17':
+    mat: LIME_STAINED_GLASS_PANE
+  '18':
+    mat: FLETCHING_TABLE
+    value: 1788.6414
+    median: -1
+    stock: -1
+    value2: -89.43207
+    tradeType: BuyOnly
+  '19':
+    mat: CARTOGRAPHY_TABLE
+    value: 10.9242
+    median: -1
+    stock: -1
+    value2: -0.54621
+    tradeType: BuyOnly
+  '20':
+    mat: LIME_STAINED_GLASS_PANE
+  '21':
+    mat: GRINDSTONE
+    value: 5.116167
+    median: -1
+    stock: -1
+    value2: -0.25580835
+    tradeType: BuyOnly
+  '22':
+    mat: ANVIL
+    value: 540.46944
+    median: -1
+    stock: -1
+    value2: -27.023472
+    tradeType: BuyOnly
+  '23':
+    mat: SMITHING_TABLE
+    value: 37.9134
+    median: -1
+    stock: -1
+    value2: -1.89567
+    tradeType: BuyOnly
+  '24':
+    mat: LIME_STAINED_GLASS_PANE
+  '25':
+    mat: LECTERN
+    value: 63.81043704
+    median: -1
+    stock: -1
+    value2: -3.190521852
+    tradeType: BuyOnly
+  '26':
+    mat: LOOM
+    value: 2.9631
+    median: -1
+    stock: -1
+    value2: -0.148155
+    tradeType: BuyOnly
+  '27':
+    mat: LIME_STAINED_GLASS_PANE
+  '28':
+    mat: BARREL
+    value: 6.390657
+    median: -1
+    stock: -1
+    value2: -0.31953285
+    tradeType: BuyOnly
+  '29':
+    mat: SMOKER
+    value: 43.4112
+    median: -1
+    stock: -1
+    value2: -2.17056
+    tradeType: BuyOnly
+  '30':
+    mat: LIME_STAINED_GLASS_PANE
+  '31':
+    mat: CAMPFIRE
+    value: 24.8177475
+    median: -1
+    stock: -1
+    value2: -1.240887375
+    tradeType: BuyOnly
+  '32':
+    mat: LIME_STAINED_GLASS_PANE
+  '33':
+    mat: FURNACE
+    value: 28.56
+    median: -1
+    stock: -1
+    value2: -1.428
+    tradeType: BuyOnly
+  '34':
+    mat: BLAST_FURNACE
+    value: 131.9472
+    median: -1
+    stock: -1
+    value2: -6.59736
+    tradeType: BuyOnly
+  '35':
+    mat: LIME_STAINED_GLASS_PANE
+  '36':
+    mat: LIME_STAINED_GLASS_PANE
+  '37':
+    mat: LIME_STAINED_GLASS_PANE
+  '38':
+    mat: STONECUTTER
+    value: 31.059
+    median: -1
+    stock: -1
+    value2: -1.55295
+    tradeType: BuyOnly
+  '39':
+    mat: LIME_STAINED_GLASS_PANE
+  '40':
+    mat: ENCHANTING_TABLE
+    value: 6796.970124
+    median: -1
+    stock: -1
+    value2: -339.8485062
+    tradeType: BuyOnly
+  '41':
+    mat: LIME_STAINED_GLASS_PANE
+  '42':
+    mat: CAULDRON
+    value: 119.952
+    median: -1
+    stock: -1
+    value2: -5.9976
+    tradeType: BuyOnly
+  '43':
+    mat: LIME_STAINED_GLASS_PANE
+  '44':
+    mat: LIME_STAINED_GLASS_PANE
+  '45':
+    mat: LIME_STAINED_GLASS_PANE
+  '46':
+    mat: LIME_STAINED_GLASS_PANE
+  '47':
+    mat: LIME_STAINED_GLASS_PANE
+  '48':
+    mat: LIME_STAINED_GLASS_PANE
+  '49':
+    mat: SHULKER_BOX
+    value: 50.268456
+    median: -1
+    stock: -1
+    value2: 2.5134228
+    tradeType: ''
+  '50':
+    mat: LIME_STAINED_GLASS_PANE
+  '51':
+    mat: LIME_STAINED_GLASS_PANE
+  '52':
+    mat: LIME_STAINED_GLASS_PANE
+  '53':
+    mat: LIME_STAINED_GLASS_PANE
+  '54':
+    mat: LIME_STAINED_GLASS_PANE
+  '55':
+    mat: WHITE_SHULKER_BOX
+    value: 54.91522512
+    median: -1
+    stock: -1
+    value2: 2.745761256
+    tradeType: ''
+  '56':
+    mat: YELLOW_SHULKER_BOX
+    value: 54.91522512
+    median: -1
+    stock: -1
+    value2: 2.745761256
+    tradeType: ''
+  '57':
+    mat: ORANGE_SHULKER_BOX
+    value: 54.91522512
+    median: -1
+    stock: -1
+    value2: 2.745761256
+    tradeType: ''
+  '58':
+    mat: PINK_SHULKER_BOX
+    value: 54.91522512
+    median: -1
+    stock: -1
+    value2: 2.745761256
+    tradeType: ''
+  '59':
+    mat: MAGENTA_SHULKER_BOX
+    value: 54.91522512
+    median: -1
+    stock: -1
+    value2: 2.745761256
+    tradeType: ''
+  '60':
+    mat: PURPLE_SHULKER_BOX
+    value: 54.91522512
+    median: -1
+    stock: -1
+    value2: 2.745761256
+    tradeType: ''
+  '61':
+    mat: RED_SHULKER_BOX
+    value: 54.91522512
+    median: -1
+    stock: -1
+    value2: 2.745761256
+    tradeType: ''
+  '62':
+    mat: LIME_STAINED_GLASS_PANE
+  '63':
+    mat: LIME_STAINED_GLASS_PANE
+  '64':
+    mat: LIGHT_BLUE_SHULKER_BOX
+    value: 54.91522512
+    median: -1
+    stock: -1
+    value2: 2.745761256
+    tradeType: ''
+  '65':
+    mat: CYAN_SHULKER_BOX
+    value: 54.91522512
+    median: -1
+    stock: -1
+    value2: 2.745761256
+    tradeType: ''
+  '66':
+    mat: BLUE_SHULKER_BOX
+    value: 54.91522512
+    median: -1
+    stock: -1
+    value2: 2.745761256
+    tradeType: ''
+  '67':
+    mat: GREEN_SHULKER_BOX
+    value: 54.91522512
+    median: -1
+    stock: -1
+    value2: 2.745761256
+    tradeType: ''
+  '68':
+    mat: LIME_SHULKER_BOX
+    value: 54.91522512
+    median: -1
+    stock: -1
+    value2: 2.745761256
+    tradeType: ''
+  '69':
+    mat: BROWN_SHULKER_BOX
+    value: 54.91522512
+    median: -1
+    stock: -1
+    value2: 2.745761256
+    tradeType: ''
+  '70':
+    mat: LIME_STAINED_GLASS_PANE
+  '71':
+    mat: LIME_STAINED_GLASS_PANE
+  '72':
+    mat: LIME_STAINED_GLASS_PANE
+  '73':
+    mat: LIME_STAINED_GLASS_PANE
+  '74':
+    mat: LIME_STAINED_GLASS_PANE
+  '75':
+    mat: LIGHT_GRAY_SHULKER_BOX
+    value: 54.91522512
+    median: -1
+    stock: -1
+    value2: 2.745761256
+    tradeType: ''
+  '76':
+    mat: GRAY_SHULKER_BOX
+    value: 54.91522512
+    median: -1
+    stock: -1
+    value2: 2.745761256
+    tradeType: ''
+  '77':
+    mat: BLACK_SHULKER_BOX
+    value: 54.91522512
+    median: -1
+    stock: -1
+    value2: 2.745761256
+    tradeType: ''
+  '78':
+    mat: LIME_STAINED_GLASS_PANE
+  '79':
+    mat: LIME_STAINED_GLASS_PANE
+  '80':
+    mat: LIME_STAINED_GLASS_PANE
+  '81':
+    mat: LIME_STAINED_GLASS_PANE
+  '82':
+    mat: LIME_STAINED_GLASS_PANE
+  '83':
+    mat: LIME_STAINED_GLASS_PANE
+  '84':
+    mat: CHEST
+    value: 7.2828
+    median: -1
+    stock: -1
+    value2: 0.36414
+    tradeType: ''
+  '85':
+    mat: ENDER_CHEST
+    value: 11851.88635
+    median: -1
+    stock: -1
+    value2: -592.5943174
+    tradeType: BuyOnly
+  '86':
+    mat: TRAPPED_CHEST
+    value: 16.86887654
+    median: -1
+    stock: -1
+    value2: 0.843443827
+    tradeType: ''
+  '87':
+    mat: LIME_STAINED_GLASS_PANE
+  '88':
+    mat: LIME_STAINED_GLASS_PANE
+  '89':
+    mat: LIME_STAINED_GLASS_PANE
+Tools:
+  Options:
+    page: 2
+    title: Weapons & Armour
+    lore: ''
+    permission: ''
+  '0':
+    mat: DIAMOND_SWORD
+    value: 1285.664279
+    median: -1
+    stock: -1
+    value2: -64.28321393
+    tradeType: BuyOnly
+  '1':
+    mat: DIAMOND_AXE
+    value: 1286.128557
+    median: -1
+    stock: -1
+    value2: -64.30642785
+    tradeType: BuyOnly
+  '2':
+    mat: DIAMOND_PICKAXE
+    value: 1286.128557
+    median: -1
+    stock: -1
+    value2: -64.30642785
+    tradeType: BuyOnly
+  '3':
+    mat: DIAMOND_SHOVEL
+    value: 429.328557
+    median: -1
+    stock: -1
+    value2: -21.46642785
+    tradeType: BuyOnly
+  '4':
+    mat: DIAMOND_HOE
+    value: 857.728557
+    median: -1
+    stock: -1
+    value2: -42.88642785
+    tradeType: BuyOnly
+  '5':
+    mat: DIAMOND_HELMET
+    value: 2142
+    median: -1
+    stock: -1
+    value2: -107.1
+    tradeType: BuyOnly
+  '6':
+    mat: DIAMOND_CHESTPLATE
+    value: 3427.2
+    median: -1
+    stock: -1
+    value2: -171.36
+    tradeType: BuyOnly
+  '7':
+    mat: DIAMOND_LEGGINGS
+    value: 2998.8
+    median: -1
+    stock: -1
+    value2: -149.94
+    tradeType: BuyOnly
+  '8':
+    mat: DIAMOND_BOOTS
+    value: 1713.6
+    median: -1
+    stock: -1
+    value2: -85.68
+    tradeType: BuyOnly
+  '9':
+    mat: GOLDEN_SWORD
+    value: 67.9372785
+    median: -1
+    stock: -1
+    value2: -3.396863925
+    tradeType: BuyOnly
+  '10':
+    mat: GOLDEN_AXE
+    value: 68.401557
+    median: -1
+    stock: -1
+    value2: -3.42007785
+    tradeType: BuyOnly
+  '11':
+    mat: GOLDEN_PICKAXE
+    value: 68.401557
+    median: -1
+    stock: -1
+    value2: -3.42007785
+    tradeType: BuyOnly
+  '12':
+    mat: GOLDEN_SHOVEL
+    value: 23.419557
+    median: -1
+    stock: -1
+    value2: -1.17097785
+    tradeType: BuyOnly
+  '13':
+    mat: GOLDEN_HOE
+    value: 45.910557
+    median: -1
+    stock: -1
+    value2: -2.29552785
+    tradeType: BuyOnly
+  '14':
+    mat: GOLDEN_HELMET
+    value: 112.455
+    median: -1
+    stock: -1
+    value2: -5.62275
+    tradeType: BuyOnly
+  '15':
+    mat: GOLDEN_CHESTPLATE
+    value: 179.928
+    median: -1
+    stock: -1
+    value2: -8.9964
+    tradeType: BuyOnly
+  '16':
+    mat: GOLDEN_LEGGINGS
+    value: 157.437
+    median: -1
+    stock: -1
+    value2: -7.87185
+    tradeType: BuyOnly
+  '17':
+    mat: GOLDEN_BOOTS
+    value: 89.964
+    median: -1
+    stock: -1
+    value2: -4.4982
+    tradeType: BuyOnly
+  '18':
+    mat: IRON_SWORD
+    value: 51.8722785
+    median: -1
+    stock: -1
+    value2: -2.593613925
+    tradeType: BuyOnly
+  '19':
+    mat: IRON_AXE
+    value: 52.336557
+    median: -1
+    stock: -1
+    value2: -2.61682785
+    tradeType: BuyOnly
+  '20':
+    mat: IRON_PICKAXE
+    value: 52.336557
+    median: -1
+    stock: -1
+    value2: -2.61682785
+    tradeType: BuyOnly
+  '21':
+    mat: IRON_SHOVEL
+    value: 18.064557
+    median: -1
+    stock: -1
+    value2: -0.90322785
+    tradeType: BuyOnly
+  '22':
+    mat: IRON_HOE
+    value: 35.200557
+    median: -1
+    stock: -1
+    value2: -1.76002785
+    tradeType: BuyOnly
+  '23':
+    mat: IRON_HELMET
+    value: 85.68
+    median: -1
+    stock: -1
+    value2: -4.284
+    tradeType: BuyOnly
+  '24':
+    mat: IRON_CHESTPLATE
+    value: 137.088
+    median: -1
+    stock: -1
+    value2: -6.8544
+    tradeType: BuyOnly
+  '25':
+    mat: IRON_LEGGINGS
+    value: 119.952
+    median: -1
+    stock: -1
+    value2: -5.9976
+    tradeType: BuyOnly
+  '26':
+    mat: IRON_BOOTS
+    value: 68.544
+    median: -1
+    stock: -1
+    value2: -3.4272
+    tradeType: BuyOnly
+  '27':
+    mat: STONE_SWORD
+    value: 11.1742785
+    median: -1
+    stock: -1
+    value2: -0.558713925
+    tradeType: BuyOnly
+  '28':
+    mat: STONE_AXE
+    value: 11.638557
+    median: -1
+    stock: -1
+    value2: -0.58192785
+    tradeType: BuyOnly
+  '29':
+    mat: STONE_PICKAXE
+    value: 11.638557
+    median: -1
+    stock: -1
+    value2: -0.58192785
+    tradeType: BuyOnly
+  '30':
+    mat: STONE_SHOVEL
+    value: 4.498557
+    median: -1
+    stock: -1
+    value2: -0.22492785
+    tradeType: BuyOnly
+  '31':
+    mat: STONE_HOE
+    value: 8.068557
+    median: -1
+    stock: -1
+    value2: -0.40342785
+    tradeType: BuyOnly
+  '32':
+    mat: CHAINMAIL_HELMET
+    value: 64.26
+    median: -1
+    stock: -1
+    value2: -3.213
+    tradeType: BuyOnly
+  '33':
+    mat: CHAINMAIL_CHESTPLATE
+    value: 102.816
+    median: -1
+    stock: -1
+    value2: -5.1408
+    tradeType: BuyOnly
+  '34':
+    mat: CHAINMAIL_LEGGINGS
+    value: 89.964
+    median: -1
+    stock: -1
+    value2: -4.4982
+    tradeType: BuyOnly
+  '35':
+    mat: CHAINMAIL_BOOTS
+    value: 51.408
+    median: -1
+    stock: -1
+    value2: -2.5704
+    tradeType: BuyOnly
+  '36':
+    mat: WOODEN_SWORD
+    value: 3.1953285
+    median: -1
+    stock: -1
+    value2: 0.159766425
+    tradeType: ''
+  '37':
+    mat: WOODEN_AXE
+    value: 3.659607
+    median: -1
+    stock: -1
+    value2: 0.18298035
+    tradeType: ''
+  '38':
+    mat: WOODEN_PICKAXE
+    value: 3.659607
+    median: -1
+    stock: -1
+    value2: 0.18298035
+    tradeType: ''
+  '39':
+    mat: WOODEN_SHOVEL
+    value: 1.838907
+    median: -1
+    stock: -1
+    value2: 0.09194535
+    tradeType: ''
+  '40':
+    mat: WOODEN_HOE
+    value: 2.749257
+    median: -1
+    stock: -1
+    value2: 0.13746285
+    tradeType: ''
+  '41':
+    mat: LEATHER_HELMET
+    value: 42.84
+    median: -1
+    stock: -1
+    value2: -2.142
+    tradeType: BuyOnly
+  '42':
+    mat: LEATHER_CHESTPLATE
+    value: 35.7
+    median: -1
+    stock: -1
+    value2: -1.785
+    tradeType: BuyOnly
+  '43':
+    mat: LEATHER_LEGGINGS
+    value: 57.12
+    median: -1
+    stock: -1
+    value2: -2.856
+    tradeType: BuyOnly
+  '44':
+    mat: LEATHER_BOOTS
+    value: 28.56
+    median: -1
+    stock: -1
+    value2: -1.428
+    tradeType: BuyOnly
+  '45':
+    mat: FISHING_ROD
+    value: 3.1064355
+    median: -1
+    stock: -1
+    value2: -0.155321775
+    tradeType: BuyOnly
+  '46':
+    mat: TURTLE_HELMET
+    value: 350
+    median: -1
+    stock: -1
+    value2: 17.5
+    tradeType: ''
+  '47':
+    mat: LIME_STAINED_GLASS_PANE
+  '48':
+    mat: LIME_STAINED_GLASS_PANE
+  '49':
+    mat: LIME_STAINED_GLASS_PANE
+  '50':
+    mat: LIME_STAINED_GLASS_PANE
+  '51':
+    mat: LIME_STAINED_GLASS_PANE
+  '52':
+    mat: FLINT_AND_STEEL
+    value: 909.636
+    median: -1
+    stock: -1
+    value2: -45.4818
+    tradeType: BuyOnly
+  '53':
+    mat: SHEARS
+    value: 34.272
+    median: -1
+    stock: -1
+    value2: -1.7136
+    tradeType: BuyOnly
+  '54':
+    mat: LIME_STAINED_GLASS_PANE
+  '55':
+    mat: LIME_STAINED_GLASS_PANE
+  '56':
+    mat: BOW
+    value: 3.1064355
+    median: -1
+    stock: -1
+    value2: -0.155321775
+    tradeType: BuyOnly
+  '57':
+    mat: LIME_STAINED_GLASS_PANE
+  '58':
+    mat: ARROW
+    value: 0.4284
+    median: -1
+    stock: -1
+    value2: 0.02142
+    tradeType: ''
+  '59':
+    mat: LIME_STAINED_GLASS_PANE
+  '60':
+    mat: CROSSBOW
+    value: 29.11165604
+    median: -1
+    stock: -1
+    value2: -1.455582802
+    tradeType: BuyOnly
+  '61':
+    mat: LIME_STAINED_GLASS_PANE
+  '62':
+    mat: LIME_STAINED_GLASS_PANE
+  '63':
+    mat: LIME_STAINED_GLASS_PANE
+  '64':
+    mat: SHIELD
+    value: 22.5981
+    median: -1
+    stock: -1
+    value2: -1.129905
+    tradeType: BuyOnly
+  '65':
+    mat: LIME_STAINED_GLASS_PANE
+  '66':
+    mat: LIME_STAINED_GLASS_PANE
+  '67':
+    mat: TRIDENT
+    value: 140
+    median: -1
+    stock: -1
+    value2: -7
+    tradeType: BuyOnly
+  '68':
+    mat: LIME_STAINED_GLASS_PANE
+  '69':
+    mat: LIME_STAINED_GLASS_PANE
+  '70':
+    mat: TOTEM_OF_UNDYING
+    value: 15.4
+    median: -1
+    stock: -1
+    value2: 0.77
+    tradeType: ''
+  '71':
+    mat: LIME_STAINED_GLASS_PANE
+  '72':
+    mat: LIME_STAINED_GLASS_PANE
+  '73':
+    mat: LIME_STAINED_GLASS_PANE
+  '74':
+    mat: NAME_TAG
+    value: 35
+    median: -1
+    stock: -1
+    value2: 1.75
+    tradeType: ''
+  '75':
+    mat: LIME_STAINED_GLASS_PANE
+  '76':
+    mat: LIME_STAINED_GLASS_PANE
+  '77':
+    mat: LIME_STAINED_GLASS_PANE
+  '78':
+    mat: TORCH
+    value: 2.258069625
+    median: -1
+    stock: -1
+    value2: 0.112903481
+    tradeType: ''
+  '79':
+    mat: LIME_STAINED_GLASS_PANE
+  '80':
+    mat: LIME_STAINED_GLASS_PANE
+  '81':
+    mat: LIME_STAINED_GLASS_PANE
+  '82':
+    mat: LIME_STAINED_GLASS_PANE
+  '83':
+    mat: LEATHER_HORSE_ARMOR
+    value: 49.98
+    median: -1
+    stock: -1
+    value2: -2.499
+    tradeType: BuyOnly
+  '84':
+    mat: IRON_HORSE_ARMOR
+    value: 100.8
+    median: -1
+    stock: -1
+    value2: 5.04
+    tradeType: ''
+  '85':
+    mat: LIME_STAINED_GLASS_PANE
+  '86':
+    mat: GOLDEN_HORSE_ARMOR
+    value: 132.3
+    median: -1
+    stock: -1
+    value2: 6.615
+    tradeType: ''
+  '87':
+    mat: DIAMOND_HORSE_ARMOR
+    value: 2520
+    median: -1
+    stock: -1
+    value2: 126
+    tradeType: ''
+  '88':
+    mat: LIME_STAINED_GLASS_PANE
+  '89':
+    mat: LIME_STAINED_GLASS_PANE
+Wood:
+  Options:
+    page: 4
+    title: Wood
+    lore: ''
+    permission: ''
+  '0':
+    mat: LIME_STAINED_GLASS_PANE
+  '1':
+    mat: LIME_STAINED_GLASS_PANE
+  '2':
+    mat: LIME_STAINED_GLASS_PANE
+  '3':
+    mat: LIME_STAINED_GLASS_PANE
+  '4':
+    mat: LIME_STAINED_GLASS_PANE
+  '5':
+    mat: LIME_STAINED_GLASS_PANE
+  '6':
+    mat: LIME_STAINED_GLASS_PANE
+  '7':
+    mat: LIME_STAINED_GLASS_PANE
+  '8':
+    mat: LIME_STAINED_GLASS_PANE
+  '9':
+    mat: LIME_STAINED_GLASS_PANE
+  '10':
+    mat: LIME_STAINED_GLASS_PANE
+  '11':
+    mat: LIME_STAINED_GLASS_PANE
+  '12':
+    mat: LIME_STAINED_GLASS_PANE
+  '13':
+    mat: LIME_STAINED_GLASS_PANE
+  '14':
+    mat: LIME_STAINED_GLASS_PANE
+  '15':
+    mat: LIME_STAINED_GLASS_PANE
+  '16':
+    mat: LIME_STAINED_GLASS_PANE
+  '17':
+    mat: LIME_STAINED_GLASS_PANE
+  '18':
+    mat: LIME_STAINED_GLASS_PANE
+  '19':
+    mat: OAK_SAPLING
+    value: 3.5
+    median: -1
+    stock: -1
+    value2: -0.175
+    tradeType: BuyOnly
+  '20':
+    mat: BIRCH_SAPLING
+    value: 3.5
+    median: -1
+    stock: -1
+    value2: -0.175
+    tradeType: BuyOnly
+  '21':
+    mat: ACACIA_SAPLING
+    value: 3.5
+    median: -1
+    stock: -1
+    value2: -0.175
+    tradeType: BuyOnly
+  '22':
+    mat: LIME_STAINED_GLASS_PANE
+  '23':
+    mat: SPRUCE_SAPLING
+    value: 3.5
+    median: -1
+    stock: -1
+    value2: -0.175
+    tradeType: BuyOnly
+  '24':
+    mat: DARK_OAK_SAPLING
+    value: 3.5
+    median: -1
+    stock: -1
+    value2: -0.175
+    tradeType: BuyOnly
+  '25':
+    mat: JUNGLE_SAPLING
+    value: 3.5
+    median: -1
+    stock: -1
+    value2: -0.175
+    tradeType: BuyOnly
+  '26':
+    mat: LIME_STAINED_GLASS_PANE
+  '27':
+    mat: LIME_STAINED_GLASS_PANE
+  '28':
+    mat: OAK_LEAVES
+    value: 1.75
+    median: -1
+    stock: -1
+    value2: -0.0875
+    tradeType: BuyOnly
+  '29':
+    mat: BIRCH_LEAVES
+    value: 1.75
+    median: -1
+    stock: -1
+    value2: -0.0875
+    tradeType: BuyOnly
+  '30':
+    mat: ACACIA_LEAVES
+    value: 1.75
+    median: -1
+    stock: -1
+    value2: -0.0875
+    tradeType: BuyOnly
+  '31':
+    mat: LIME_STAINED_GLASS_PANE
+  '32':
+    mat: SPRUCE_LEAVES
+    value: 1.75
+    median: -1
+    stock: -1
+    value2: -0.0875
+    tradeType: BuyOnly
+  '33':
+    mat: DARK_OAK_LEAVES
+    value: 1.75
+    median: -1
+    stock: -1
+    value2: -0.0875
+    tradeType: BuyOnly
+  '34':
+    mat: JUNGLE_LEAVES
+    value: 1.75
+    median: -1
+    stock: -1
+    value2: -0.0875
+    tradeType: BuyOnly
+  '35':
+    mat: LIME_STAINED_GLASS_PANE
+  '36':
+    mat: LIME_STAINED_GLASS_PANE
+  '37':
+    mat: LIME_STAINED_GLASS_PANE
+  '38':
+    mat: LIME_STAINED_GLASS_PANE
+  '39':
+    mat: LIME_STAINED_GLASS_PANE
+  '40':
+    mat: LIME_STAINED_GLASS_PANE
+  '41':
+    mat: LIME_STAINED_GLASS_PANE
+  '42':
+    mat: LIME_STAINED_GLASS_PANE
+  '43':
+    mat: LIME_STAINED_GLASS_PANE
+  '44':
+    mat: LIME_STAINED_GLASS_PANE
+  '45':
+    mat: LIME_STAINED_GLASS_PANE
+  '46':
+    mat: OAK_WOOD
+    value: 4.76
+    median: -1
+    stock: -1
+    value2: 0.238
+    tradeType: ''
+  '47':
+    mat: BIRCH_WOOD
+    value: 4.76
+    median: -1
+    stock: -1
+    value2: 0.238
+    tradeType: ''
+  '48':
+    mat: ACACIA_WOOD
+    value: 4.76
+    median: -1
+    stock: -1
+    value2: 0.238
+    tradeType: ''
+  '49':
+    mat: LIME_STAINED_GLASS_PANE
+  '50':
+    mat: SPRUCE_WOOD
+    value: 4.76
+    median: -1
+    stock: -1
+    value2: 0.238
+    tradeType: ''
+  '51':
+    mat: DARK_OAK_WOOD
+    value: 4.76
+    median: -1
+    stock: -1
+    value2: 0.238
+    tradeType: ''
+  '52':
+    mat: JUNGLE_WOOD
+    value: 4.76
+    median: -1
+    stock: -1
+    value2: 0.238
+    tradeType: ''
+  '53':
+    mat: LIME_STAINED_GLASS_PANE
+  '54':
+    mat: LIME_STAINED_GLASS_PANE
+  '55':
+    mat: STRIPPED_OAK_WOOD
+    value: 4.8552
+    median: -1
+    stock: -1
+    value2: 0.24276
+    tradeType: ''
+  '56':
+    mat: STRIPPED_BIRCH_WOOD
+    value: 4.8552
+    median: -1
+    stock: -1
+    value2: 0.24276
+    tradeType: ''
+  '57':
+    mat: STRIPPED_ACACIA_WOOD
+    value: 4.8552
+    median: -1
+    stock: -1
+    value2: 0.24276
+    tradeType: ''
+  '58':
+    mat: LIME_STAINED_GLASS_PANE
+  '59':
+    mat: STRIPPED_SPRUCE_WOOD
+    value: 4.8552
+    median: -1
+    stock: -1
+    value2: 0.24276
+    tradeType: ''
+  '60':
+    mat: STRIPPED_DARK_OAK_WOOD
+    value: 4.8552
+    median: -1
+    stock: -1
+    value2: 0.24276
+    tradeType: ''
+  '61':
+    mat: STRIPPED_JUNGLE_WOOD
+    value: 4.8552
+    median: -1
+    stock: -1
+    value2: 0.24276
+    tradeType: ''
+  '62':
+    mat: LIME_STAINED_GLASS_PANE
+  '63':
+    mat: LIME_STAINED_GLASS_PANE
+  '64':
+    mat: OAK_LOG
+    value: 3.5
+    median: -1
+    stock: -1
+    value2: 0.175
+    tradeType: ''
+  '65':
+    mat: BIRCH_LOG
+    value: 3.5
+    median: -1
+    stock: -1
+    value2: 0.175
+    tradeType: ''
+  '66':
+    mat: ACACIA_LOG
+    value: 3.5
+    median: -1
+    stock: -1
+    value2: 0.175
+    tradeType: ''
+  '67':
+    mat: LIME_STAINED_GLASS_PANE
+  '68':
+    mat: SPRUCE_LOG
+    value: 3.5
+    median: -1
+    stock: -1
+    value2: 0.175
+    tradeType: ''
+  '69':
+    mat: DARK_OAK_LOG
+    value: 3.5
+    median: -1
+    stock: -1
+    value2: 0.175
+    tradeType: ''
+  '70':
+    mat: JUNGLE_LOG
+    value: 3.5
+    median: -1
+    stock: -1
+    value2: 0.175
+    tradeType: ''
+  '71':
+    mat: LIME_STAINED_GLASS_PANE
+  '72':
+    mat: LIME_STAINED_GLASS_PANE
+  '73':
+    mat: STRIPPED_OAK_LOG
+    value: 3.57
+    median: -1
+    stock: -1
+    value2: 0.1785
+    tradeType: ''
+  '74':
+    mat: STRIPPED_BIRCH_LOG
+    value: 3.57
+    median: -1
+    stock: -1
+    value2: 0.1785
+    tradeType: ''
+  '75':
+    mat: STRIPPED_ACACIA_LOG
+    value: 3.57
+    median: -1
+    stock: -1
+    value2: 0.1785
+    tradeType: ''
+  '76':
+    mat: LIME_STAINED_GLASS_PANE
+  '77':
+    mat: STRIPPED_SPRUCE_LOG
+    value: 3.57
+    median: -1
+    stock: -1
+    value2: 0.1785
+    tradeType: ''
+  '78':
+    mat: STRIPPED_DARK_OAK_LOG
+    value: 3.57
+    median: -1
+    stock: -1
+    value2: 0.1785
+    tradeType: ''
+  '79':
+    mat: STRIPPED_JUNGLE_LOG
+    value: 3.57
+    median: -1
+    stock: -1
+    value2: 0.1785
+    tradeType: ''
+  '80':
+    mat: LIME_STAINED_GLASS_PANE
+  '81':
+    mat: LIME_STAINED_GLASS_PANE
+  '82':
+    mat: OAK_PLANKS
+    value: 0.8925
+    median: -1
+    stock: -1
+    value2: 0.044625
+    tradeType: ''
+  '83':
+    mat: BIRCH_PLANKS
+    value: 0.8925
+    median: -1
+    stock: -1
+    value2: 0.044625
+    tradeType: ''
+  '84':
+    mat: ACACIA_PLANKS
+    value: 0.8925
+    median: -1
+    stock: -1
+    value2: 0.044625
+    tradeType: ''
+  '85':
+    mat: LIME_STAINED_GLASS_PANE
+  '86':
+    mat: SPRUCE_PLANKS
+    value: 0.8925
+    median: -1
+    stock: -1
+    value2: 0.044625
+    tradeType: ''
+  '87':
+    mat: DARK_OAK_PLANKS
+    value: 0.8925
+    median: -1
+    stock: -1
+    value2: 0.044625
+    tradeType: ''
+  '88':
+    mat: JUNGLE_PLANKS
+    value: 0.8925
+    median: -1
+    stock: -1
+    value2: 0.044625
+    tradeType: ''
+  '89':
+    mat: LIME_STAINED_GLASS_PANE
+  '90':
+    mat: LIME_STAINED_GLASS_PANE
+  '91':
+    mat: OAK_SLAB
+    value: 0.455175
+    median: -1
+    stock: -1
+    value2: 0.02275875
+    tradeType: ''
+  '92':
+    mat: BIRCH_SLAB
+    value: 0.455175
+    median: -1
+    stock: -1
+    value2: 0.02275875
+    tradeType: ''
+  '93':
+    mat: ACACIA_SLAB
+    value: 0.455175
+    median: -1
+    stock: -1
+    value2: 0.02275875
+    tradeType: ''
+  '94':
+    mat: LIME_STAINED_GLASS_PANE
+  '95':
+    mat: SPRUCE_SLAB
+    value: 0.455175
+    median: -1
+    stock: -1
+    value2: 0.02275875
+    tradeType: ''
+  '96':
+    mat: DARK_OAK_SLAB
+    value: 0.455175
+    median: -1
+    stock: -1
+    value2: 0.02275875
+    tradeType: ''
+  '97':
+    mat: JUNGLE_SLAB
+    value: 0.455175
+    median: -1
+    stock: -1
+    value2: 0.02275875
+    tradeType: ''
+  '98':
+    mat: LIME_STAINED_GLASS_PANE
+  '99':
+    mat: LIME_STAINED_GLASS_PANE
+  '100':
+    mat: OAK_STAIRS
+    value: 1.365525
+    median: -1
+    stock: -1
+    value2: 0.06827625
+    tradeType: ''
+  '101':
+    mat: BIRCH_STAIRS
+    value: 1.365525
+    median: -1
+    stock: -1
+    value2: 0.06827625
+    tradeType: ''
+  '102':
+    mat: ACACIA_STAIRS
+    value: 1.365525
+    median: -1
+    stock: -1
+    value2: 0.06827625
+    tradeType: ''
+  '103':
+    mat: LIME_STAINED_GLASS_PANE
+  '104':
+    mat: SPRUCE_STAIRS
+    value: 1.365525
+    median: -1
+    stock: -1
+    value2: 0.06827625
+    tradeType: ''
+  '105':
+    mat: DARK_OAK_STAIRS
+    value: 1.365525
+    median: -1
+    stock: -1
+    value2: 0.06827625
+    tradeType: ''
+  '106':
+    mat: JUNGLE_STAIRS
+    value: 1.365525
+    median: -1
+    stock: -1
+    value2: 0.06827625
+    tradeType: ''
+  '107':
+    mat: LIME_STAINED_GLASS_PANE
+  '108':
+    mat: LIME_STAINED_GLASS_PANE
+  '109':
+    mat: OAK_TRAPDOOR
+    value: 2.73105
+    median: -1
+    stock: -1
+    value2: 0.1365525
+    tradeType: ''
+  '110':
+    mat: BIRCH_TRAPDOOR
+    value: 2.73105
+    median: -1
+    stock: -1
+    value2: 0.1365525
+    tradeType: ''
+  '111':
+    mat: ACACIA_TRAPDOOR
+    value: 2.73105
+    median: -1
+    stock: -1
+    value2: 0.1365525
+    tradeType: ''
+  '112':
+    mat: LIME_STAINED_GLASS_PANE
+  '113':
+    mat: SPRUCE_TRAPDOOR
+    value: 2.73105
+    median: -1
+    stock: -1
+    value2: 0.1365525
+    tradeType: ''
+  '114':
+    mat: DARK_OAK_TRAPDOOR
+    value: 2.73105
+    median: -1
+    stock: -1
+    value2: 0.1365525
+    tradeType: ''
+  '115':
+    mat: JUNGLE_TRAPDOOR
+    value: 2.73105
+    median: -1
+    stock: -1
+    value2: 0.1365525
+    tradeType: ''
+  '116':
+    mat: LIME_STAINED_GLASS_PANE
+  '117':
+    mat: LIME_STAINED_GLASS_PANE
+  '118':
+    mat: OAK_DOOR
+    value: 1.8207
+    median: -1
+    stock: -1
+    value2: 0.091035
+    tradeType: ''
+  '119':
+    mat: BIRCH_DOOR
+    value: 1.8207
+    median: -1
+    stock: -1
+    value2: 0.091035
+    tradeType: ''
+  '120':
+    mat: ACACIA_DOOR
+    value: 1.8207
+    median: -1
+    stock: -1
+    value2: 0.091035
+    tradeType: ''
+  '121':
+    mat: LIME_STAINED_GLASS_PANE
+  '122':
+    mat: SPRUCE_DOOR
+    value: 1.8207
+    median: -1
+    stock: -1
+    value2: 0.091035
+    tradeType: ''
+  '123':
+    mat: DARK_OAK_DOOR
+    value: 1.8207
+    median: -1
+    stock: -1
+    value2: 0.091035
+    tradeType: ''
+  '124':
+    mat: JUNGLE_DOOR
+    value: 1.8207
+    median: -1
+    stock: -1
+    value2: 0.091035
+    tradeType: ''
+  '125':
+    mat: LIME_STAINED_GLASS_PANE
+  '126':
+    mat: LIME_STAINED_GLASS_PANE
+  '127':
+    mat: OAK_PRESSURE_PLATE
+    value: 1.8207
+    median: -1
+    stock: -1
+    value2: 0.091035
+    tradeType: ''
+  '128':
+    mat: BIRCH_PRESSURE_PLATE
+    value: 1.8207
+    median: -1
+    stock: -1
+    value2: 0.091035
+    tradeType: ''
+  '129':
+    mat: ACACIA_PRESSURE_PLATE
+    value: 1.8207
+    median: -1
+    stock: -1
+    value2: 0.091035
+    tradeType: ''
+  '130':
+    mat: LIME_STAINED_GLASS_PANE
+  '131':
+    mat: SPRUCE_PRESSURE_PLATE
+    value: 1.8207
+    median: -1
+    stock: -1
+    value2: 0.091035
+    tradeType: ''
+  '132':
+    mat: DARK_OAK_PRESSURE_PLATE
+    value: 1.8207
+    median: -1
+    stock: -1
+    value2: 0.091035
+    tradeType: ''
+  '133':
+    mat: JUNGLE_PRESSURE_PLATE
+    value: 1.8207
+    median: -1
+    stock: -1
+    value2: 0.091035
+    tradeType: ''
+  '134':
+    mat: LIME_STAINED_GLASS_PANE
+  '135':
+    mat: LIME_STAINED_GLASS_PANE
+  '136':
+    mat: OAK_SIGN
+    value: 1.9754595
+    median: -1
+    stock: -1
+    value2: 0.098772975
+    tradeType: ''
+  '137':
+    mat: BIRCH_SIGN
+    value: 1.9754595
+    median: -1
+    stock: -1
+    value2: 0.098772975
+    tradeType: ''
+  '138':
+    mat: ACACIA_SIGN
+    value: 1.9754595
+    median: -1
+    stock: -1
+    value2: 0.098772975
+    tradeType: ''
+  '139':
+    mat: LIME_STAINED_GLASS_PANE
+  '140':
+    mat: SPRUCE_SIGN
+    value: 1.9754595
+    median: -1
+    stock: -1
+    value2: 0.098772975
+    tradeType: ''
+  '141':
+    mat: DARK_OAK_SIGN
+    value: 1.9754595
+    median: -1
+    stock: -1
+    value2: 0.098772975
+    tradeType: ''
+  '142':
+    mat: JUNGLE_SIGN
+    value: 1.9754595
+    median: -1
+    stock: -1
+    value2: 0.098772975
+    tradeType: ''
+  '143':
+    mat: LIME_STAINED_GLASS_PANE
+  '144':
+    mat: LIME_STAINED_GLASS_PANE
+  '145':
+    mat: OAK_FENCE
+    value: 3.950919
+    median: -1
+    stock: -1
+    value2: 0.19754595
+    tradeType: ''
+  '146':
+    mat: BIRCH_FENCE
+    value: 3.950919
+    median: -1
+    stock: -1
+    value2: 0.19754595
+    tradeType: ''
+  '147':
+    mat: ACACIA_FENCE
+    value: 3.950919
+    median: -1
+    stock: -1
+    value2: 0.19754595
+    tradeType: ''
+  '148':
+    mat: LIME_STAINED_GLASS_PANE
+  '149':
+    mat: SPRUCE_FENCE
+    value: 3.950919
+    median: -1
+    stock: -1
+    value2: 0.19754595
+    tradeType: ''
+  '150':
+    mat: DARK_OAK_FENCE
+    value: 3.950919
+    median: -1
+    stock: -1
+    value2: 0.19754595
+    tradeType: ''
+  '151':
+    mat: JUNGLE_FENCE
+    value: 3.950919
+    median: -1
+    stock: -1
+    value2: 0.19754595
+    tradeType: ''
+  '152':
+    mat: LIME_STAINED_GLASS_PANE
+  '153':
+    mat: LIME_STAINED_GLASS_PANE
+  '154':
+    mat: OAK_FENCE_GATE
+    value: 3.677814
+    median: -1
+    stock: -1
+    value2: 0.1838907
+    tradeType: ''
+  '155':
+    mat: BIRCH_FENCE_GATE
+    value: 3.677814
+    median: -1
+    stock: -1
+    value2: 0.1838907
+    tradeType: ''
+  '156':
+    mat: ACACIA_FENCE_GATE
+    value: 3.677814
+    median: -1
+    stock: -1
+    value2: 0.1838907
+    tradeType: ''
+  '157':
+    mat: LIME_STAINED_GLASS_PANE
+  '158':
+    mat: SPRUCE_FENCE_GATE
+    value: 3.677814
+    median: -1
+    stock: -1
+    value2: 0.1838907
+    tradeType: ''
+  '159':
+    mat: DARK_OAK_FENCE_GATE
+    value: 3.677814
+    median: -1
+    stock: -1
+    value2: 0.1838907
+    tradeType: ''
+  '160':
+    mat: JUNGLE_FENCE_GATE
+    value: 3.677814
+    median: -1
+    stock: -1
+    value2: 0.1838907
+    tradeType: ''
+  '161':
+    mat: LIME_STAINED_GLASS_PANE
+  '162':
+    mat: LIME_STAINED_GLASS_PANE
+  '163':
+    mat: OAK_BUTTON
+    value: 0.91035
+    median: -1
+    stock: -1
+    value2: 0.0455175
+    tradeType: ''
+  '164':
+    mat: BIRCH_BUTTON
+    value: 0.91035
+    median: -1
+    stock: -1
+    value2: 0.0455175
+    tradeType: ''
+  '165':
+    mat: ACACIA_BUTTON
+    value: 0.91035
+    median: -1
+    stock: -1
+    value2: 0.0455175
+    tradeType: ''
+  '166':
+    mat: LIME_STAINED_GLASS_PANE
+  '167':
+    mat: SPRUCE_BUTTON
+    value: 0.91035
+    median: -1
+    stock: -1
+    value2: 0.0455175
+    tradeType: ''
+  '168':
+    mat: DARK_OAK_BUTTON
+    value: 0.91035
+    median: -1
+    stock: -1
+    value2: 0.0455175
+    tradeType: ''
+  '169':
+    mat: JUNGLE_BUTTON
+    value: 0.91035
+    median: -1
+    stock: -1
+    value2: 0.0455175
+    tradeType: ''
+  '170':
+    mat: LIME_STAINED_GLASS_PANE
+  '171':
+    mat: LIME_STAINED_GLASS_PANE
+  '172':
+    mat: LIME_STAINED_GLASS_PANE
+  '173':
+    mat: LIME_STAINED_GLASS_PANE
+  '174':
+    mat: LIME_STAINED_GLASS_PANE
+  '175':
+    mat: LIME_STAINED_GLASS_PANE
+  '176':
+    mat: LIME_STAINED_GLASS_PANE
+  '177':
+    mat: LIME_STAINED_GLASS_PANE
+  '178':
+    mat: LIME_STAINED_GLASS_PANE
+  '179':
+    mat: LIME_STAINED_GLASS_PANE
+Wool:
+  Options:
+    page: 4
+    title: Wool & Carpet
+    lore: ''
+    permission: ''
+  '0':
+    mat: LIME_STAINED_GLASS_PANE
+  '1':
+    mat: LIME_STAINED_GLASS_PANE
+  '2':
+    mat: LIME_STAINED_GLASS_PANE
+  '3':
+    mat: LIME_STAINED_GLASS_PANE
+  '4':
+    mat: LIME_STAINED_GLASS_PANE
+  '5':
+    mat: LIME_STAINED_GLASS_PANE
+  '6':
+    mat: LIME_STAINED_GLASS_PANE
+  '7':
+    mat: LIME_STAINED_GLASS_PANE
+  '8':
+    mat: LIME_STAINED_GLASS_PANE
+  '9':
+    mat: LIME_STAINED_GLASS_PANE
+  '10':
+    mat: WHITE_WOOL
+    value: 5.1408
+    median: -1
+    stock: -1
+    value2: 0.25704
+    tradeType: ''
+  '11':
+    mat: YELLOW_WOOL
+    value: 8.885016
+    median: -1
+    stock: -1
+    value2: 0.4442508
+    tradeType: ''
+  '12':
+    mat: ORANGE_WOOL
+    value: 20.8711125
+    median: -1
+    stock: -1
+    value2: 1.043555625
+    tradeType: ''
+  '13':
+    mat: PINK_WOOL
+    value: 20.8711125
+    median: -1
+    stock: -1
+    value2: 1.043555625
+    tradeType: ''
+  '14':
+    mat: MAGENTA_WOOL
+    value: 8.885016
+    median: -1
+    stock: -1
+    value2: 0.4442508
+    tradeType: ''
+  '15':
+    mat: PURPLE_WOOL
+    value: 8.885016
+    median: -1
+    stock: -1
+    value2: 0.4442508
+    tradeType: ''
+  '16':
+    mat: RED_WOOL
+    value: 8.885016
+    median: -1
+    stock: -1
+    value2: 0.4442508
+    tradeType: ''
+  '17':
+    mat: LIME_STAINED_GLASS_PANE
+  '18':
+    mat: LIME_STAINED_GLASS_PANE
+  '19':
+    mat: LIGHT_BLUE_WOOL
+    value: 8.885016
+    median: -1
+    stock: -1
+    value2: 0.4442508
+    tradeType: ''
+  '20':
+    mat: CYAN_WOOL
+    value: 8.885016
+    median: -1
+    stock: -1
+    value2: 0.4442508
+    tradeType: ''
+  '21':
+    mat: BLUE_WOOL
+    value: 8.885016
+    median: -1
+    stock: -1
+    value2: 0.4442508
+    tradeType: ''
+  '22':
+    mat: GREEN_WOOL
+    value: 8.885016
+    median: -1
+    stock: -1
+    value2: 0.4442508
+    tradeType: ''
+  '23':
+    mat: LIME_WOOL
+    value: 8.885016
+    median: -1
+    stock: -1
+    value2: 0.4442508
+    tradeType: ''
+  '24':
+    mat: BROWN_WOOL
+    value: 8.885016
+    median: -1
+    stock: -1
+    value2: 0.4442508
+    tradeType: ''
+  '25':
+    mat: LIME_STAINED_GLASS_PANE
+  '26':
+    mat: LIME_STAINED_GLASS_PANE
+  '27':
+    mat: LIME_STAINED_GLASS_PANE
+  '28':
+    mat: LIME_STAINED_GLASS_PANE
+  '29':
+    mat: LIME_STAINED_GLASS_PANE
+  '30':
+    mat: LIGHT_GRAY_WOOL
+    value: 8.885016
+    median: -1
+    stock: -1
+    value2: 0.4442508
+    tradeType: ''
+  '31':
+    mat: GRAY_WOOL
+    value: 8.885016
+    median: -1
+    stock: -1
+    value2: 0.4442508
+    tradeType: ''
+  '32':
+    mat: BLACK_WOOL
+    value: 8.885016
+    median: -1
+    stock: -1
+    value2: 0.4442508
+    tradeType: ''
+  '33':
+    mat: LIME_STAINED_GLASS_PANE
+  '34':
+    mat: LIME_STAINED_GLASS_PANE
+  '35':
+    mat: LIME_STAINED_GLASS_PANE
+  '36':
+    mat: LIME_STAINED_GLASS_PANE
+  '37':
+    mat: LIME_STAINED_GLASS_PANE
+  '38':
+    mat: LIME_STAINED_GLASS_PANE
+  '39':
+    mat: LIME_STAINED_GLASS_PANE
+  '40':
+    mat: LIME_STAINED_GLASS_PANE
+  '41':
+    mat: LIME_STAINED_GLASS_PANE
+  '42':
+    mat: LIME_STAINED_GLASS_PANE
+  '43':
+    mat: LIME_STAINED_GLASS_PANE
+  '44':
+    mat: LIME_STAINED_GLASS_PANE
+  '45':
+    mat: LIME_STAINED_GLASS_PANE
+  '46':
+    mat: LIME_STAINED_GLASS_PANE
+  '47':
+    mat: LIME_STAINED_GLASS_PANE
+  '48':
+    mat: LIME_STAINED_GLASS_PANE
+  '49':
+    mat: LIME_STAINED_GLASS_PANE
+  '50':
+    mat: LIME_STAINED_GLASS_PANE
+  '51':
+    mat: LIME_STAINED_GLASS_PANE
+  '52':
+    mat: LIME_STAINED_GLASS_PANE
+  '53':
+    mat: LIME_STAINED_GLASS_PANE
+  '54':
+    mat: LIME_STAINED_GLASS_PANE
+  '55':
+    mat: WHITE_CARPET
+    value: 3.495744
+    median: -1
+    stock: -1
+    value2: -0.1747872
+    tradeType: BuyOnly
+  '56':
+    mat: YELLOW_CARPET
+    value: 6.04181088
+    median: -1
+    stock: -1
+    value2: -0.302090544
+    tradeType: BuyOnly
+  '57':
+    mat: ORANGE_CARPET
+    value: 14.1923565
+    median: -1
+    stock: -1
+    value2: -0.709617825
+    tradeType: BuyOnly
+  '58':
+    mat: PINK_CARPET
+    value: 14.1923565
+    median: -1
+    stock: -1
+    value2: -0.709617825
+    tradeType: BuyOnly
+  '59':
+    mat: MAGENTA_CARPET
+    value: 6.04181088
+    median: -1
+    stock: -1
+    value2: -0.302090544
+    tradeType: BuyOnly
+  '60':
+    mat: PURPLE_CARPET
+    value: 6.04181088
+    median: -1
+    stock: -1
+    value2: -0.302090544
+    tradeType: BuyOnly
+  '61':
+    mat: RED_CARPET
+    value: 6.04181088
+    median: -1
+    stock: -1
+    value2: -0.302090544
+    tradeType: BuyOnly
+  '62':
+    mat: LIME_STAINED_GLASS_PANE
+  '63':
+    mat: LIME_STAINED_GLASS_PANE
+  '64':
+    mat: LIGHT_BLUE_CARPET
+    value: 6.04181088
+    median: -1
+    stock: -1
+    value2: -0.302090544
+    tradeType: BuyOnly
+  '65':
+    mat: CYAN_CARPET
+    value: 6.04181088
+    median: -1
+    stock: -1
+    value2: -0.302090544
+    tradeType: BuyOnly
+  '66':
+    mat: BLUE_CARPET
+    value: 6.04181088
+    median: -1
+    stock: -1
+    value2: -0.302090544
+    tradeType: BuyOnly
+  '67':
+    mat: GREEN_CARPET
+    value: 6.04181088
+    median: -1
+    stock: -1
+    value2: -0.302090544
+    tradeType: BuyOnly
+  '68':
+    mat: LIME_CARPET
+    value: 6.04181088
+    median: -1
+    stock: -1
+    value2: -0.302090544
+    tradeType: BuyOnly
+  '69':
+    mat: BROWN_CARPET
+    value: 6.04181088
+    median: -1
+    stock: -1
+    value2: -0.302090544
+    tradeType: BuyOnly
+  '70':
+    mat: LIME_STAINED_GLASS_PANE
+  '71':
+    mat: LIME_STAINED_GLASS_PANE
+  '72':
+    mat: LIME_STAINED_GLASS_PANE
+  '73':
+    mat: LIME_STAINED_GLASS_PANE
+  '74':
+    mat: LIME_STAINED_GLASS_PANE
+  '75':
+    mat: LIGHT_GRAY_CARPET
+    value: 6.04181088
+    median: -1
+    stock: -1
+    value2: -0.302090544
+    tradeType: BuyOnly
+  '76':
+    mat: GRAY_CARPET
+    value: 6.04181088
+    median: -1
+    stock: -1
+    value2: -0.302090544
+    tradeType: BuyOnly
+  '77':
+    mat: BLACK_CARPET
+    value: 6.04181088
+    median: -1
+    stock: -1
+    value2: -0.302090544
+    tradeType: BuyOnly
+  '78':
+    mat: LIME_STAINED_GLASS_PANE
+  '79':
+    mat: LIME_STAINED_GLASS_PANE
+  '80':
+    mat: LIME_STAINED_GLASS_PANE
+  '81':
+    mat: LIME_STAINED_GLASS_PANE
+  '82':
+    mat: LIME_STAINED_GLASS_PANE
+  '83':
+    mat: LIME_STAINED_GLASS_PANE
+  '84':
+    mat: LIME_STAINED_GLASS_PANE
+  '85':
+    mat: LIME_STAINED_GLASS_PANE
+  '86':
+    mat: LIME_STAINED_GLASS_PANE
+  '87':
+    mat: LIME_STAINED_GLASS_PANE
+  '88':
+    mat: LIME_STAINED_GLASS_PANE
+  '89':
+    mat: LIME_STAINED_GLASS_PANE
+  '90':
+    mat: LIME_STAINED_GLASS_PANE
+  '91':
+    mat: LIME_STAINED_GLASS_PANE
+  '92':
+    mat: LIME_STAINED_GLASS_PANE
+  '93':
+    mat: LIME_STAINED_GLASS_PANE
+  '94':
+    mat: LIME_STAINED_GLASS_PANE
+  '95':
+    mat: LIME_STAINED_GLASS_PANE
+  '96':
+    mat: LIME_STAINED_GLASS_PANE
+  '97':
+    mat: LIME_STAINED_GLASS_PANE
+  '98':
+    mat: LIME_STAINED_GLASS_PANE
+  '99':
+    mat: LIME_STAINED_GLASS_PANE
+  '100':
+    mat: WHITE_BED
+    value: 18.461898
+    median: -1
+    stock: -1
+    value2: 0.9230949
+    tradeType: ''
+  '101':
+    mat: YELLOW_BED
+    value: 29.91919896
+    median: -1
+    stock: -1
+    value2: 1.495959948
+    tradeType: ''
+  '102':
+    mat: ORANGE_BED
+    value: 66.59665425
+    median: -1
+    stock: -1
+    value2: 3.329832713
+    tradeType: ''
+  '103':
+    mat: PINK_BED
+    value: 66.59665425
+    median: -1
+    stock: -1
+    value2: 3.329832713
+    tradeType: ''
+  '104':
+    mat: MAGENTA_BED
+    value: 29.91919896
+    median: -1
+    stock: -1
+    value2: 1.495959948
+    tradeType: ''
+  '105':
+    mat: PURPLE_BED
+    value: 29.91919896
+    median: -1
+    stock: -1
+    value2: 1.495959948
+    tradeType: ''
+  '106':
+    mat: RED_BED
+    value: 29.91919896
+    median: -1
+    stock: -1
+    value2: 1.495959948
+    tradeType: ''
+  '107':
+    mat: LIME_STAINED_GLASS_PANE
+  '108':
+    mat: LIME_STAINED_GLASS_PANE
+  '109':
+    mat: LIGHT_BLUE_BED
+    value: 29.91919896
+    median: -1
+    stock: -1
+    value2: 1.495959948
+    tradeType: ''
+  '110':
+    mat: CYAN_BED
+    value: 29.91919896
+    median: -1
+    stock: -1
+    value2: 1.495959948
+    tradeType: ''
+  '111':
+    mat: BLUE_BED
+    value: 29.91919896
+    median: -1
+    stock: -1
+    value2: 1.495959948
+    tradeType: ''
+  '112':
+    mat: GREEN_BED
+    value: 29.91919896
+    median: -1
+    stock: -1
+    value2: 1.495959948
+    tradeType: ''
+  '113':
+    mat: LIME_BED
+    value: 29.91919896
+    median: -1
+    stock: -1
+    value2: 1.495959948
+    tradeType: ''
+  '114':
+    mat: BROWN_BED
+    value: 29.91919896
+    median: -1
+    stock: -1
+    value2: 1.495959948
+    tradeType: ''
+  '115':
+    mat: LIME_STAINED_GLASS_PANE
+  '116':
+    mat: LIME_STAINED_GLASS_PANE
+  '117':
+    mat: LIME_STAINED_GLASS_PANE
+  '118':
+    mat: LIME_STAINED_GLASS_PANE
+  '119':
+    mat: LIME_STAINED_GLASS_PANE
+  '120':
+    mat: LIGHT_GRAY_BED
+    value: 29.91919896
+    median: -1
+    stock: -1
+    value2: 1.495959948
+    tradeType: ''
+  '121':
+    mat: GRAY_BED
+    value: 29.91919896
+    median: -1
+    stock: -1
+    value2: 1.495959948
+    tradeType: ''
+  '122':
+    mat: BLACK_BED
+    value: 29.91919896
+    median: -1
+    stock: -1
+    value2: 1.495959948
+    tradeType: ''
+  '123':
+    mat: LIME_STAINED_GLASS_PANE
+  '124':
+    mat: LIME_STAINED_GLASS_PANE
+  '125':
+    mat: LIME_STAINED_GLASS_PANE
+  '126':
+    mat: LIME_STAINED_GLASS_PANE
+  '127':
+    mat: LIME_STAINED_GLASS_PANE
+  '128':
+    mat: LIME_STAINED_GLASS_PANE
+  '129':
+    mat: LIME_STAINED_GLASS_PANE
+  '130':
+    mat: LIME_STAINED_GLASS_PANE
+  '131':
+    mat: LIME_STAINED_GLASS_PANE
+  '132':
+    mat: LIME_STAINED_GLASS_PANE
+  '133':
+    mat: LIME_STAINED_GLASS_PANE
+  '134':
+    mat: LIME_STAINED_GLASS_PANE
+  '135':
+    mat: LIME_STAINED_GLASS_PANE
+  '136':
+    mat: LIME_STAINED_GLASS_PANE
+  '137':
+    mat: LIME_STAINED_GLASS_PANE
+  '138':
+    mat: LIME_STAINED_GLASS_PANE
+  '139':
+    mat: LIME_STAINED_GLASS_PANE
+  '140':
+    mat: LIME_STAINED_GLASS_PANE
+  '141':
+    mat: LIME_STAINED_GLASS_PANE
+  '142':
+    mat: LIME_STAINED_GLASS_PANE
+  '143':
+    mat: LIME_STAINED_GLASS_PANE
+  '144':
+    mat: LIME_STAINED_GLASS_PANE
+  '145':
+    mat: WHITE_BANNER
+    value: 31.9259745
+    median: -1
+    stock: -1
+    value2: 1.596298725
+    tradeType: ''
+  '146':
+    mat: YELLOW_BANNER
+    value: 54.84057642
+    median: -1
+    stock: -1
+    value2: 2.742028821
+    tradeType: ''
+  '147':
+    mat: ORANGE_BANNER
+    value: 128.195487
+    median: -1
+    stock: -1
+    value2: 6.40977435
+    tradeType: ''
+  '148':
+    mat: PINK_BANNER
+    value: 128.195487
+    median: -1
+    stock: -1
+    value2: 6.40977435
+    tradeType: ''
+  '149':
+    mat: MAGENTA_BANNER
+    value: 54.84057642
+    median: -1
+    stock: -1
+    value2: 2.742028821
+    tradeType: ''
+  '150':
+    mat: PURPLE_BANNER
+    value: 54.84057642
+    median: -1
+    stock: -1
+    value2: 2.742028821
+    tradeType: ''
+  '151':
+    mat: RED_BANNER
+    value: 54.84057642
+    median: -1
+    stock: -1
+    value2: 2.742028821
+    tradeType: ''
+  '152':
+    mat: LIME_STAINED_GLASS_PANE
+  '153':
+    mat: LIME_STAINED_GLASS_PANE
+  '154':
+    mat: LIGHT_BLUE_BANNER
+    value: 54.84057642
+    median: -1
+    stock: -1
+    value2: 2.742028821
+    tradeType: ''
+  '155':
+    mat: CYAN_BANNER
+    value: 54.84057642
+    median: -1
+    stock: -1
+    value2: 2.742028821
+    tradeType: ''
+  '156':
+    mat: BLUE_BANNER
+    value: 54.84057642
+    median: -1
+    stock: -1
+    value2: 2.742028821
+    tradeType: ''
+  '157':
+    mat: GREEN_BANNER
+    value: 54.84057642
+    median: -1
+    stock: -1
+    value2: 2.742028821
+    tradeType: ''
+  '158':
+    mat: LIME_BANNER
+    value: 54.84057642
+    median: -1
+    stock: -1
+    value2: 2.742028821
+    tradeType: ''
+  '159':
+    mat: BROWN_BANNER
+    value: 54.84057642
+    median: -1
+    stock: -1
+    value2: 2.742028821
+    tradeType: ''
+  '160':
+    mat: LIME_STAINED_GLASS_PANE
+  '161':
+    mat: LIME_STAINED_GLASS_PANE
+  '162':
+    mat: LIME_STAINED_GLASS_PANE
+  '163':
+    mat: LIME_STAINED_GLASS_PANE
+  '164':
+    mat: LIME_STAINED_GLASS_PANE
+  '165':
+    mat: LIGHT_GRAY_BANNER
+    value: 54.84057642
+    median: -1
+    stock: -1
+    value2: 2.742028821
+    tradeType: ''
+  '166':
+    mat: GRAY_BANNER
+    value: 54.84057642
+    median: -1
+    stock: -1
+    value2: 2.742028821
+    tradeType: ''
+  '167':
+    mat: BLACK_BANNER
+    value: 54.84057642
+    median: -1
+    stock: -1
+    value2: 2.742028821
+    tradeType: ''
+  '168':
+    mat: LIME_STAINED_GLASS_PANE
+  '169':
+    mat: LIME_STAINED_GLASS_PANE
+  '170':
+    mat: LIME_STAINED_GLASS_PANE
+  '171':
+    mat: LIME_STAINED_GLASS_PANE
+  '172':
+    mat: LIME_STAINED_GLASS_PANE
+  '173':
+    mat: CREEPER_BANNER_PATTERN
+    value: 396.3414
+    median: -1
+    stock: -1
+    value2: -19.81707
+    tradeType: BuyOnly
+  '174':
+    mat: FLOWER_BANNER_PATTERN
+    value: 7.2114
+    median: -1
+    stock: -1
+    value2: -0.36057
+    tradeType: BuyOnly
+  '175':
+    mat: GLOBE_BANNER_PATTERN
+    value: 2856
+    median: -1
+    stock: -1
+    value2: -142.8
+    tradeType: BuyOnly
+  '176':
+    mat: MOJANG_BANNER_PATTERN
+    value: 110.7414
+    median: -1
+    stock: -1
+    value2: -5.53707
+    tradeType: BuyOnly
+  '177':
+    mat: SKULL_BANNER_PATTERN
+    value: 2234.8914
+    median: -1
+    stock: -1
+    value2: -111.74457
+    tradeType: BuyOnly
+  '178':
+    mat: LIME_STAINED_GLASS_PANE
+  '179':
+    mat: LIME_STAINED_GLASS_PANE

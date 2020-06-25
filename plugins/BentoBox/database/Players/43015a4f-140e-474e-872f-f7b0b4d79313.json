@@ -1,0 +1,24 @@
+{
+  "homeLocations": [
+    [
+      [
+        "caveblock_world",
+        800.5,
+        60.0,
+        400.5,
+        0.0,
+        0.0
+      ],
+      1
+    ]
+  ],
+  "uniqueId": "43015a4f-140e-474e-872f-f7b0b4d79313",
+  "playerName": "Jigbon",
+  "resets": {},
+  "locale": "",
+  "deaths": {
+    "caveblock_world": 0
+  },
+  "pendingKicks": [],
+  "flagsDisplayMode": "BASIC"
+}

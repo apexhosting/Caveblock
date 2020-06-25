@@ -1,0 +1,24 @@
+{
+  "homeLocations": [
+    [
+      [
+        "caveblock_world",
+        400.5,
+        65.0,
+        402.5,
+        180.0,
+        30.0
+      ],
+      1
+    ]
+  ],
+  "uniqueId": "7e418993-7482-43b2-a8f6-740d6a308ce5",
+  "playerName": "LordSherman",
+  "resets": {},
+  "locale": "",
+  "deaths": {
+    "caveblock_world": 0
+  },
+  "pendingKicks": [],
+  "flagsDisplayMode": "BASIC"
+}

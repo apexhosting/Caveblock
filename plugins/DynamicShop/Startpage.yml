@@ -1,0 +1,152 @@
+# LineBreak: \, |, bracket is NOT working. Recommended character: /, _, ;, ※
+Buttons:
+  '4':
+    displayName: §5Spawners
+    lore: §fGo to shop
+    icon: SPAWNER
+    action: dm open spawner1
+  '10':
+    displayName: §3Blocks
+    lore: §fGo to shop
+    icon: STONE
+    action: ds shop Blocks
+  '11':
+    displayName: §bOres & Ingots
+    lore: §fGo to shop
+    icon: DIAMOND_ORE
+    action: ds shop Ores
+  '12':
+    displayName: §2Wood
+    lore: §fGo to shop
+    icon: OAK_LOG
+    action: ds shop Wood
+  '13':
+    displayName: §3Glass & Panes
+    lore: §fGo to shop
+    icon: LIGHT_BLUE_STAINED_GLASS
+    action: ds shop Glass
+  '14':
+    displayName: §3Wool & Carpet
+    lore: §fGo to shop
+    icon: LIGHT_BLUE_WOOL
+    action: ds shop Wool
+  '15':
+    displayName: §3Concrete
+    lore: §fGo to shop
+    icon: LIGHT_BLUE_CONCRETE
+    action: ds shop Concrete
+  '16':
+    displayName: §3Terracotta
+    lore: §fGo to shop
+    icon: BLUE_GLAZED_TERRACOTTA
+    action: ds shop Terracotta
+  '19':
+    displayName: §3Foodstuffs
+    lore: §fGo to shop
+    icon: COOKED_BEEF
+    action: ds shop Foods
+  '20':
+    displayName: §3Weapons & Armour
+    lore: §fGo to shop
+    icon: DIAMOND_SWORD
+    action: ds shop Tools
+  '21':
+    displayName: §3Mob Drops
+    lore: §fGo to shop
+    icon: ROTTEN_FLESH
+    action: ds shop MobDrops
+  '22':
+    displayName: §4Redstone
+    lore: §fGo to shop
+    icon: REDSTONE
+    action: ds shop Redstone
+  '23':
+    displayName: §3Brewing
+    lore: §fGo to shop
+    icon: BREWING_STAND
+    action: ds shop Brewing
+  '24':
+    displayName: §3Dyes & Flowers
+    lore: §fGo to shop
+    icon: BLUE_DYE
+    action: ds shop Dye
+  '25':
+    displayName: §3Transport
+    lore: §fGo to shop
+    icon: RAIL
+    action: ds shop Transport
+  '30':
+    displayName: §3Crafting & Storage
+    lore: §fGo to shop
+    icon: CRAFTING_TABLE
+    action: ds shop Crafting
+  '31':
+    displayName: §3Farming
+    lore: §fGo to shop
+    icon: WHEAT
+    action: ds shop Farming
+  '32':
+    displayName: §3Miscellaneous
+    lore: §fGo to shop
+    icon: LAVA_BUCKET
+    action: ds shop Misc
+  '0':
+    displayName: §3Bees
+    lore: §fGo to shop
+    icon: HONEY_BLOCK
+    action: ds shop Bees
+  '1':
+    icon: CYAN_STAINED_GLASS_PANE
+    action: ds
+  '2':
+    icon: CYAN_STAINED_GLASS_PANE
+    action: ds
+  '3':
+    icon: CYAN_STAINED_GLASS_PANE
+    action: ds
+  '5':
+    icon: CYAN_STAINED_GLASS_PANE
+    action: ds
+  '6':
+    icon: CYAN_STAINED_GLASS_PANE
+    action: ds
+  '7':
+    icon: CYAN_STAINED_GLASS_PANE
+    action: ds
+  '8':
+    icon: CYAN_STAINED_GLASS_PANE
+    action: ds
+  '9':
+    icon: CYAN_STAINED_GLASS_PANE
+    action: ds
+  '17':
+    icon: CYAN_STAINED_GLASS_PANE
+    action: ds
+  '18':
+    icon: CYAN_STAINED_GLASS_PANE
+    action: ds
+  '35':
+    icon: CYAN_STAINED_GLASS_PANE
+    action: ds
+  '34':
+    icon: CYAN_STAINED_GLASS_PANE
+    action: ds
+  '33':
+    icon: CYAN_STAINED_GLASS_PANE
+    action: ds
+  '29':
+    icon: CYAN_STAINED_GLASS_PANE
+    action: ds
+  '28':
+    icon: CYAN_STAINED_GLASS_PANE
+    action: ds
+  '27':
+    icon: CYAN_STAINED_GLASS_PANE
+    action: ds
+  '26':
+    icon: CYAN_STAINED_GLASS_PANE
+    action: ds
+Options:
+  Title: §3§lCaveBlock Shop
+  UiSlotCount: 36
+  LineBreak: /

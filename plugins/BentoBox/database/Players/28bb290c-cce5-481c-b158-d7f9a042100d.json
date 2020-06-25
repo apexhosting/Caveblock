@@ -1,0 +1,24 @@
+{
+  "homeLocations": [
+    [
+      [
+        "caveblock_world",
+        399.5,
+        62.0,
+        -400.5,
+        90.0,
+        30.0
+      ],
+      1
+    ]
+  ],
+  "uniqueId": "28bb290c-cce5-481c-b158-d7f9a042100d",
+  "playerName": "SpiderRobotMan",
+  "resets": {},
+  "locale": "",
+  "deaths": {
+    "caveblock_world": 3
+  },
+  "pendingKicks": [],
+  "flagsDisplayMode": "BASIC"
+}

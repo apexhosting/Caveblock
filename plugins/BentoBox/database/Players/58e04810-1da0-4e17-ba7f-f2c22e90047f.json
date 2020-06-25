@@ -1,0 +1,26 @@
+{
+  "homeLocations": [
+    [
+      [
+        "caveblock_world",
+        800.5,
+        60.0,
+        800.5,
+        0.0,
+        0.0
+      ],
+      1
+    ]
+  ],
+  "uniqueId": "58e04810-1da0-4e17-ba7f-f2c22e90047f",
+  "playerName": "Retrovidya",
+  "resets": {
+    "caveblock_world": 2
+  },
+  "locale": "",
+  "deaths": {
+    "caveblock_world": 0
+  },
+  "pendingKicks": [],
+  "flagsDisplayMode": "BASIC"
+}
