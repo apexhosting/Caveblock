@@ -24,3 +24,5 @@ island:
     regular-color: '&9'
     block-limit-syntax: '&5[number]&7/&e[limit]'
     no-limits: '&3&LS&c&lC &A&L» &4Bu dünyada limitler ayarlı değil!'
+    recount:
+      description: Ada limitlerini tekrardan hesaplar.

@@ -1,4 +1,4 @@
-# CaveBlock Configuration 1.11.0
+# CaveBlock Configuration 1.14.0
 caveblock:
   command:
     # Cave Command. What command users will run to access their cave.
@@ -7,6 +7,16 @@ caveblock:
     # The Cave admin command.
     # To define alias, just separate commands with white space.
     admin: cbadmin cba
+    # The default action for new player command call.
+    # Sub-command of main player command that will be run on first player command call.
+    # By default it is sub-command 'create'.
+    # Added since 1.13.0.
+    new-player-action: create
+    # The default action for player command.
+    # Sub-command of main player command that will be run on each player command call.
+    # By default it is sub-command 'go'.
+    # Added since 1.13.0.
+    default-action: go
 world:
   # Friendly name for this world. Used in admin commands. Must be a single word
   friendly-name: CaveBlock
@@ -110,6 +120,9 @@ world:
     # Caves in Nether. Change to false for standard vanilla nether.
     # /!\ BentoBox currently does not support changing this value mid-game. If you do need to change it, do a full reset of your databases and worlds.
     caves: true
+    # The default biome for the nether world (this may affect what mobs can spawn)
+    # Added since 1.14.0.
+    biome: NETHER_WASTES
     # Nether spawn protection radius - this is the distance around the nether spawn
     # that will be protected from player interaction (breaking blocks, pouring lava etc.)
     # Minimum is 0 (not recommended), maximum is 100. Default is 25.
@@ -149,6 +162,9 @@ world:
     generate: true
     # /!\ BentoBox currently does not support changing this value mid-game. If you do need to change it, do a full reset of your databases and worlds.
     caves: true
+    # The default biome for the end world (this may affect what mobs can spawn)
+    # Added since 1.14.0.
+    biome: THE_END
     # /!\ This feature is experimental and might not work as expected or might not work at all.
     dragon-spawn: false
     # Make over world roof of bedrock, if false, it will be made from stone
@@ -176,9 +192,9 @@ world:
     - MATERIAL:CHORUS_PLANT:1:3
   # Mob white list - these mobs will NOT be removed when logging in or doing /cave
   remove-mobs-whitelist:
+  - 'null'
   - ENDERMAN
   - ZOMBIE_VILLAGER
-  - PIG_ZOMBIE
   - WITHER
   # World flags. These are boolean settings for various flags for this world
   flags:
@@ -233,8 +249,8 @@ world:
     LEVER: 500
     ELYTRA: 0
     HURT_MONSTERS: 0
-    CAKE: 500
     RIDING: 500
+    CAKE: 500
     NAME_TAG: 500
     ARMOR_STAND: 500
     TRADING: 0
@@ -246,8 +262,8 @@ world:
     LECTERN: 500
     CROP_TRAMPLE: 500
     ITEM_PICKUP: 0
-    BREWING: 500
     DROPPER: 500
+    BREWING: 500
     TNT_PRIMING: 500
     COLLECT_WATER: 500
     BUTTON: 500
@@ -258,8 +274,8 @@ world:
     PRESSURE_PLATE: 0
     EXPERIENCE_BOTTLE_THROWING: 500
     DYE: 500
-    ITEM_FRAME: 500
     PLACE_BLOCKS: 500
+    ITEM_FRAME: 500
     CRAFTING: 0
     ENCHANTING: 0
     SHEARING: 500
@@ -272,8 +288,8 @@ world:
     EXPERIENCE_PICKUP: 500
     HOPPER: 500
     LEASH: 500
-    MOUNT_INVENTORY: 500
     BREAK_BLOCKS: 500
+    MOUNT_INVENTORY: 500
     CHORUS_FRUIT: 500
     CONTAINER: 500
     JUKEBOX: 500
@@ -282,11 +298,9 @@ world:
   default-cave-settings:
     PVP_END: false
     PVP_NETHER: false
-    ANIMAL_SPAWN: true
     LEAF_DECAY: true
     TNT_DAMAGE: true
     FIRE_IGNITE: true
-    MONSTER_SPAWN: true
     FIRE_SPREAD: true
     FIRE_BURNING: true
     PVP_OVERWORLD: false
@@ -306,6 +320,16 @@ cave:
   # Default max team size
   # Permission size cannot be less than the default below. 
   max-team-size: 4
+  # Default maximum number of coop rank members per cave
+  # Players can have the caveblock.coop.maxsize.<number> permission to be bigger but
+  # permission size cannot be less than the default below. 
+  # Added since 1.13.0.
+  max-coop-size: 4
+  # Default maximum number of trusted rank members per cave
+  # Players can have the caveblock.trust.maxsize.<number> permission to be bigger but
+  # permission size cannot be less than the default below. 
+  # Added since 1.13.0.
+  max-trusted-size: 4
   # Default maximum number of homes a player can have. Min = 1
   # Accessed via /cave sethome <number> or /cave go <number>
   max-homes: 1
@@ -429,6 +453,10 @@ protection:
   - GHAST
   - BAT
   - BLAZE
+  # CaveBlock blocked mobs.
+  # List of mobs that should not spawn in the CaveBlock.
+  # Added since 1.13.0.
+  block-mobs: []
   # Invincible visitors. List of damages that will not affect visitors.
   # Make list blank if visitors should receive all damages
   invincible-visitors:

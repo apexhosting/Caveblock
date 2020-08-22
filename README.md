@@ -1,2 +1,30 @@
-# Caveblock
-Apex Hosting CaveBlock GameType
+# CaveBlock
+
+## Plugin List
+[Advanced Achievements](https://www.spigotmc.org/resources/advanced-achievements.6239/)
+[Auction House](https://www.spigotmc.org/resources/auctionhouse.61836/)
+[Bento Box](https://github.com/BentoBoxWorld/BentoBox/)
+[Biomes Addon](https://github.com/BentoBoxWorld/Biomes)
+[CaveBlock Addon](https://github.com/BentoBoxWorld/CaveBlock/)
+[Challenges Addon](https://github.com/BentoBoxWorld/Challenges/)
+[Control Panel](https://github.com/BentoBoxWorld/ControlPanel/)
+[DimensionalTrees Addon](https://github.com/BentoBoxWorld/DimensionalTrees/)
+[Level Addon](https://github.com/BentoBoxWorld/Level/)
+[Lmits Addon](https://github.com/BentoBoxWorld/Limits/)
+[TwerkingForTrees addon](https://github.com/BentoBoxWorld/TwerkingForTrees/)
+[Warps Addon](https://github.com/BentoBoxWorld/Warps/)
+[Core Protect](https://www.spigotmc.org/resources/coreprotect.8631/)
+[Deluxe Menus](https://www.spigotmc.org/resources/deluxemenus.11734/)
+[Dynamic Shop](https://www.spigotmc.org/resources/ss-dynamic-shop-1-13-1-16.65603/)
+[EssentialsX](https://www.spigotmc.org/resources/essentialsx.9089/)
+[Holographic Displays](https://dev.bukkit.org/projects/holographic-displays)
+[Nametag Edit](https://www.spigotmc.org/resources/nametagedit.3836/)
+[PermissionsEx](https://github.com/PEXPlugins/PermissionsEx)
+[PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/)
+[ProtocolLib](https://www.spigotmc.org/resources/protocollib.1997/)
+[Stone Ores 2](https://github.com/TreeboMC/StoneOres2/)
+[TitleManager](https://www.spigotmc.org/resources/titlemanager.1049/)
+[Ultimate Stacker](https://songoda.com/marketplace/product/ultimatestacker-the-simple-to-use-stacker.16)
+[Vault](https://www.spigotmc.org/resources/vault.34315/)
+[WorldEdit](https://dev.bukkit.org/projects/worldedit)
+[WorldGuard](https://dev.bukkit.org/projects/worldguard)
