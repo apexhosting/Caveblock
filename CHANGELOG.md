@@ -41,5 +41,5 @@ All notable changes to this project will be documented in this file.
 ### Changed
 - Nothing
 
-[2.0]: https://github.com/apexhosting/SkyGrid/releases/tag/2.0
-[1.0]: https://github.com/apexhosting/SkyGrid/releases/tag/1.0
+[2.0]: https://github.com/apexhosting/Caveblock/releases/tag/2.0
+[1.0]: https://github.com/apexhosting/Caveblock/releases/tag/1.0
