@@ -1,4 +1,5 @@
 # CaveBlock
+![alt text](https://apex-misc.s3.amazonaws.com/Images/Caveblock+Thumbnail.png)
 
 ## Plugin List
 [Advanced Achievements](https://www.spigotmc.org/resources/advanced-achievements.6239/)
