@@ -84,8 +84,11 @@ triggers:
   sign: '[AuctionHouse]'
   block_name: Auction House
   entity_name: Auction House
-configVersion: 31
+configVersion: 32
 restricted_items:
+  mcmmo_ability:
+    persistent_data:
+      mcmmo:super_ability_boosted: 0
   mcmmo:
     lore:
     - mcMMO Ability Tool
@@ -98,6 +101,8 @@ restricted_items:
   '3':
     item: minecraft:structure_block
   example:
+    unbreakable: true
+    custom_model_data: 1
     name: \u00a7cVorpal Sword
     item: minecraft:diamond_sword
     lore:

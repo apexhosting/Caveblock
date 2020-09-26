@@ -40,7 +40,6 @@
     "BREEDING": 500,
     "END_PORTAL": 500,
     "REDSTONE": 500,
-    "ANIMAL_SPAWN": 0,
     "BUTTON": 500,
     "BREWING": 500,
     "MILKING": 0,
@@ -89,7 +88,6 @@
     "PVP_NETHER": -1,
     "PVP_OVERWORLD": -1,
     "FISH_SCOOPING": 500,
-    "MONSTER_SPAWN": 0,
     "FROST_WALKER": 500,
     "CHALLENGES_ISLAND_PROTECTION": 0,
     "CAKE": 500,
@@ -99,7 +97,8 @@
     "EGGS": 500,
     "RIDING": 500,
     "ITEM_DROP": 0,
-    "GATE": 0
+    "GATE": 0,
+    "MONSTER_NATURAL_SPAWN": 500
   },
   "history": [],
   "levelHandicap": 0,

@@ -135,6 +135,7 @@ biomes:
         undefined: undefiniert
         island: Insel
         chunk: Chunk
+        range: Bereich
       visibility-mode:
         all: Alle &r- Alle Biome auflisten
         deployed: Benutzbar- Liste der bereitgestellten Biome

@@ -143,6 +143,7 @@ biomes:
         chunk: Chunk
         square: Vzdálenost
         undefined: Neuvedeno
+        range: Vzdálenost
       visibility-mode:
         info: Povolí modifikovat, které biomy můžeš vidět.
         all: Všechny &r- seznam všech biomů

@@ -1,6 +1,21 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [2.1]
+
+### Changed
+- Update Advanced Achievement from version 6.2.0 to 6.2.1
+- Update Auction House from version 2.1-RC8 to 2.1.6
+- Update BentoBox from version 1.14.2 to 1.15.0
+- Update Biomes addon from version 1.7.0 to 1.13.0
+- Update Core Protect from version 19.1 to 19.2
+- Update Deluxe Menus from version 1.13.2 to 1.13.3
+- Update EssentialsX from version 2.18.0 to 2.18.1
+- Update Nametag Edit from version 4.4.10 to Custom
+- Update ProtocolLib from version 4.5.1 Build 476 to 4.6.0 Build 480
+- Update Ultimte Stacker from version 1.11.20 to 2.0.8
+- Update WorldEdit from version 7.2.0 Beta 3 to 7.2.0 Beta 5
+
 ## [2.0]
 
 ### Added
@@ -38,8 +53,6 @@ All notable changes to this project will be documented in this file.
 ### Added
 - Initial commit of pack to Github for version control
 
-### Changed
-- Nothing
-
+[2.1]: https://github.com/apexhosting/Caveblock/releases/tag/2.1
 [2.0]: https://github.com/apexhosting/Caveblock/releases/tag/2.0
 [1.0]: https://github.com/apexhosting/Caveblock/releases/tag/1.0
