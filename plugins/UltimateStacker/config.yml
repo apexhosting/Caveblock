@@ -179,6 +179,17 @@ Entities:
   # Should entities be sheared in a single click?
   Shear In One Click: false
 
+  # Which custom entity plugins should be used?
+  # Remove a plugin from this list to disable the stacking of their entities.
+  Enabled Custom Entity Plugins:
+  - MythicMobs
+
+  # Which custom entities should not be stacked?
+  # List the entities using their plugin name as a prefix in all lowercase.
+  # Example: mythicmobs_test
+  Blacklisted Custom Entities:
+  - mythicmobs_test
+
 Items:
 
   # Should items be stacked?

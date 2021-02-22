@@ -1,6 +1,23 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [2.3]
+
+### Changed
+- Updated to 1.16.5
+- All plugins and addons updated
+- Use paper as base Jar
+
+## [2.2]
+
+### Changed
+- Update Auction House from version 2.1.6 to 2.1.10
+- Update BentoBox from version 1.15.0 to 1.15.1
+- Update ProtocolLib from version 4.6.0 Build 480 to 4.6.0 Build 482
+- Update Ultimte Stacker from version 2.0.8 to 2.0.10
+- Update WorldEdit from version 7.2.0 Beta 5 to  7.2.0 Release Candidate 2
+- Added Bank Addon
+
 ## [2.1]
 
 ### Changed
@@ -53,6 +70,8 @@ All notable changes to this project will be documented in this file.
 ### Added
 - Initial commit of pack to Github for version control
 
+[2.3]: https://github.com/apexhosting/Caveblock/releases/tag/2.3
+[2.2]: https://github.com/apexhosting/Caveblock/releases/tag/2.2
 [2.1]: https://github.com/apexhosting/Caveblock/releases/tag/2.1
 [2.0]: https://github.com/apexhosting/Caveblock/releases/tag/2.0
 [1.0]: https://github.com/apexhosting/Caveblock/releases/tag/1.0

@@ -5,11 +5,12 @@
   "description": [
     "Where are my corrals?"
   ],
-  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2578\n  type: TROPICAL_FISH\n",
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2586\n  type: TROPICAL_FISH\n",
   "order": -1,
   "requiredLevel": 0,
-  "requiredCost": 100,
+  "requiredCost": 100.0,
   "requiredPermissions": [],
   "world": "caveblock_world",
+  "environment": "NORMAL",
   "uniqueId": "CaveBlock_warm_ocean"
 }

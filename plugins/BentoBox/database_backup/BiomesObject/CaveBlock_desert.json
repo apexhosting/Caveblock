@@ -1,0 +1,17 @@
+{
+  "biome": "DESERT",
+  "deployed": true,
+  "friendlyName": "Desert",
+  "description": [
+    "It is too hot for snow",
+    "and ice!"
+  ],
+  "icon": "is:\n  ==: org.bukkit.inventory.ItemStack\n  v: 2580\n  type: SAND\n",
+  "order": -1,
+  "requiredLevel": 0,
+  "requiredCost": 100.0,
+  "requiredPermissions": [],
+  "world": "caveblock_world",
+  "environment": "NORMAL",
+  "uniqueId": "CaveBlock_desert"
+}
