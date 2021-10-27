@@ -1,4 +1,4 @@
-# CaveBlock Configuration 1.14.2
+# CaveBlock Configuration 1.14.5
 caveblock:
   command:
     # Cave Command. What command users will run to access their cave.
@@ -22,7 +22,7 @@ world:
   friendly-name: CaveBlock
   # Name of the world - if it does not exist then it will be generated.
   # It acts like a prefix for nether and end (e.g. CaveBlock-world, CaveBlock-world_nether, CaveBlock-world_end)
-  world-name: caveblock_world
+  world-name: caveblock-world
   # World difficulty setting - PEACEFUL, EASY, NORMAL, HARD
   # Other plugins may override this setting
   difficulty: HARD
@@ -50,11 +50,11 @@ world:
   # It is the same for every dimension : Overworld, Nether and End.
   # This value cannot be changed mid-game and the plugin will not start if it is different.
   # /!\ BentoBox currently does not support changing this value mid-game. If you do need to change it, do a full reset of your databases and worlds.
-  distance-between-caves: 200
+  distance-between-caves: 64
   # Default protection range radius in blocks. Cannot be larger than distance.
   # Admins can change protection sizes for players individually using /cbadmin range set <player> <new range>
   # or set this permission: caveblock.island.range.<number>
-  protection-range: 200
+  protection-range: 50
   # Start caves at these coordinates. This is where new caves will start in the
   # world. These must be a factor of your cave distance, but the plugin will auto
   # calculate the closest location on the grid. Caves develop around this location
@@ -121,14 +121,18 @@ world:
     - MATERIAL:COAL_ORE:10:6
     - MATERIAL:EMERALD_ORE:1:1
     - MATERIAL:CLAY:10:6
-    - MATERIAL:DIRT:10:10
-    - MATERIAL:GRAVEL:20:6
-    - MATERIAL:GRANITE:20:10
+    - MATERIAL:DIRT:20:10
+    - MATERIAL:GRAVEL:40:6
+    - MATERIAL:GRANITE:40:10
     - MATERIAL:ANDESITE:20:10
     - MATERIAL:DIORITE:30:8
-    - ENTITY:ZOMBIE:1:1
-    - ENTITY:DOLPHIN:0.1:1
-    - ENTITY:CAVE_SPIDER:1:1
+    - ENTITY:ZOMBIE:10:1
+    - ENTITY:ENDERMAN:10:1
+    - ENTITY:SKELETON:10:1
+    - ENTITY:CREEPER:1:1
+    - ENTITY:DOLPHIN:1:1
+    - ENTITY:BAT:10:1
+    - ENTITY:CAVE_SPIDER:10:1
   nether:
     # Generate Nether - if this is false, the nether world will not be made and access to
     # the nether will not occur. Other plugins may still enable portal usage.
@@ -177,6 +181,10 @@ world:
     - ENTITY:GHAST:0.1:1
     - ENTITY:WITHER_SKELETON:0.1:1
     - MATERIAL:FIRE:10:1
+    # This option indicates if nether portals should be linked via dimensions.
+    # Option will simulate vanilla portal mechanics that links portals together
+    # or creates a new portal, if there is not a portal in that dimension.
+    create-and-link-portals: false
   end:
     generate: true
     # /!\ BentoBox currently does not support changing this value mid-game. If you do need to change it, do a full reset of your databases and worlds.
@@ -209,12 +217,14 @@ world:
     - ENTITY:SHULKER:0.2:1
     - MATERIAL:OBSIDIAN:1:1
     - MATERIAL:CHORUS_PLANT:1:3
+    # This option indicates if obsidian platform in the end should be generated
+    # when player enters the end world.
+    create-obsidian-platform: false
   # Mob white list - these mobs will NOT be removed when logging in or doing /cave
   remove-mobs-whitelist:
-  - 'null'
-  - ENDERMAN
-  - ZOMBIE_VILLAGER
   - WITHER
+  - ZOMBIE_VILLAGER
+  - ENDERMAN
   # World flags. These are boolean settings for various flags for this world
   flags:
     CREEPER_DAMAGE: true
@@ -226,7 +236,6 @@ world:
     ENDERMAN_GRIEFING: true
     CLEAN_SUPER_FLAT: false
     CHEST_DAMAGE: false
-    CHALLENGES_WORLD_PROTECTION: true
     PREVENT_TELEPORT_WHEN_FALLING: false
     NATURAL_SPAWNING_OUTSIDE_RANGE: true
     ENTER_EXIT_MESSAGES: true
@@ -238,6 +247,7 @@ world:
     ENDER_CHEST: false
     ITEM_FRAME_DAMAGE: false
     TREES_GROWING_OUTSIDE_RANGE: false
+    WITHER_DAMAGE: false
   # These are the default protection settings for new caves.
   # The value is the minimum cave rank required allowed to do the action.
   # Ranks are the following:
@@ -255,6 +265,7 @@ world:
     LOCK: 0
     ENDER_PEARL: 500
     DOOR: 500
+    BREAK_HOPPERS: 500
     FURNACE: 500
     ANVIL: 500
     MINECART: 500
@@ -265,13 +276,14 @@ world:
     TURTLE_EGGS: 500
     FROST_WALKER: 500
     COLLECT_LAVA: 500
+    BREAK_SPAWNERS: 500
     LEVER: 500
     ELYTRA: 0
     RIDING: 500
-    HURT_MONSTERS: 0
     CAKE: 500
-    ARMOR_STAND: 500
+    HURT_MONSTERS: 0
     NAME_TAG: 500
+    ARMOR_STAND: 500
     TRADING: 0
     EGGS: 500
     ITEM_DROP: 0
@@ -299,28 +311,32 @@ world:
     ENCHANTING: 0
     SHEARING: 500
     BOAT: 500
-    BED: 500
     SPAWN_EGGS: 500
+    BED: 500
     MILKING: 0
     DISPENSER: 500
     GATE: 0
     EXPERIENCE_PICKUP: 500
     HOPPER: 500
     LEASH: 500
-    BREAK_BLOCKS: 500
     MOUNT_INVENTORY: 500
+    BREAK_BLOCKS: 500
     CHORUS_FRUIT: 500
     CONTAINER: 500
-    POTION_THROWING: 500
     JUKEBOX: 500
+    POTION_THROWING: 500
   # These are the default settings for new caves
   default-cave-settings:
     PVP_END: false
     PVP_NETHER: false
     LEAF_DECAY: true
     TNT_DAMAGE: true
+    MONSTER_SPAWNERS_SPAWN: true
+    ANIMAL_NATURAL_SPAWN: true
+    MONSTER_NATURAL_SPAWN: true
     FIRE_IGNITE: true
     FIRE_SPREAD: true
+    ANIMAL_SPAWNERS_SPAWN: true
     FIRE_BURNING: true
     PVP_OVERWORLD: false
   # These settings/flags are hidden from users
@@ -371,37 +387,37 @@ cave:
       # Reset Money - if this is true, will reset the player's money to the starting money
       # Recommendation is that this is set to true, but if you run multi-worlds
       # make sure your economy handles multi-worlds too.
-      money: true
+      money: false
       # Reset inventory - if true, the player's inventory will be cleared.
       # Note: if you have MultiInv running or a similar inventory control plugin, that
       # plugin may still reset the inventory when the world changes.
-      inventory: true
+      inventory: false
       # Reset health - if true, the player's health will be reset.
       health: true
       # Reset hunger - if true, the player's hunger will be reset.
       hunger: true
       # Reset experience points - if true, the player's experience will be reset.
-      exp: true
+      exp: false
       # Reset Ender Chest - if true, the player's Ender Chest will be cleared.
-      ender-chest: true
+      ender-chest: false
     on-leave:
       # What the plugin should reset when the player leaves or is kicked from a cave
       # Reset Money - if this is true, will reset the player's money to the starting money
       # Recommendation is that this is set to true, but if you run multi-worlds
       # make sure your economy handles multi-worlds too.
-      money: true
+      money: false
       # Reset inventory - if true, the player's inventory will be cleared.
       # Note: if you have MultiInv running or a similar inventory control plugin, that
       # plugin may still reset the inventory when the world changes.
-      inventory: true
+      inventory: false
       # Reset health - if true, the player's health will be reset.
-      health: true
+      health: false
       # Reset hunger - if true, the player's hunger will be reset.
-      hunger: true
+      hunger: false
       # Reset experience - if true, the player's experience will be reset.
-      exp: true
+      exp: false
       # Reset Ender Chest - if true, the player's Ender Chest will be cleared.
-      ender-chest: true
+      ender-chest: false
   create-cave-on-first-login:
     # Toggles the automatic cave creation upon the player's first login on your server.
     # If set to true,
@@ -445,10 +461,48 @@ cave:
   # Added since 1.10.0.
   create-missing-nether-end-caves: false
   commands:
-    # List of commands to run when a player joins.
+    # List of commands to run when a player joins an cave or creates one.
+    # These commands are run by the console, unless otherwise stated using the [SUDO] prefix,
+    # in which case they are executed by the player.
+    # 
+    # Available placeholders for the commands are the following:
+    #    * [name]: name of the player
+    # 
+    # Here are some examples of valid commands to execute:
+    #    * '[SUDO] bbox version'
+    #    * 'bsbadmin deaths set [player] 0'
+    # 
+    # Note that player-executed commands might not work, as these commands can be run with said player being offline.
+    # Added since 1.8.0.
     on-join: []
-    # list of commands to run when a player leaves.
+    # List of commands to run when a player leaves a cave, resets his cave or gets kicked from it.
+    # These commands are run by the console, unless otherwise stated using the [SUDO] prefix,
+    # in which case they are executed by the player.
+    # 
+    # Available placeholders for the commands are the following:
+    #    * [name]: name of the player
+    # 
+    # Here are some examples of valid commands to execute:
+    #    * '[SUDO] bbox version'
+    #    * 'bsbadmin deaths set [player] 0'
+    # 
+    # Note that player-executed commands might not work, as these commands can be run with said player being offline.
+    # Added since 1.8.0.
     on-leave: []
+    # List of commands that should be executed when the player respawns after death if Flags.ISLAND_RESPAWN is true.
+    # These commands are run by the console, unless otherwise stated using the [SUDO] prefix,
+    # in which case they are executed by the player.
+    # 
+    # Available placeholders for the commands are the following:
+    #    * [name]: name of the player
+    # 
+    # Here are some examples of valid commands to execute:
+    #    * '[SUDO] bbox version'
+    #    * 'bsbadmin deaths set [player] 0'
+    # 
+    # Note that player-executed commands might not work, as these commands can be run with said player being offline.
+    # Added since 1.14.0.
+    on-respawn: []
   sethome:
     nether:
       # Allow setting home in the nether. Only available on nether islands, not vanilla nether.

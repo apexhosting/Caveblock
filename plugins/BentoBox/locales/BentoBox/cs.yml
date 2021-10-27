@@ -73,7 +73,7 @@ commands:
     purge:
       parameters: '[days]'
       description: pročistit ostrovy opuštěné více než [days]
-      days-or-more: Musí být alespoň 1 den nebo více
+      days-one-or-more: Musí být alespoň 1 den nebo více
       purgable-islands: Nalezeno [number] pročistitelných ostrovů.
       purge-in-progress: '&c Probíhá čištění. Použij &e purge stop &c k zastavení'
       number-error: '&c Argument musí být číslo vyjadřující počet dní'
@@ -859,7 +859,7 @@ protection:
       description: Ukázat hlášení o návštěvě a opuštění ostrova
       island: Ostrov [name]
       name: Hlášení o návštěvě/opuštění
-      now-entering: '&a Právě vcházíš l &b [name]&a .'
+      now-entering: '&a Právě vcházíš na &b [name]&a .'
       now-entering-your-island: '&a Právě vcházíš na svůj ostrov.'
       now-leaving: '&a Právě odcházíš od &b [name]&a .'
       now-leaving-your-island: '&a Právě odcházíš ze svého ostrova.'

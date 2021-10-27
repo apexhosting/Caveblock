@@ -1,13 +1,4 @@
-######################################################
-# New messages added for UltimateStacker v1.11.      #
-#                                                    #
-# These translations were found untranslated, join   #
-# our translation Discord https://discord.gg/f7fpZEf #
-# to request an official update!                     #
-#                                                    #
-# event.egg.needmore                                 #
-# event.egg.sametype                                 #
-######################################################
+# General Messages
 
 general:
   nametag:

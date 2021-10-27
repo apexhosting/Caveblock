@@ -1,0 +1,11 @@
+{
+  "uniqueId": "CaveBlock23f68552-259e-4951-a300-bd397d558431",
+  "gameMode": "CaveBlock",
+  "blockCounts": {
+    "DIRT": 6,
+    "COBBLESTONE": 14
+  },
+  "blockLimits": {},
+  "entityLimits": {},
+  "entityGroupLimits": {}
+}
