@@ -11,21 +11,10 @@
 #
 regions:
     spawn:
-        min: {x: -85, y: 43, z: 368}
-        max: {x: 95, y: 96, z: 436}
+        min: {x: -61, y: 58, z: -39}
+        max: {x: 85, y: 95, z: 32}
         members: {}
-        flags: {other-explosion: deny, frosted-ice-form: deny, lava-fire: deny, mycelium-spread: deny,
-            water-flow: deny, use: allow, invincible: allow, snow-fall: deny, leaf-decay: deny,
-            ice-melt: deny, block-trampling: deny, vehicle-destroy: deny, interact: allow,
-            chest-access: allow, firework-damage: deny, ride: deny, fire-spread: deny,
-            enderdragon-block-damage: deny, sleep: deny, vehicle-place: allow, snowman-trails: deny,
-            mob-damage: deny, entity-painting-destroy: deny, ravager-grief: deny,
-            mushroom-growth: deny, lightning: deny, wither-damage: deny, ice-form: deny,
-            lighter: deny, enderman-grief: deny, pvp: deny, mob-spawning: deny, crop-growth: deny,
-            item-drop: deny, creeper-explosion: deny, soil-dry: deny, vine-growth: deny,
-            item-frame-rotation: allow, item-pickup: deny, potion-splash: deny, damage-animals: deny,
-            snow-melt: deny, frosted-ice-melt: deny, tnt: deny, lava-flow: deny, ghast-fireball: deny,
-            entity-item-frame-destroy: deny, grass-growth: deny}
+        flags: {build: deny, use: allow, chest-access: allow, pvp: deny}
         owners: {}
         type: cuboid
         priority: 0

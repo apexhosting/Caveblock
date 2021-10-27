@@ -1,0 +1,39 @@
+title:
+  - '&7&lAPEX &2&lCAVEBLOCK'
+text:
+  - '&2----------------'
+  - '&2&l> &a&lPLAYER INFO'
+  - '&aMoney: &a$&7%vault_eco_balance_fixed%'
+  - '&7Rank: %vault_prefix%'
+  - '&2----------------'
+  - '&2&l> &a&lSERVER INFO'
+  - '&aOnline: &7%server_online% '
+  - '&aTime Played:'
+  - '&7%statistic_time_played%'
+  - '&2----------------'
+  - '&2caveblock.apexmc.co'
+updater:
+  title: 3
+  text: 5
+enabledWorlds:
+  - caveblock_world
+  - caveblock_world_the_end
+  - caveblock_world_nether
+  - caveblock-world
+  - caveblock-world_nether
+  - caveblock-world_the_end
+changeableText:
+  perm_info:
+    text:
+      - '&cscoreboard.default'
+      - '&7scoreboard.default'
+      - '&6scoreboard.default'
+      - '&bscoreboard.default'
+      - '&dscoreboard.default'
+    interval: 10
+scroller:
+  info:
+    text: '&eThis server is running on &e&lQuickBoard! &eThe &c&lbest free scoreboard system on &6&lSpigot!'
+    width: 28
+    spaceBetween: 4
+    update: 2
