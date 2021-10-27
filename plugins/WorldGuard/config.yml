@@ -3,6 +3,8 @@ regions:
         perform-on-next-start: false
         keep-names-that-lack-uuids: true
     use-creature-spawn-event: true
+    disable-bypass-by-default: false
+    announce-bypass-status: false
     sql:
         use: false
         dsn: jdbc:mysql://localhost/worldguard
@@ -13,7 +15,7 @@ regions:
     enable: true
     invincibility-removes-mobs: false
     cancel-chat-without-recipients: true
-    nether-portal-protection: false
+    nether-portal-protection: true
     fake-player-build-override: true
     explosion-flags-block-entity-damage: true
     high-frequency-flags: false
@@ -24,14 +26,13 @@ regions:
     location-flags-only-inside-regions: false
     max-region-count-per-player:
         default: 7
-    disable-bypass-by-default: false
-    announce-bypass-status: false
 auto-invincible: false
 auto-invincible-group: false
 auto-no-drowning-group: false
 use-player-move-event: true
 use-player-teleports: true
 use-particle-effects: true
+disable-permission-cache: false
 security:
     deop-everyone-on-join: false
     block-in-game-op-command: false
@@ -103,6 +104,7 @@ mobs:
     block-above-ground-slimes: false
     block-other-explosions: false
     block-zombie-door-destruction: false
+    block-vehicle-entry: false
     block-creature-spawn: []
 player-damage:
     disable-fall-damage: false
@@ -123,6 +125,9 @@ chest-protection:
     enable: false
     disable-off-check: false
 crops:
+    disable-creature-trampling: false
+    disable-player-trampling: false
+turtle-egg:
     disable-creature-trampling: false
     disable-player-trampling: false
 weather:
@@ -147,8 +152,8 @@ dynamics:
     disable-vine-growth: false
     disable-crop-growth: false
     disable-soil-dehydration: false
-    snow-fall-blocks: []
     disable-coral-block-fade: false
+    snow-fall-blocks: []
 blacklist:
     use-as-whitelist: false
     logging:
@@ -165,7 +170,5 @@ blacklist:
             path: worldguard/logs/%Y-%m-%d.log
             open-files: 10
 custom-metrics-charts: true
-disable-permission-cache: false
-turtle-egg:
-    disable-creature-trampling: false
-    disable-player-trampling: false
+extra-timings:
+    session-handlers: true

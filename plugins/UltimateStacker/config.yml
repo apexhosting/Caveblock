@@ -80,6 +80,9 @@ Entities:
   # Should no experience be dropped when an instant kill is performed?
   No Exp For Instant Kills: false
 
+  # Should entities not drop their armor when custom drops are enabled?
+  Dont Drop Armor: false
+
   # These are checks that are processed before an entity is stacked.
   # You can add and remove from the list at will.
   # The acceptable check options are:
@@ -98,31 +101,23 @@ Entities:
   - ANIMAL_OWNER
   - SKELETON_TYPE
   - ZOMBIE_BABY
-  - HAS_EQUIPMENT
   - SLIME_SIZE
   - PIG_SADDLE
   - SHEEP_SHEARED
-  - SHEEP_COLOR
   - SNOWMAN_DERPED
   - WOLF_COLLAR_COLOR
-  - OCELOT_TYPE
-  - HORSE_COLOR
   - HORSE_STYLE
   - HORSE_CARRYING_CHEST
   - HORSE_HAS_ARMOR
   - HORSE_HAS_SADDLE
   - HORSE_JUMP
-  - RABBIT_TYPE
   - VILLAGER_PROFESSION
-  - LLAMA_COLOR
   - LLAMA_STRENGTH
-  - PARROT_TYPE
   - PUFFERFISH_STATE
   - TROPICALFISH_PATTERN
   - TROPICALFISH_BODY_COLOR
   - TROPICALFISH_PATTERN_COLOR
   - PHANTOM_SIZE
-  - CAT_TYPE
 
   # These are checks that when achieved will break separate a single entity
   # from a stack.
@@ -189,6 +184,11 @@ Entities:
   # Example: mythicmobs_test
   Blacklisted Custom Entities:
   - mythicmobs_test
+
+  # How many days must an entity be dormant before it is removed
+  # from the database? This setting will prevent dead entities killed incorrectly
+  # by other plugins from building up inside of your database and creating lag.
+  Database purge: 14
 
 Items:
 
@@ -264,6 +264,9 @@ Spawners:
 
   # Chance of a creeper explosion dropping a spawner.
   Chance On Creeper Explosion: 100%
+
+  # If enabled mobs spawned by spawners will not move or attack.
+  Nerf Spawner Mobs: false
 
   # The text displayed above a stacked spawner where {TYPE} refers to
   # The entities type and {AMT} is the amount currently stacked.

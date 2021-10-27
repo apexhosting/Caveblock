@@ -223,8 +223,6 @@ commands:
       loaded-addons: 已加載組件
       loaded-game-worlds: 已加載遊戲世界：
       addon-syntax: '&2[name] &3[version] &7(&3[state]&7)'
-      game-worlds: '&2[name] &7(&3[addon]&7): &aOverworld&7, &r[nether_color]Nether&7,
-        &r[end_color]End'
       game-world: '&2[name] &7(&3[addon]&7): &a Overworld&7, &r Nether&7, &r End'
   confirmation:
     confirm: '&c於 &b[seconds] &c秒內再次輸入命令來確認'
@@ -685,7 +683,7 @@ protection:
       name: 離線紅石
     PISTON_PUSH:
       description: |-
-        &a允許活塞
+        &a防止活塞
         &a將方塊推出島嶼
       name: 活塞推動
     PLACE_BLOCKS:
@@ -784,6 +782,36 @@ protection:
   locked: '&c本島嶼已被鎖定!'
   protected: '&c島嶼保護：[description]'
   spawn-protected: '&c生成保護：[description]'
+enums:
+  DamageCause:
+    CONTACT: 接觸（如仙人掌）
+    ENTITY_ATTACK: 直接攻擊
+    ENTITY_SWEEP_ATTACK: 範圍攻擊
+    PROJECTILE: 彈射物
+    SUFFOCATION: 窒息
+    FALL: 跌落
+    FIRE: 火焰
+    FIRE_TICK: 點燃
+    MELTING: 融化
+    LAVA: 熔岩
+    DROWNING: 溺水
+    BLOCK_EXPLOSION: 方塊爆炸
+    ENTITY_EXPLOSION: 實體爆炸
+    VOID: 墜入虛空
+    LIGHTNING: 雷劈
+    SUICIDE: 自殺
+    STARVATION: 飢餓
+    POISON: 中毒
+    MAGIC: 魔法
+    WITHER: 凋零
+    FALLING_BLOCK: 砸傷
+    THORNS: 荊棘
+    DRAGON_BREATH: 龍息
+    CUSTOM: 自定
+    FLY_INTO_WALL: 撞牆
+    HOT_FLOOR: 熔岩塊
+    CRAMMING: 擁擠
+    DRYOUT: 乾燥（魚類暴露在空氣中）
   panel:
     next: 下一頁
     previous: 上一頁
@@ -824,7 +852,7 @@ successfully-loaded: |2
 
   &6  ____             _        ____
   &6 |  _ \           | |      |  _ \             &7by &atastybento &7and &aPoslovitch
-  &6 | |_) | ___ _ __ | |_ ___ | |_) | _____  __  &72017 - 2019
+  &6 | |_) | ___ _ __ | |_ ___ | |_) | _____  __  &72017 - 2020
   &6 |  _ < / _ \ '_ \| __/ _ \|  _ < / _ \ \/ /
   &6 | |_) |  __/ | | | || (_) | |_) | (_) >  <   &bv&e[version]
   &6 |____/ \___|_| |_|\__\___/|____/ \___/_/\_\  &8使用了 &e[time]&8ms 來完成載入。
