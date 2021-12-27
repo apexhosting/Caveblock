@@ -1,6 +1,11 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [3.1]
+
+### Changed
+- Added the Via suite of plugins for version support.
+
 ## [3.0]
 
 ### Changed
@@ -90,6 +95,8 @@ All notable changes to this project will be documented in this file.
 
 ### Added
 - Initial commit of pack to Github for version control
+
+[3.1]: https://github.com/apexhosting/Caveblock/releases/tag/3.1
 [3.0]: https://github.com/apexhosting/Caveblock/releases/tag/3.0
 [2.3.1]: https://github.com/apexhosting/Caveblock/releases/tag/2.3.1
 [2.3]: https://github.com/apexhosting/Caveblock/releases/tag/2.3
