@@ -1,6 +1,8 @@
-# 
+# ##########################################################################################
 # This is a YML file. Be careful when editing. Check your edits in a YAML checker like    #
 # the one at http://yaml-online-parser.appspot.com                                        #
+# ##########################################################################################
+
 admin:
   level:
     parameters: <player>
@@ -9,6 +11,7 @@ admin:
     description: Ilk 10 adayı sırala
     unknown-world: '&cBilinmeyen kelime'
     display: '&f[rank]. &a[name] &7- &b[level]'
+
 island:
   level:
     parameters: '[player]'
@@ -19,12 +22,14 @@ island:
     required-points-to-next-level: '&7Adayı yükseltmek için &a[points] &7Puan gerekiyor'
     deaths: '&c(Ölümler: [number])'
     cooldown: '&7Bunu tekrar yapmak için &b[time] &7beklemelisin'
+  
   top:
     description: Ilk 10 adayı sırala
     gui-title: '&aIlk 10 Ada'
     gui-heading: '&6Sıralama: &3[rank]'
     island-level: '&7Seviye: &a[level]'
     warp-to: '&a[name] &7oyuncusunun adasına ışınlanıyor'
+  
   value:
     description: Herhangi bir bloğun değerini gösterir
     success: '&7Bu bloğun değeri: &e[value]'

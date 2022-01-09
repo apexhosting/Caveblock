@@ -1,6 +1,8 @@
-# 
+# ##########################################################################################
 # This is a YML file. Be careful when editing. Check your edits in a YAML checker like    #
 # the one at http://yaml-online-parser.appspot.com                                        #
+# ##########################################################################################
+
 admin:
   level:
     parameters: <player>
@@ -9,6 +11,7 @@ admin:
     description: Top Tíz lista megtekintése
     unknown-world: '&cIsmeretlen világ!'
     display: '&f[rank]. &a[name] &7- &b[level]'
+
 island:
   level:
     parameters: '[player]'
@@ -18,6 +21,7 @@ island:
     required-points-to-next-level: '&a[points] pont szükséges a következő szinthez.'
     deaths: '&c([number] halál)'
     cooldown: '&cVárnod kell &b[time] &cmásodpercet, hogy újra használhasd.'
+  
   top:
     description: Top Tíz lista megtekintése
     gui-title: '&aTop Tíz'
@@ -27,6 +31,7 @@ island:
     remove:
       description: játékos törlése a Top Tízből
       parameters: <player>
+  
   value:
     description: Bármely blokk értékét mutatja
     success: '&7Ennek a blokknak az értéke: &e[value]'

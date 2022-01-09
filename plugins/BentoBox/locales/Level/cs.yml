@@ -1,8 +1,10 @@
-# 
+# ##########################################################################################
 # This is a YML file. Be careful when editing. Check your edits in a YAML checker like    #
 # the one at http://yaml-online-parser.appspot.com                                        #
 #                                                                                         #
 # Translation by: CZghost                                                                 #
+# ##########################################################################################
+
 admin:
   level:
     parameters: <player>
@@ -14,6 +16,7 @@ admin:
     remove:
       description: odstranit hráče z TOP 10
       parameters: <player>
+
 island:
   level:
     parameters: '[player]'
@@ -23,12 +26,14 @@ island:
     required-points-to-next-level: '&a[points] vyžadováno do další úrovně'
     deaths: '&c([number] smrtí)'
     cooldown: '&cMusíš čekat &b[time] &csekund, než můžeš příkaz znovu použít'
+  
   top:
     description: ukázat TOP 10
     gui-title: '&aTOP 10'
     gui-heading: '&6[name]: &B[rank]'
     island-level: '&BÚroveň [level]'
     warp-to: '&AWarp na ostrov [name]'
+  
   value:
     description: ukáže hodnotu jakéhokoliv bloku
     success: '&7Hodnota tohoto bloku je: &e[value]'

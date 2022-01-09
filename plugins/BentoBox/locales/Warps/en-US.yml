@@ -1,6 +1,8 @@
-# 
+# ##########################################################################################
 # This is a YML file. Be careful when editing. Check your edits in a YAML checker like    #
 # the one at http://yaml-online-parser.appspot.com                                        #
+# ##########################################################################################
+
 warp:
   help:
     description: warp to the player's warp sign
@@ -28,3 +30,5 @@ warps:
   title: Warp Signs
   warpTip: '&6 Place a warp sign with [text] on the top'
   warpToPlayersSign: '&6 Warping to [player]''s sign'
+
+

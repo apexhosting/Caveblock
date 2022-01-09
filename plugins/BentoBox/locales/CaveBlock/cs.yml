@@ -1,18 +1,23 @@
-# 
+# ##########################################################################################
 # This is a YML file. Be careful when editing. Check your edits in a YAML checker like    #
 # the one at http://yaml-online-parser.appspot.com                                        #
 #                                                                                         #
 # Translation by: CZghost                                                                 #
+# ##########################################################################################
+
 caveblock:
   sign:
     line0: '&cCaveBlock'
     line1: Vítej!
     line2: '[name]'
     line3: Začni kopat! &c<3
+  
   informational:
     to-nether: Taková smůla, propadnout se do netheru.
     to-the-end: Dosáhl jsi Endu.
     to-normal: Zpět do své jeskyně.
+  # Override BentoBox default command strings
+  # General strings
   general:
     errors:
       no-island: '&cNemáš jeskyni!'
@@ -23,6 +28,7 @@ caveblock:
         jeskyně.'
       not-owner: '&cNejsi vlastník této jeskyně!'
   commands:
+    # Parameters in <> are required, parameters in [] are optional
     admin:
       team:
         add:
@@ -198,6 +204,7 @@ caveblock:
         description: vykázat hráče z tvé jeskyně
         not-on-island: '&cTento hráč není ve tvé jeskyni!'
         player-expelled-you: '&b[name]&c tě vykázal ze své jeskyně!'
+  
   ranks:
     owner: Král Trpaslíků
     sub-owner: Rytíř Trpaslíků
@@ -206,6 +213,7 @@ caveblock:
     coop: Pomocník
     visitor: Člověk
     banned: Skřet
+  
   protection:
     flags:
       ENDERMAN_GRIEFING:
@@ -283,6 +291,7 @@ caveblock:
     locked: '&cTato jeskyně je zamčená!'
     protected: '&cJeskyně chráněna: [description]'
     spawn-protected: '&cSpawn chráněn: [description]'
+    
     panel:
       PROTECTION:
         description: |-

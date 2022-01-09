@@ -1,6 +1,8 @@
-# 
+# ##########################################################################################
 # This is a YML file. Be careful when editing. Check your edits in a YAML checker like    #
 # the one at http://yaml-online-parser.appspot.com                                        #
+# ##########################################################################################
+
 admin:
   level:
     parameters: <player>
@@ -20,6 +22,8 @@ admin:
     remove:
       description: remove player from Top Ten
       parameters: <player>
+
+
 island:
   level:
     parameters: '[player]'
@@ -33,12 +37,14 @@ island:
     cooldown: '&c You must wait &b[time] &c seconds until you can do that again'
     in-progress: '&6 Island level calculation is in progress...'
     time-out: '&c The level calculation took too long. Please try again later.'
+  
   top:
     description: show the Top Ten
     gui-title: '&a Top Ten'
     gui-heading: '&6[name]: &B[rank]'
     island-level: '&b Level [level]'
     warp-to: '&A Warping to [name]''s island'
+  
   level-details:
     above-sea-level-blocks: Above Sea Level Blocks
     spawners: Spawners
@@ -48,6 +54,7 @@ island:
     names-island: '[name]''s island'
     syntax: '[name] x [number]'
     hint: '&c Run level to see the block report'
+  
   value:
     description: shows the value of any block
     success: '&7 The value of this block is: &e[value]'

@@ -9,6 +9,9 @@ catalog:
         &a Autorisez BentoBox à se connecter à son GitHub dans
         &a la configuration ou réessayez plus tard.
 
+
+
+      
       name: '&b C''est vide ici...'
     GAMEMODES:
       title: Catalogue de modes de jeu

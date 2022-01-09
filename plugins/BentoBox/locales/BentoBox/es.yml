@@ -1442,6 +1442,9 @@ catalog:
         &aPermitir que BentoBox se conecte a GitHub en
         &aLa configuración o vuelva a intentarlo más tarde.
 
+
+
+
 panel:
   credits:
     title: '&8 [name] &2 Creditos'
@@ -1457,6 +1460,9 @@ panel:
 
         &aPermitir que BentoBox se conecte a GitHub en
         &a la configuración o intente nuevamente más tarde.
+
+
+
 
 successfully-loaded: |-
   &6  ____             _        ____

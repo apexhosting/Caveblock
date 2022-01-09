@@ -1,10 +1,15 @@
-# 
+# ##########################################################################################
 # This is a YML file. Be careful when editing. Check your edits in a YAML checker like    #
 # the one at http://yaml-online-parser.appspot.com                                        #
+# ##########################################################################################
+
+# This locale is current with 1.4.0
+
 meta:
   authors:
   - ramirilyasov999
   banner: BLUE_BANNER:1:STRIPE_LEFT:RED:STRIPE_RIGHT:WHITE
+
 general:
   success: '&aУспех!'
   invalid: Неверный
@@ -32,7 +37,9 @@ general:
     must-be-positive-number: '&cЦифра [number] не является положительным числом.'
   tips:
     changing-obsidian-to-lava: Обсидиан превращается обратно в лаву. Не обожгитесь!
+
 commands:
+  # Parameters in <> are required, parameters in [] are optional
   help:
     header: '&7=========== &c[label] помощь &7==========='
     syntax: '&b[usage] &a[parameters]&7: &e[description]'
@@ -438,6 +445,7 @@ commands:
       cannot-ban-member: '&cВы не можете изгнать игрока из своей команды!'
       not-on-island: '&cДанный игрок не является частью вашего острова!'
       player-expelled-you: '&b[name]&c изгнал вас со своего острова!'
+
 ranks:
   owner: Владелец
   sub-owner: Зам. Владельца
@@ -448,6 +456,7 @@ ranks:
   banned: Забаненный
   admin: Администратор
   mod: Модератор
+
 protection:
   command-is-banned: Данная команда заблокирована для посетителей
   flags:
@@ -884,6 +893,7 @@ protection:
   locked: '&cЭтот остров закрыт!'
   protected: '&cОстров защищен: [description]'
   spawn-protected: '&cСпавн защищен: [description]'
+  
   panel:
     next: След. страница
     previous: Пред. страница
@@ -916,10 +926,12 @@ protection:
         &7Текущее состояние: [setting]
       setting-active: '&aАктивно'
       setting-disabled: '&cОтключено'
+
 language:
   panel-title: Выберите ваш язык
   selected: '&aЭто выбранный язык.'
   edited: '&aВаш язык изменен на &e[lang]&a.'
+
 successfully-loaded: |2
 
   &6  ____             _        ____

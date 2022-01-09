@@ -1,4 +1,4 @@
-# CaveBlock Configuration 1.14.5
+# CaveBlock Configuration {$version}
 caveblock:
   command:
     # Cave Command. What command users will run to access their cave.
@@ -182,8 +182,7 @@ world:
     - ENTITY:WITHER_SKELETON:0.1:1
     - MATERIAL:FIRE:10:1
     # This option indicates if nether portals should be linked via dimensions.
-    # Option will simulate vanilla portal mechanics that links portals together
-    # or creates a new portal, if there is not a portal in that dimension.
+    # Option will simulate vanilla portal mechanics that links portals together or creates a new portal, if there is not a portal in other dimension.
     create-and-link-portals: false
   end:
     generate: true
@@ -217,14 +216,13 @@ world:
     - ENTITY:SHULKER:0.2:1
     - MATERIAL:OBSIDIAN:1:1
     - MATERIAL:CHORUS_PLANT:1:3
-    # This option indicates if obsidian platform in the end should be generated
-    # when player enters the end world.
+    # This option indicates if obsidian platform in the end should be generated when player enters the end world.
     create-obsidian-platform: false
   # Mob white list - these mobs will NOT be removed when logging in or doing /cave
   remove-mobs-whitelist:
   - WITHER
-  - ZOMBIE_VILLAGER
   - ENDERMAN
+  - ZOMBIE_VILLAGER
   # World flags. These are boolean settings for various flags for this world
   flags:
     CREEPER_DAMAGE: true
@@ -279,9 +277,9 @@ world:
     BREAK_SPAWNERS: 500
     LEVER: 500
     ELYTRA: 0
-    RIDING: 500
     CAKE: 500
     HURT_MONSTERS: 0
+    RIDING: 500
     NAME_TAG: 500
     ARMOR_STAND: 500
     TRADING: 0
@@ -311,8 +309,8 @@ world:
     ENCHANTING: 0
     SHEARING: 500
     BOAT: 500
-    SPAWN_EGGS: 500
     BED: 500
+    SPAWN_EGGS: 500
     MILKING: 0
     DISPENSER: 500
     GATE: 0
@@ -323,15 +321,15 @@ world:
     BREAK_BLOCKS: 500
     CHORUS_FRUIT: 500
     CONTAINER: 500
-    JUKEBOX: 500
     POTION_THROWING: 500
+    JUKEBOX: 500
   # These are the default settings for new caves
   default-cave-settings:
     PVP_END: false
     PVP_NETHER: false
     LEAF_DECAY: true
-    TNT_DAMAGE: true
     MONSTER_SPAWNERS_SPAWN: true
+    TNT_DAMAGE: true
     ANIMAL_NATURAL_SPAWN: true
     MONSTER_NATURAL_SPAWN: true
     FIRE_IGNITE: true
@@ -462,46 +460,10 @@ cave:
   create-missing-nether-end-caves: false
   commands:
     # List of commands to run when a player joins an cave or creates one.
-    # These commands are run by the console, unless otherwise stated using the [SUDO] prefix,
-    # in which case they are executed by the player.
-    # 
-    # Available placeholders for the commands are the following:
-    #    * [name]: name of the player
-    # 
-    # Here are some examples of valid commands to execute:
-    #    * '[SUDO] bbox version'
-    #    * 'bsbadmin deaths set [player] 0'
-    # 
-    # Note that player-executed commands might not work, as these commands can be run with said player being offline.
-    # Added since 1.8.0.
     on-join: []
     # List of commands to run when a player leaves a cave, resets his cave or gets kicked from it.
-    # These commands are run by the console, unless otherwise stated using the [SUDO] prefix,
-    # in which case they are executed by the player.
-    # 
-    # Available placeholders for the commands are the following:
-    #    * [name]: name of the player
-    # 
-    # Here are some examples of valid commands to execute:
-    #    * '[SUDO] bbox version'
-    #    * 'bsbadmin deaths set [player] 0'
-    # 
-    # Note that player-executed commands might not work, as these commands can be run with said player being offline.
-    # Added since 1.8.0.
     on-leave: []
-    # List of commands that should be executed when the player respawns after death if Flags.ISLAND_RESPAWN is true.
-    # These commands are run by the console, unless otherwise stated using the [SUDO] prefix,
-    # in which case they are executed by the player.
-    # 
-    # Available placeholders for the commands are the following:
-    #    * [name]: name of the player
-    # 
-    # Here are some examples of valid commands to execute:
-    #    * '[SUDO] bbox version'
-    #    * 'bsbadmin deaths set [player] 0'
-    # 
-    # Note that player-executed commands might not work, as these commands can be run with said player being offline.
-    # Added since 1.14.0.
+    # Returns a list of commands that should be executed when the player respawns after death if Flags.ISLAND_RESPAWN is true.
     on-respawn: []
   sethome:
     nether:
