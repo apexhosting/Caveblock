@@ -1,6 +1,8 @@
-# 
+# ##########################################################################################
 # This is a YML file. Be careful when editing. Check your edits in a YAML checker like    #
 # the one at http://yaml-online-parser.appspot.com                                        #
+# ##########################################################################################
+
 warp:
   help:
     description: プレイヤーのワープサインにワープする
@@ -26,3 +28,5 @@ warps:
   title: ワープサイン
   warpTip: '&6最初の行に[text]と一緒にワープサインを置きます'
   warpToPlayersSign: '&6[player]のサインに反っている'
+
+

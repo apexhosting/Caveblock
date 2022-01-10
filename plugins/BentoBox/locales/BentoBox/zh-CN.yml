@@ -1,12 +1,17 @@
-# 
+# ##########################################################################################
 # This is a YML file. Be careful when editing. Check your edits in a YAML checker like    #
 # the one at http://yaml-online-parser.appspot.com                                        #
+# ##########################################################################################
+
+# 根据最新的 en-US 资源翻译而来。(2021-03-09 9:50)
+
 meta:
   authors:
   - DuckSoft
   - shaokeyibb
   - ApacheZy
   banner: RED_BANNER:1:SQUARE_TOP_RIGHT:YELLOW:CROSS:RED:CURLY_BORDER:RED:MOJANG:YELLOW:HALF_HORIZONTAL_MIRROR:RED:HALF_VERTICAL:RED
+
 prefixes:
   bentobox: '&6 BentoBox &7 &l > &r '
 general:
@@ -37,7 +42,9 @@ general:
     overworld: 主世界
     nether: 下界
     the-end: 末地
+
 commands:
+  # 用 <> 括起来的是必选参数， 用 [] 括起来的是可选参数。
   help:
     header: '&7 =========== &c [label] 帮助 &7 ==========='
     syntax: '&b [usage] &a [parameters]&7 : &e [description]'
@@ -50,6 +57,7 @@ commands:
     help:
       description: 管理员命令
     resets:
+      # “重置次数” 可以理解为 “重置机会”，也可以理解为 “已经重置了多少次”。
       description: 修改玩家的岛屿已重置次数
       set:
         description: 设置玩家的岛屿已重置次数
@@ -70,6 +78,8 @@ commands:
         success: '&a已将玩家 &b[name] &a的岛屿已重置次数减少了 &b[number]&a， 现在为 &b[total] &a。'
     purge:
       parameters: '[days]'
+      # 不应该是 “被遗弃多少天”，它仅仅是玩家多少天没上线而已，
+      # 并不表示玩家已放弃了岛屿，说是 “不活动” 更确切一些。
       description: 清理不活动超过 [days] 天的岛屿
       days-one-or-more: '&c天数必需为至少 1 或 1 以上。'
       purgable-islands: '&a找到 &b[number] &a个不活动可以被清理的岛屿。'
@@ -91,6 +101,7 @@ commands:
       stop:
         description: 停止正在进行的清理工作
         stopping: '&e正在停止清理。'
+      # 无主的岛屿被称为“遗弃”可能更加贴切。
       unowned:
         description: 清理被遗弃（无主）的岛屿
         unowned-islands: '&a找到 &b[number] &a个被遗弃（无主）的岛屿。'
@@ -102,7 +113,7 @@ commands:
         parameters: <owner> <player>
         description: 将玩家添加到某个岛屿
         name-not-owner: '&c[name] 不是岛屿主人。'
-        name-has-island: '&c[name] 已经有岛屿了！'
+        name-has-island: '&c[name] 已经有岛屿了！' # 不要误导， 不要让管理者先删除或反注册玩家再加入。。。。
         success: '&a已将 &b[name] &a加入到 &b[owner] &a的岛屿。'
       disband:
         parameters: <owner>
@@ -209,6 +220,7 @@ commands:
       op: '&c运维人员始终可以规避岛屿保护。 除非将他们开除。'
       removing: '&c正在删除保护规避...'
       adding: '&a正在添加保护规避...'
+    # “切换” 这个词不太贴切（扔进垃圾桶 - 切换到垃圾桶 ？？？？）
     switchto:
       parameters: <player> <number>
       description: 将玩家的岛屿扔进垃圾桶指定的位置
@@ -463,6 +475,7 @@ commands:
       addons: '[prefix_bentobox] &6迁移附加组件'
       class: '[prefix_bentobox] &6迁移 [description]'
       migrated: '[prefix_bentobox] &a迁移完成'
+  
   confirmation:
     confirm: '&c请在 &b[seconds] &c秒内再次输入命令以确认。'
     previous-request-cancelled: '&6先前的确认请求已取消。'
@@ -559,6 +572,7 @@ commands:
       success: '&a已成功重置岛屿名称。'
     team:
       description: 管理您的岛屿团队
+      # 需要调整格式
       info:
         description: 显示您的岛屿团队详细信息
         member-layout:
@@ -717,6 +731,7 @@ commands:
       not-on-island: '&c该玩家不在您的岛上！'
       player-expelled-you: '&c您被 &b[name] &c驱逐出他的岛屿！'
       success: '&a已把 &b[name] &a从您的岛上驱逐出去。'
+
 ranks:
   owner: 岛主
   sub-owner: 副岛主
@@ -727,6 +742,7 @@ ranks:
   banned: 黑名单
   admin: 管理员
   mod: 主持人
+
 protection:
   command-is-banned: 禁止访客使用命令
   flags:
@@ -1148,6 +1164,8 @@ protection:
         &7较器和阳光感应器
       name: '&a&l使用红石设备'
       hint: '&c已被禁止使用红石设备'
+    # 英文原版只字未提末影龙，这让人很费解
+    # 代码里的功能确实是为了防止末影龙的生成
     REMOVE_END_EXIT_ISLAND:
       description: |-
         &7允许/禁止 移除末地世界的末影龙
@@ -1238,6 +1256,7 @@ protection:
   protected: '&6岛屿保护： [description]&6。'
   world-protected: '&6世界保护： [description]&6。'
   spawn-protected: '&6出生点保护： [description]&6。'
+  
   panel:
     next: '&f下一页'
     previous: '&f上一页'
@@ -1268,6 +1287,8 @@ protection:
       title: '&5&l用于 &3&l[world_name] &5&l的保护设定'
       description: '&7岛屿范围外适用的保护设定'
     flag-item:
+      # 没发现这里有按钮标题通用格式，
+      # 我在每一个按钮标题上都加了颜色代码。
       name-layout: '&a&l[name]'
       description-layout: |-
         &7[description]
@@ -1292,6 +1313,7 @@ protection:
         &7当前设定： [setting]
       setting-active: '&a允许'
       setting-disabled: '&c禁止'
+
 language:
   panel-title: '&l选择您适用的语言'
   description:
@@ -1300,6 +1322,7 @@ language:
     authors: '&7作者：'
     author: '&3- &b[name]'
   edited: '&a已将您的语言更改为 &e[lang] &a。'
+
 management:
   panel:
     title: '&lBentoBox 管理'
@@ -1395,6 +1418,7 @@ catalog:
         &e点击 &7获取最新版本的链接。
       already-installed: 已安装！
       install-now: 现在安装！
+    
     empty-here:
       name: '&b&l这里空空如也...'
       description: |+
@@ -1402,6 +1426,11 @@ catalog:
 
         &a请修改配置允许&b&lBentoBox&a连接
         &a到互联网， 或稍后再试。
+
+
+
+
+
 
 enums:
   DamageCause:
@@ -1433,6 +1462,7 @@ enums:
     HOT_FLOOR: 岩浆块
     CRAMMING: 拥挤
     DRYOUT: 缺氧（鱼类暴露在空气中）
+
 panel:
   credits:
     title: '&8[name] &3贡献者名录'

@@ -1,9 +1,12 @@
-# 
+# ##########################################################################################
 # This is a YML file. Be careful when editing. Check your edits in a YAML checker like    #
 # the one at http://yaml-online-parser.appspot.com                                        #
+# ##########################################################################################
+
 meta:
   authors:
   - AFGAME
+
 biomes:
   gui:
     title:
@@ -21,6 +24,7 @@ biomes:
         edit-text-fields: '&6Modifier les champs de texte'
       biomes-choose: '&6Choisissez le biome'
       mode-choose: '&6Choisissez le mode de mise à jour'
+    
     buttons:
       admin:
         settings: Paramètres
@@ -29,6 +33,7 @@ biomes:
         edit: Editer le biome
         add: Ajouter un biome
         change: Changer d'utilisateur du bome
+        
         change-biome: Biome
         name: Afficher un nom
         icon: Icon
@@ -38,6 +43,7 @@ biomes:
         required-permissions: Autorisations requises
         required-level: Niveau requis
         required-money: Argent requis
+        
         advanced-menu: Menu avancé
         default-mode: Mode de mise à jour par défaut
         default-size: Taille par défaut
@@ -46,27 +52,34 @@ biomes:
         biomes-lore: Biome Lore
         cooldown: Refroidir
         reset-biomes: Réinitialiser l'événement
+        
         toggle-user-list: Basculer la liste des joueurs
+        
         save: Sauver
         cancel: Annuler
         input: Contribution
+        
         set-mode: =
         increase-mode: +
         reduce-mode: '-'
         multiply-mode: '*'
         number: '[number]'
+        
         add-string: Ajouter une chaîne
         clear: Nettoyer
         remove-empty: Supprimer vide
         input-mode: Mode d'entrée
         value: Valeur
+      
       value: 'Valeur actuelle: [number]'
       increase: Augmenté de [number]
       decrease: Diminué de [number]
       set: Définir la valeur sur [number]
       accept: Accepte
       decline: Déclin
+      
       information: Information
+      
       return: Retour
       previous: Précédent
       next: Suivant
@@ -79,6 +92,7 @@ biomes:
         edit: Permet d'éditer les propriétés du biome.
         add: Permet d'ajouter un nouveau biome dans le monde actuel.
         change: Permet de changer le biome des joueurs sur leur île.
+        
         change-biome: Permet de changer le biome de Minecraft qui sera utilisé.
         required-permissions: Permet de modifier les autorisations requises pour ce
           biome. | Sans ces autorisations, les joueurs ne pourront pas l'appliquer!
@@ -92,6 +106,7 @@ biomes:
         icon: Permet de définir une icône d'affichage différente pour ce biome.
         description: Permet de modifier la description de ce biome.
         order: Permet de modifier l'ordre de ce biome.
+        
         advanced-menu: Permet d'activer / désactiver le menu avancé avec toutes les
           options de modification pour les joueurs.
         default-mode: Permet de changer le mode de mise à jour du biome par défaut.|Sera
@@ -109,10 +124,13 @@ biomes:
           un joueur.
         reset-biomes: Permet d'activer / désactiver la réinitialisation des biomes
           si le joueur avec l'autorisation du biome quitte l'île.
+        
         toggle-user-list: Permet de changer les joueurs à afficher dans le menu actuel.
+        
         save: Permet de sauvegarder la valeur actuelle et de revenir au menu précédent.
         cancel: Permet de revenir au menu précédent sans modifications.
         input: Permet d'écrire un numéro dans AnvilGUI
+        
         set-mode: Permet de passer en mode de réglage qui définira la valeur actuelle
           sur le nombre choisi.
         increase-mode: Permet de passer en mode augmentation, qui augmentera la valeur
@@ -121,10 +139,12 @@ biomes:
           du nombre choisi.
         multiply-mode: Permet de passer en mode multiplicatif, qui multipliera la
           valeur actuelle par le nombre choisi.
+        
         click-to-edit: '&4Cliquez ici pour éditer l''entrée.'
         edit-text-line: '&6 Modifier le message texte!'
         add-text-line: '&6 Ajouter un nouveau message texte!'
         input-mode: Basculer entre les modes de conversation et d'enclume.
+      
       update-mode:
         island: Île
         chunk: Chunk
@@ -140,18 +160,22 @@ biomes:
         online: En ligne
         in-world: Dans ce monde
         with-island: Avec l'île
+      
       current-value: 'Valeur actuelle: [value]'
       enabled: activée
       disabled: désactivée
       permission: ' - [permission]'
+      
       information: Si vous acceptez ces modifications, nous essayerons de modifier
         le biome de votre île en [biome] en mode de mise à jour [mode] avec portée
         [range].
+    
     biomes-description:
       biome-name: 'Biome Minecraft: [value]'
       required-money: 'Coût: [value]'
       required-island-level: 'Niveau de l''île minimum: [value]'
       required-permissions: 'Permissions:'
+  
   commands:
     admin:
       add:
@@ -191,6 +215,7 @@ biomes:
         description: La commande SET permet de changer le biome <biome> sur l’île.
           <type> et <size> n'est pas requis.
         parameters: <biome> [<type>] [<size>]
+  
   errors:
     unique-id: '&cL''''identifiant unique &d[id]&c n''''est pas valide!'
     too-many-arguments: '&cTrop de paramètres. S''il vous plaît vérifier l''aide!'
@@ -198,6 +223,7 @@ biomes:
       l''aide!'
     unknown-argument: '&cParamètres de commande inconnus. S''il vous plaît vérifier
       l''aide!'
+    
     incorrect-range: '&cLe numéro &d''[number]''&c n''est pas valide. Les entiers
       positifs sont valides.'
     incorrect-mode: '&cLa valeur &d''[mode]''&c n''est pas valide. Les valeurs valides
@@ -212,6 +238,7 @@ biomes:
       valeurs valides sont ''true'' ou ''false''.'
     incorrect-visibility: La valeur &d'[mode]'&c n'est pas valide.
     incorrect-object: '&cImpossible de trouver un biome avec un ID donné &d''[biome]''.'
+    
     no-biomes: '&cLes biomes ne sont pas mis en œuvre dans le monde actuel!'
     no-biomes-admin: '&cLes biomes ne sont pas mis en œuvre dans le monde actuel!
       Vous devriez utiliser &5/[commande]&c pour les ajouter!'
@@ -220,9 +247,11 @@ biomes:
     wrong-icon: '&cLes données &6[value]&c ne peuvent pas être analysées avec ItemStack.'
     no-biomes-for-you: '&cMalheureusement, impossible de trouver un biome que vous
       pourriez utiliser.'
+    
     not-valid-integer: '&cGiven integer "[value]" is not valid!|Value should be between
       [min] and [max].'
     not-a-integer: '&cLa valeur donnée "[value]" n''est pas un entier!'
+    
     not-on-island: '&cVous n''êtes pas sur l''île.'
     not-enough-money: '&cVous n''avez pas assez d''argent. Changer le biome nécessite
       [number] Pièces d''or'
@@ -232,11 +261,14 @@ biomes:
     disabled: '&cActuellement ce biome est désactivé.'
     missing-permission: '&cThis biome requires &6[permission]&c permission. You do
       not have it.'
+    
     no-file: '&cbiomes.yml n''est pas trouvé.'
     no-load: '&cUne erreur est survenue lors de l''importation de biomes: [message]!'
     load-biome: '&cImpossible de charger le biome ''[biome]'' car il n''est pas défini
       dans Minecraft. Utilisez le nom de biome correct.'
+    
     no-rank: '&cVous n''avez pas le rang pour le faire.'
+  
   information:
     header: 'Biome: [name]'
     type: '  Type: [type]'
@@ -244,17 +276,21 @@ biomes:
     level: '  Niveau: [level]'
     cost: '  Coût: [cost]'
     permission: '  Permission: [permission]'
+  
   messages:
     saved: '&dLe Biome [biome] & été sauvegardé.'
     biome-created: '&dNouvel objet Biome créé avec uniqueID: [id]'
     saved-config: Les paramètres de l'addon sont mis à jour.
     biome-removed: Biome avec identifiant unique = '[biome]' est supprimé de la mémoire.
+    
     update-start: '&eMise à Jour du Biome commencée'
     update-done: '&6[biome]&r&e est mis sur l''île avec succès.'
+    
     skipping: Le [biome] est bien importé.
     overwriting: Écrasement [biome].
     imported: '[biome] est importé.'
     import-count: Importation de biomes terminée. Importation de [number] biomes.
+
 protection:
   flags:
     BIOMES_ISLAND_PROTECTION:

@@ -16,11 +16,14 @@ biomes:
         toggle-environment: '&6Přepnout prostředí'
         edit-text-fields: '&6Editovat textová pole'
         select-block: '&6Zvol materiál'
+        
         lore-edit: '&6Řádky příběhu'
         lore-add: '&6Přidat řádek příběhu'
         lore-remove: '&6ODebrat řádek příběhu'
+      
       biomes-choose: '&6Zvol biom'
       mode-choose: '&6Zvol mód aktualizací'
+    
     buttons:
       admin:
         settings: Nastavení
@@ -29,6 +32,7 @@ biomes:
         edit: Editovat biom
         add: Přidat biom
         change: Změnit biom hráče
+        
         change-biome: Biom
         name: Viditelný název
         icon: Ikona
@@ -38,6 +42,7 @@ biomes:
         required-permissions: Vyžadované oprávnění
         required-level: Vyžadovaná úroveň
         required-money: Vyžadované peníze
+        
         advanced-menu: Pokročilé menu
         default-mode: Výchozí mód aktualizací
         default-size: Výchozí velikost
@@ -47,30 +52,38 @@ biomes:
         cooldown: Cooldown
         reset-biomes: Událost obnovy
         use-protection-range: Použít chráněnou oblast
+        
         toggle-user-list: Přepnout seznam hráčů
+        
         save: Uložit
         cancel: Zrušit
         input: Vložit
         accept: Přijmout
+        
         set-mode: =
         increase-mode: +
         reduce-mode: '-'
         multiply-mode: '*'
         number: '[number]'
+        
         add-string: Přidat text
         clear: Smazat
         remove-empty: Odstranit prázdné
         input-mode: Mód vstupu
         value: Hodnota
+        
         add-element: Přidat řádek
         remove-element: Odebrat řádek
+      
       value: 'Nynější hodnota: [number]'
       increase: Navýšit o [number]
       decrease: Snížit o [number]
       set: Nastavit hodnotu na [number]
       accept: Přijmout
       decline: Odmítnout
+      
       information: Informace
+      
       return: Vrátit
       previous: Předchozí
       next: Další
@@ -83,6 +96,7 @@ biomes:
         edit: Povolí editaci vlastností biomu
         add: Povolí přidání nových biomů v nynějším světě
         change: Povolí změnu biomu hráčů na jejich ostrově
+        
         change-biome: Povolí změnu toho, který Minecraft biom bude použit.
         required-permissions: Povolí změnu vyžadovaného oprávnění pro tento biom.|Bez
           těchto oprávnění je nebudou hráči moci použít!
@@ -95,6 +109,7 @@ biomes:
         icon: Povolí nastavení jiné reprezentační ikony pro tento biom.
         description: Povolí modifikovat popis tohoto biomu.
         order: Povolí modifikovat pořadí tohoto biomu.
+        
         advanced-menu: Povolí zapnutí/vypnutí Pokročilého menu se všemi možnostmi
           změny pro hráče.
         default-mode: Povolí změnu módu aktualizací výchozího biomu.|Bude použito,
@@ -112,11 +127,14 @@ biomes:
         use-protection-range: Povolí zapnutí/vypnutí limitace aktualizací biomu protekční
           vzdáleností ostrova. Pokud je toto vypnuto, pak to použije celou vzdálenost
           ostrova.
+        
         toggle-user-list: Povolí přepnutí, kteří hráči by měli být zobrazeni v aktuálním
           menu.
+        
         save: Povolí uložení nynější hodnoty a vrácení se do předchozího menu.
         cancel: Povolí vrácení se do předchozího menu bez provedení změn.
         input: Povolí napsání čísla v chatu
+        
         set-mode: Povolí přepnutí na nastavovací mód, který nastaví nynější hodnotu
           na uvedené číslo.
         increase-mode: Povolí přepnutí na zvyšující mód, který zvýší nynější hodnotu
@@ -125,10 +143,13 @@ biomes:
           o uvedené číslo.
         multiply-mode: Povolí přepnutí na násobící mód, který znásobí nynější hodnotu
           uvedeným číslem.
+        
         click-to-edit: '&4Klikni sem k editaci vstupu.'
         edit-text-line: '&6 Editovat text řádku!'
         add-text-line: '&6 Přidat nový řádek s textem!'
+        
         selected: '&6Materiál je zvolen'
+        
         lore:
           description: Text popisu. | Definován v objektu biomů - biomeObject.description.
           original_biome: Originální text Minecraft biomu. | Reprezentuje překlad
@@ -138,6 +159,7 @@ biomes:
           required_money: Text ceny za změnu biomu. | Reprezentuje překlad pro 'biomes.gui.biome-description.required-money'.
           required_permission: Text vyžadovaného oprávnění. | Reprezentuje překlad
             pro 'biomes.gui.biome-description.required-permissions'.
+      
       update-mode:
         island: Ostrov
         chunk: Chunk
@@ -153,23 +175,29 @@ biomes:
         online: Online
         in-world: V tomto světě
         with-island: S ostrovem
+      
       current-value: 'Nynější hodnota: [value]'
       enabled: zapnuto
       disabled: vypnuto
       permission: ' - [permission]'
+      
       information: Pokud přijmeš tyto změny, pokusíme se změnit biom tvého ostrova
         na [biome] v módu aktualizace [mode] se vzdáleností [range].
+    
     questions:
       prefix: '&2[SERVER]: '
+      
       admin:
         number: Napiš číslo do chatu a stiskni Enter k přijetí a znovu stikni Enter.
         name: Napiš reprezentativní název pro daný biom.
         uniqueID: Napiš unikátní objektový název a stiskni Enter.
+    
     biomes-description:
       biome-name: 'Minecraft biom: [value]'
       required-money: 'Cena: [value]'
       required-island-level: 'Min. úroveň ostrova: [value]'
       required-permissions: 'Oprávnění:'
+  
   commands:
     admin:
       add:
@@ -197,10 +225,12 @@ biomes:
           nastavení doplňku pomocí jednoduchého příkazu. Umožňuje editaci jen existujících
           nastavení.
         parameters: <property> <new_value>
+      
       migrate:
         description: Tato metoda umožňuje migrovat data biomů, která ukazují na nynější
           svět herního módu pro formát uchovávání.
         parameters: ''
+    
     user:
       help:
         description: Hlavní příkaz doplňku Biome, který otevře GUI změny biomu.
@@ -212,11 +242,13 @@ biomes:
         description: NASTAVOVACÍ příkaz umožňuje změnit biom ostrova na <biome>. <type>
           a <size> nejsou vyžadovány.
         parameters: <biome> [<type>] [<size>]
+  
   errors:
     unique-id: '&cJedinečné ID &d[id]&c je neplatné!'
     too-many-arguments: '&cPříliš mnoho parametrů. Prosím, zkoukni nápovědu!'
     missing-arguments: '&cChybějící parametry příkazu. Prosím, zkoukni nápovědu!'
     unknown-argument: '&cNeznámé parametery příkazu. Prosím, zkoukni nápovědu!'
+    
     incorrect-range: '&cUvedené číslo &d''[number]''&c je neplatné. Platná jsou pouze
       kladná celá čísla.'
     incorrect-mode: '&cUvedená hodnota &d''[mode]''&c je neplatná. Platné hodnoty
@@ -229,6 +261,7 @@ biomes:
       Platné hodnoty jsou ''true'' nebo ''false''.'
     incorrect-visibility: '&cUvedená hodnota &d''[mode]''&c není platná.'
     incorrect-object: '&cNelze najít biom s uvedeným ID &d''[biome]''.'
+    
     no-biomes: '&cBiomy nejsou v nynějším světě implementovány!'
     no-biomes-admin: '&cBiomy nejsou v nynějším světě implementovány! Měl bys použít
       &5/[command] &ck jejich přidání!'
@@ -236,9 +269,11 @@ biomes:
     missing-biome: '&cBiom není definován.'
     wrong-icon: '&cUvedený materiál &6[value]&c nelze přeložit do objektu ItemStack.'
     no-biomes-for-you: '&cBohužel, nelze najít žádný biom, který by bylo možné použít.'
+    
     not-valid-integer: '&cUvedené celé číslo "[value]" není platné!|Hodnota by měla
       být mezi [min] a [max].'
     not-a-integer: '&cUvedená hodnota "[value]" není celé číslo!'
+    
     not-on-island: '&cNejsi na ostrově.'
     not-enough-money: '&cNemáš dostatek peněz. Změna biomu vyžaduje $[number]'
     not-enough-level: '&cÚroveň tvého ostrova je příliš nízká. Biom vyžaduje úroveň
@@ -246,11 +281,14 @@ biomes:
     admin-not-on-island: '&cNejsi na ostrově [user].'
     disabled: '&cTento biom je momentálně zakázán.'
     missing-permission: '&cTento biom vyžaduje oprávnění &6[permission]&c. Ty ho nemáš.'
+    
     no-file: '&cSoubor biomes.yml nenalezen.'
     no-load: '&cVyskytla se chyba během importu biomů: [message]!'
     load-biome: '&cNelze načíst biom ''[biome]'', jelikož není definován v Minecraftu.
       Použij správný název biomu.'
+    
     no-rank: '&cNa toto nemáš hodnost.'
+  
   information:
     header: 'Biom: [name]'
     type: '  Typ: [type]'
@@ -258,21 +296,26 @@ biomes:
     level: '  Úroveň: [level]'
     cost: '  Cena: [cost]'
     permission: '  Oprávnění: [permission]'
+  
   messages:
     admin:
       migrate-start: '&2Začít migrovat data doplňku Biomes.'
       migrate-end: '&2Data doplňku Biomes jsou aktualizovány na nový formát.'
       migrate-not: '&2Všechna data jsou platná.'
+    
     saved: '&dBiom [biome] uložen.'
     biome-created: '&dNový objekt biomu vytvořen s unikátním ID: [id]'
     saved-config: Nastavení doplňku aktualizována.
     biome-removed: Biom s unikátním ID = '[biome]' je odstraněno z paměti.
+    
     update-start: '&eAktualizace biomů začala'
     update-done: '&eBiom &6[biome]&r&e byl na ostrově úspěšně nastaven.'
+    
     skipping: Přeskakuji import [biome].
     overwriting: Přepisuji [biome].
     imported: '[biome] je importován.'
     import-count: Import biomů skončil. Importováno [number] biomů.
+
 protection:
   flags:
     BIOMES_ISLAND_PROTECTION:

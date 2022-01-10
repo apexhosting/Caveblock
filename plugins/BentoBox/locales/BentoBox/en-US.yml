@@ -1,11 +1,16 @@
-# 
+# ##########################################################################################
 # This is a YML file. Be careful when editing. Check your edits in a YAML checker like    #
 # the one at http://yaml-online-parser.appspot.com                                        #
+# ##########################################################################################
+
+# This locale is always current with the latest version
+
 meta:
   authors:
   - tastybento
   - Poslovitch
   banner: WHITE_BANNER:1:STRIPE_SMALL:RED:SQUARE_TOP_RIGHT:CYAN:SQUARE_TOP_RIGHT:BLUE
+
 prefixes:
   bentobox: '&6 BentoBox &7 &l > &r '
 general:
@@ -38,7 +43,9 @@ general:
     overworld: Overworld
     nether: Nether
     the-end: The End
+
 commands:
+  # Parameters in <> are required, parameters in [] are optional
   help:
     header: '&7 =========== &c [label] help &7 ==========='
     syntax: '&b [usage] &a [parameters]&7 : &e [description]'
@@ -100,6 +107,7 @@ commands:
         description: displays the status of the purge
         status: '&b [purged] &a islands purged out of &b [purgeable] &7(&b[percentage]
           %&7)&a.'
+    
     team:
       add:
         parameters: <owner> <player>
@@ -472,6 +480,7 @@ commands:
       addons: '[prefix_bentobox]&6 Migrating addons'
       class: '[prefix_bentobox]&6 Migrating [description]'
       migrated: '[prefix_bentobox]&a Migrated'
+  
   confirmation:
     confirm: '&c Type command again within &b [seconds]s&c  to confirm.'
     previous-request-cancelled: '&6 Previous confirmation request cancelled.'
@@ -739,6 +748,7 @@ commands:
       not-on-island: '&c That player is not on your island!'
       player-expelled-you: '&b [name]&c  expelled you from the island!'
       success: '&a You expelled &b [name] &a from the island.'
+
 ranks:
   owner: Owner
   sub-owner: Sub-Owner
@@ -749,6 +759,7 @@ ranks:
   banned: Banned
   admin: Admin
   mod: Mod
+
 protection:
   command-is-banned: Command is banned for visitors
   flags:
@@ -1355,6 +1366,7 @@ protection:
   protected: '&c Island protected: [description].'
   world-protected: '&c World protected: [description].'
   spawn-protected: '&c Spawn protected: [description].'
+  
   panel:
     next: '&f Next Page'
     previous: '&f Previous Page'
@@ -1417,6 +1429,7 @@ protection:
         &7 Current setting: [setting]
       setting-active: '&a Active'
       setting-disabled: '&c Disabled'
+
 language:
   panel-title: Select your language
   description:
@@ -1425,6 +1438,7 @@ language:
     authors: '&a Authors:'
     author: '&3 - &b [name]'
   edited: '&a Changed your language to &e [lang]&a .'
+
 management:
   panel:
     title: BentoBox Management
@@ -1501,6 +1515,11 @@ management:
             &c Weird behaviour and bugs can occur
             &c and most features may be unstable.
 
+
+
+
+
+
 catalog:
   panel:
     GAMEMODES:
@@ -1529,6 +1548,7 @@ catalog:
         &a latest release.
       already-installed: Already installed!
       install-now: Install now!
+    
     empty-here:
       name: '&b This looks empty here...'
       description: |+
@@ -1536,6 +1556,11 @@ catalog:
 
         &a Allow BentoBox to connect to GitHub in
         &a the configuration or try again later.
+
+
+
+
+
 
 enums:
   DamageCause:
@@ -1567,6 +1592,7 @@ enums:
     HOT_FLOOR: Hot Floor
     CRAMMING: Cramming
     DRYOUT: Dryout
+
 panel:
   credits:
     title: '&8 [name] &2 Credits'
@@ -1582,6 +1608,11 @@ panel:
 
         &a Allow BentoBox to connect to GitHub in
         &a the configuration or try again later.
+
+
+
+
+
 
 successfully-loaded: |2
 

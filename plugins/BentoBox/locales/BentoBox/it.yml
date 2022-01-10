@@ -9,6 +9,11 @@ catalog:
         &aPermetti a BentoBox di connettersi a GitHub
         &anelle configurazioni o riprova più tardi.
 
+
+
+
+
+      
       name: '&bSembra essere vuoto...'
     GAMEMODES:
       title: Catalogo modalità di gioco
@@ -781,6 +786,11 @@ management:
             &cPossono presentarsi strani comportamenti o bug
             &ce gran parte delle caratteristiche potrebbe essere instabile.
 
+
+
+
+
+          
           NOT_SUPPORTED: |
             &aIn esecuzione &e[name] [version]&a.
 

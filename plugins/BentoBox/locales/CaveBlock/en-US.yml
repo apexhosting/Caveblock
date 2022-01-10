@@ -1,16 +1,21 @@
-# 
+# ##########################################################################################
 # This is a YML file. Be careful when editing. Check your edits in a YAML checker like    #
 # the one at http://yaml-online-parser.appspot.com                                        #
+# ##########################################################################################
+
 caveblock:
   sign:
     line0: '&cCaveBlock'
     line1: Welcome!
     line2: '[name]'
     line3: Start digging! &c<3
+  
   informational:
     to-nether: So unlucky to fall into nether.
     to-the-end: You have reached the end.
     to-normal: Back to your cave.
+  # Override BentoBox default command strings
+  # General strings
   general:
     errors:
       no-island: '&cYou do not have a cave!'
@@ -21,6 +26,7 @@ caveblock:
         the cave.'
       not-owner: '&cYou are not the owner of your cave!'
   commands:
+    # Parameters in <> are required, parameters in [] are optional
     admin:
       team:
         add:
@@ -195,6 +201,7 @@ caveblock:
         description: expel a player from your cave
         not-on-island: '&cThat player is not on your cave!'
         player-expelled-you: '&b[name]&c expelled you from the cave!'
+  
   ranks:
     owner: Dwarf King
     sub-owner: Dwarf Knight
@@ -203,6 +210,7 @@ caveblock:
     coop: Coop
     visitor: Human
     banned: Orc
+  
   protection:
     flags:
       ENDERMAN_GRIEFING:
@@ -280,6 +288,7 @@ caveblock:
     locked: '&cThis cave is locked!'
     protected: '&cCave protected: [description]'
     spawn-protected: '&cSpawn protected: [description]'
+    
     panel:
       PROTECTION:
         description: |-

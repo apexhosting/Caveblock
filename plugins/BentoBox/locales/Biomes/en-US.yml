@@ -14,11 +14,14 @@ biomes:
         toggle-environment: '&6 Toggle Environment'
         edit-text-fields: '&6 Edit Text Fields'
         select-block: '&6 Select A Material'
+        
         lore-edit: '&6 Lore Message'
         lore-add: '&6 Add Lore Element'
         lore-remove: '&6 Remove Lore Element'
+      
       biomes-choose: '&6 Choose Biome'
       mode-choose: '&6 Choose Update Mode'
+    
     buttons:
       admin:
         settings: Settings
@@ -27,6 +30,7 @@ biomes:
         edit: Edit Biome
         add: Add Biome
         change: Change User Biome
+        
         change-biome: Biome
         name: Display Name
         icon: Icon
@@ -36,6 +40,7 @@ biomes:
         required-permissions: Required Permissions
         required-level: Required Level
         required-money: Required Money
+        
         advanced-menu: Advanced Menu
         default-mode: Default Update Mode
         default-size: Default Size
@@ -45,24 +50,31 @@ biomes:
         cooldown: Cooldown
         reset-biomes: Reset Event
         use-protection-range: Use Protection Range
+        
         toggle-user-list: Toggle Player List
+        
         save: Save
         cancel: Cancel
         input: Input
         accept: Accept
+        
         set-mode: =
         increase-mode: +
         reduce-mode: '-'
         multiply-mode: '*'
         number: '[number]'
+        
         add-string: Add String
         clear: Clear
         remove-empty: Remove Empty
         input-mode: Input Mode
         value: Value
+        
         add-element: Add Element
         remove-element: Remove Element
+        
         environment: Change Environment
+        
         lush: Show lush biomes
         dry: Show dry biomes
         cold: Show cold biomes
@@ -72,13 +84,16 @@ biomes:
         the_end: Show the end biomes
         neutral: Show neutral biomes
         unused: Show unused/unlisted biomes
+      
       value: 'Current Value: [number]'
       increase: Increase by [number]
       decrease: Decrease by [number]
       set: Set value to [number]
       accept: Accept
       decline: Decline
+      
       information: Information
+      
       return: Return
       previous: Previous
       next: Next
@@ -91,6 +106,7 @@ biomes:
         edit: Edit biome properties
         add: Add new biome in current world
         change: Change player's island biome
+        
         change-biome: Change which Minecraft Biome will be used.
         required-permissions: Change required permissions for this biome.|Without
           these permissions players will not be able to use it!
@@ -101,6 +117,7 @@ biomes:
         icon: Set the display icon for this biome.
         description: Modify description of this biome.
         order: Modify order placement of this biome.
+        
         advanced-menu: Enable/disable Advanced Menu with all change options for players.
         default-mode: Set default biome update mode.|Will be used if Advanced Menu
           is disabled and as default values in this menu.
@@ -115,10 +132,13 @@ biomes:
           leaves island.
         use-protection-range: Enable/disable biome update to be limited by island
           protection range. If this is disabled, then it will use whole island range.
+        
         toggle-user-list: Switch which players should be displayed in current Menu.
+        
         save: Save current value and return to previous Menu.
         cancel: Return to previous Menu without changes.
         input: Write number in Chat
+        
         set-mode: Switch to set mode that will set current value to clicked number.
         increase-mode: Switch to increment mode that will increase current value by
           clicked number.
@@ -126,12 +146,15 @@ biomes:
           number.
         multiply-mode: Switch to multiply mode that will multiply current value by
           clicked number.
+        
         click-to-edit: '&4 Click here to edit input'
         edit-text-line: '&6 Edit text message!'
         add-text-line: '&6 Add new text message!'
+        
         environment: Allows to change active environment for biome.
         environment-active: ' &2 - [value]'
         environment-inactive: ' &c - [value]'
+        
         lush: Contains biomes with light green grass (with exception) and blue water.
           | Like plains, forest, beach and mushroom fields.
         dry: Contains biomes with olive tone grass and light blue water | Like desert,
@@ -145,7 +168,9 @@ biomes:
         the_end: Contains all the end biomes. | Like the end.
         neutral: Contains void and all hills biomes. | Like the void.
         unused: Contains unused or unlisted biomes.
+        
         selected: '&6 Material is selected'
+        
         lore:
           description: Description string. | Defined in biomes object - biomeObject.description.
           original_biome: Original Minecraft Biome string. | Represents translation
@@ -156,6 +181,7 @@ biomes:
             for 'biomes.gui.biome-description.required-money'.
           required_permission: Required permission string. | Represents translation
             for 'biomes.gui.biome-description.equired-permissions'.
+      
       update-mode:
         island: Island
         chunk: Chunk
@@ -171,24 +197,30 @@ biomes:
         online: Online
         in-world: In this world
         with-island: With island
+      
       current-value: 'Current value: [value]'
       enabled: enabled
       disabled: disabled
       permission: ' - [permission]'
+      
       information: If you accept these changes, we will try to change your island
         biome to [biome] in update mode [mode] with range [range]. | Be aware, that
         biome can be changed only in 4x4x4 blocks.
+    
     questions:
       prefix: '&2[SERVER]: '
+      
       admin:
         number: Write a number in chat and press enter to accept it and press enter.
         name: Write a friendly name for given biome.
         uniqueID: Write object's unique name and press enter.
+    
     biomes-description:
       biome-name: 'Minecraft Biome: [value]'
       required-money: 'Cost: [value]'
       required-island-level: 'Min island level: [value]'
       required-permissions: 'Permissions:'
+  
   commands:
     admin:
       add:
@@ -211,9 +243,11 @@ biomes:
         description: edit default settings via simple command. Only existing settings
           can be edited.
         parameters: <property> <new_value>
+      
       migrate:
         description: migrate current game world biomes data to storage format.
         parameters: ''
+    
     user:
       help:
         description: opens biome change GUI.
@@ -224,11 +258,13 @@ biomes:
       set:
         description: set island biome to <biome>. [type] and [size] are optional.
         parameters: <biome> [type] [size]
+  
   errors:
     unique-id: '&c Unique id &d[id] &c is not valid!'
     too-many-arguments: '&c Too many parameters. Please check help!'
     missing-arguments: '&c Missing command parameters. Please check help!'
     unknown-argument: '&c Unknown command parameters. Please check help!'
+    
     incorrect-range: '&c Given number &d''[number]'' &c is not valid. Only positive
       integers are valid.'
     incorrect-mode: '&c Given value &d''[mode]'' &c is not valid. Valid values are
@@ -243,6 +279,7 @@ biomes:
       values are ''true'' or ''false''.'
     incorrect-visibility: '&c Given value &d''[mode]'' &c is not valid.'
     incorrect-object: '&c Cannot find biome with given ID &d''[biome]''.'
+    
     no-biomes: '&c Biomes are not implemented in current world yet!'
     no-biomes-admin: '&c Biomes are not implemented in current world yet! Use &5/[command]
       &c to add them!'
@@ -250,9 +287,11 @@ biomes:
     missing-biome: '&c Biome is not defined.'
     wrong-icon: '&c Given material &6[value] &c cannot be parsed to ItemStack.'
     no-biomes-for-you: '&c Unfortunately, no usable biome could be found.'
+    
     not-valid-integer: '&c Given integer "[value]" is not valid!|Value should be between
       [min] and [max].'
     not-a-integer: '&c Given value "[value]" is not an integer!'
+    
     not-on-island: '&c You are not on an island.'
     not-enough-money: '&c You do not have enough money. Changing biome requires $[number]'
     not-enough-level: '&c Your island level is too small. Biome requires at least
@@ -261,11 +300,14 @@ biomes:
     disabled: '&c Currently, this biome is disabled.'
     missing-permission: '&c This biome requires &6[permission] &c permission. You
       do not have it.'
+    
     no-file: '&c biomes.yml not found.'
     no-load: '&c An error occur while importing biomes: [message]!'
     load-biome: '&c Cannot load biome ''[biome]'' as it is not defined in Minecraft.
       Use correct biome name.'
+    
     no-rank: '&c You do not have a high enough rank to do that.'
+  
   information:
     header: 'Biome: [name]'
     type: '  Type: [type]'
@@ -273,21 +315,26 @@ biomes:
     level: '  Level: [level]'
     cost: '  Cost: [cost]'
     permission: '  Permission: [permission]'
+  
   messages:
     admin:
       migrate-start: '&2 Start migrating biomes addon data.'
       migrate-end: '&2 Biomes addon data is updated to new format.'
       migrate-not: '&2 All data is valid.'
+    
     saved: '&d Biome [biome] is saved.'
     biome-created: '&d New Biome object created with uniqueID: [id]'
     saved-config: Addon settings updated.
     biome-removed: Biome with unique id = '[biome]' removed from memory.
+    
     update-start: '&e Biome updating started'
     update-done: '&6[biome] &r&e is set on island successfully.'
+    
     skipping: Skipping [biome] importing.
     overwriting: Overwriting [biome].
     imported: '[biome] imported.'
     import-count: Biomes import completed. Imported [number] biomes.
+
 protection:
   flags:
     BIOMES_ISLAND_PROTECTION:

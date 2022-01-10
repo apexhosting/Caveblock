@@ -1,9 +1,12 @@
-# 
+# ##########################################################################################
 # This is a YML file. Be careful when editing. Check your edits in a YAML checker like    #
 # the one at http://yaml-online-parser.appspot.com                                        #
+# ##########################################################################################
+
 meta:
   authors:
   - BONNe
+
 challenges:
   commands:
     admin:
@@ -69,13 +72,17 @@ challenges:
         select-entity: '&a  Select Entity'
         toggle-environment: '&a  Toggle Environment'
         edit-text-fields: '&a  Edit Text Fields'
+        
         library-title: '&a  Downloadable Libraries'
+        
         lore-add: '&a  Add Lore Element'
         lore-remove: '&a  Remove Lore Element'
         lore-edit: '&a  Edit Lore'
+        
         type-select: '&a  Choose Challenge Type'
       challenges: '&6  Challenges'
       game-modes: '&6  Choose GameMode'
+      
       multiple-complete: '&6  How many times?'
     buttons:
       admin:
@@ -169,8 +176,10 @@ challenges:
         complete-wipe: Wipe addon databases
         challenge-wipe: Wipe challenges database
         players-wipe: Wipe user database
+        
         library: Web Library
         download: Download Libraries
+        
         type:
           island: '&6  Island Type'
           inventory: '&6  Inventory Type'
@@ -178,6 +187,7 @@ challenges:
       next: Next
       previous: Previous
       return: Return
+      
       value: Complete
       increase: Increase
       reduce: Reduce
@@ -330,6 +340,7 @@ challenges:
           Enable/disable single challenges GUI.
           &2 Requires a server restart.'
         visibility-mode: Show/hide undeployed challenges.
+        
         click-to-edit: '&4 Click here to edit input.'
         edit-text-line: '&6 Edit text message!'
         add-text-line: '&6 Add new text message!'
@@ -341,18 +352,23 @@ challenges:
         default-export: Export existing challenges to defaults.json file.
         complete-wipe: Completely clear all challenges addon databases. Includes player
           data!
+        
         challenge-wipe: Completely clear challenges and their level databases!
         players-wipe: Completely clear player database!
+        
         library: Open GUI that shows all available public Challenges Libraries.
+        
         library-author: by &e [author]
         library-version: '&9 Made in Challenges [version]'
         library-lang: '&a Language: [lang]'
         library-gamemode: '&a Primary for [gamemode]'
+        
         download: |-
           Manually update available challenges libraries.
           Right click to enable cache clearing.'
         download-disabled: GitHub data downloader is disabled in BentoBox. Without
           it, you cannot use Libraries!
+        
         lore:
           level: |-
             Level string.
@@ -447,12 +463,15 @@ challenges:
       command: '- [command]'
       level-unlocked: Click to see [level] challenges!
       level-locked: Complete [count] more [level] challenges to unlock this level!
+      
       increase-by: '&a Increase completion count by [value]'
       reduce-by: '&c Reduce completion count by [value]'
+      
       visibility:
         visible: All challenges are visible to everyone
         hidden: Only Deployed challenges are visible.
         toggleable: Toggle if undeployed challenges should be displayed
+    
     challenge-description:
       level: '&f Level: [level]'
       completed: '&b Completed'
@@ -507,16 +526,26 @@ challenges:
       skull-owner: '  [owner]'
       egg-meta: '  [mob]'
       fish-meta: '  [body-color] with [pattern-color] [pattern]'
+    
     questions:
       prefix: '&2 [SERVER]: '
+      
       admin:
         number: Write a number in the chat and press enter.
         unique-id: Write the object's unique id and press enter.
         challenge-name: Write the display name in the chat for the current challenge.
         level-name: Write the display name in chat for the current level.
+  
   titles:
+    #       Title and subtitle may contain variables in [] that will be replaced with a proper message from the challenge object.
+    #       [friendlyName] will be replaced with challenge friendly name.
+    #       [level] will be replaced with level friendly name.
+    #       [rewardText] will be replaced with the challenge reward text.
     challenge-title: Successfully completed
     challenge-subtitle: '[friendlyName]'
+    #       Title and subtitle may contain variables in [] that will be replaced with a proper message from the level object.
+    #       [friendlyName] will be replaced with level friendly name.
+    #       [rewardText] will be replaced with the level reward text.
     level-title: Successfully completed
     level-subtitle: '[friendlyName]'
   messages:
@@ -527,18 +556,22 @@ challenges:
       challenge-created: '[challenge]&r  created!'
       complete-wipe: '&c Hopefully you have backups, because you just erased all the
         Challenges Addon databases!'
+      
       challenge-wipe: '&c Hopefully you have backups, because you just erased all
         the Challenges and their levels!'
       players-wipe: '&c Hopefully you have backups, because you just erase all the
         player completed challenges!'
+      
       completed: '&2 You completed challenge [name] for [player]!'
       already-completed: '&2 This challenge was already completed!'
       reset: '&2 You reset challenge [name] for [player]!'
       reset-all: '&2 All [player] challenges were reset!'
       not-completed: '&2 This challenge is not completed yet!'
+      
       migrate-start: '&2 Start migrating challenges addon data.'
       migrate-end: '&2 Challenges addon data updated to new format.'
       migrate-not: '&2 All data is valid.'
+      
       start-downloading: '&5 Starting to download and import Challenges Library.'
     you-completed-challenge: '&2 You completed the [value] &r &2 challenge!'
     you-repeated-challenge: '&2 You repeated the [value] &r &2 challenge!'

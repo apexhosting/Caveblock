@@ -1,6 +1,8 @@
-# 
+# ##########################################################################################
 # This is a YML file. Be careful when editing. Check your edits in a YAML checker like    #
 # the one at http://yaml-online-parser.appspot.com                                        #
+# ##########################################################################################
+
 admin:
   level:
     parameters: <player>
@@ -12,6 +14,7 @@ admin:
     remove:
       description: 将玩家移出前十
       parameters: <player>
+
 island:
   level:
     parameters: '[player]'
@@ -21,12 +24,14 @@ island:
     required-points-to-next-level: '&a还需 [points] 才能升到下一级'
     deaths: '&c([number] 次死亡)'
     cooldown: '&c再等 &b[time] &c秒才能再次使用'
+  
   top:
     description: 显示前十名
     gui-title: '&a前十'
     gui-heading: '&6[name]: &B[rank]'
     island-level: '&B等级 [level]'
     warp-to: '&A正传送到 [name] 的岛屿'
+  
   value:
     description: 查看某方块的价值
     success: '&7本方块的价值: &e[value]'

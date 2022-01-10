@@ -4107,6 +4107,10 @@ Items:
     Has Hologram: true
     Max Stack Size: -1
     Display Name: Music Disc Wait
+  MUSIC_DISC_OTHERSIDE:
+    Has Hologram: true
+    Max Stack Size: -1
+    Display Name: Music Disc Otherside
   MUSIC_DISC_PIGSTEP:
     Has Hologram: true
     Max Stack Size: -1

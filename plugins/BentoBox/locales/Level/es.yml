@@ -1,6 +1,8 @@
-# 
+# ##########################################################################################################
 # Este es un archivo YML. Tenga cuidado al editar. Revisa tus ediciones en un verificador de YAML como    #
 # el de http://yaml-online-parser.appspot.com                                                             #
+# ##########################################################################################################
+
 admin:
   level:
     parameters: <player>
@@ -9,6 +11,7 @@ admin:
     description: mostrar la lista de los diez primeros
     unknown-world: '&cMundo Desconocido!'
     display: '&f[rank]. &a[name] &7- &b[level]'
+
 island:
   level:
     parameters: '[player]'
@@ -19,12 +22,14 @@ island:
       nivel.'
     deaths: '&c([number] Muertes)'
     cooldown: '&cDebes esperar &b[time] &csegundos para poder volver a hacer eso'
+  
   top:
     description: mostrar los diez primeros
     gui-title: '&aDiez primeros'
     gui-heading: '&6[name]: &B[rank]'
     island-level: '&BNivel [level]'
     warp-to: '&ATeletransportandote a la isla de [name]'
+  
   value:
     description: muestra el valor de cualquier bloque
     success: '&7El valor de este bloque es: &e[value]'

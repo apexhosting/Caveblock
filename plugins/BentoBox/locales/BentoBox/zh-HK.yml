@@ -1,12 +1,15 @@
-# 
+# ##########################################################################################
 # This is a YML file. Be careful when editing. Check your edits in a YAML checker like    #
 # the one at http://yaml-online-parser.appspot.com                                        #
+# ##########################################################################################
+
 meta:
   authors:
   - mkcoldwolf
   - DuckSoft
   - Haruchan__
   banner: RED_BANNER:1:CIRCLE_MIDDLE:WHITE:FLOWER:WHITE:FLOWER:WHITE:CROSS:RED:FLOWER:WHITE
+
 general:
   success: '&a成功!'
   errors:
@@ -30,7 +33,9 @@ general:
     must-be-positive-number: '&c[number] 不是一個有效的正數。'
   tips:
     changing-obsidian-to-lava: 正在將黑曜石變回岩漿。下次注意啊!
+
 commands:
+  # Parameters in <> are required, parameters in [] are optional
   help:
     header: '&7=========== &c[label] 幫助 &7==========='
     syntax: '&b[usage] &a[parameters]&7: &e[description]'
@@ -396,6 +401,7 @@ commands:
       description: 顯示島嶼設置
     language:
       description: 選擇語言
+
 ranks:
   owner: 島主
   sub-owner: 副島主
@@ -406,6 +412,7 @@ ranks:
   banned: 被封者
   admin: 管理員
   mod: 主持人
+
 protection:
   command-is-banned: 命令對訪客禁止
   flags:
@@ -782,6 +789,7 @@ protection:
   locked: '&c本島嶼已被鎖定!'
   protected: '&c島嶼保護：[description]'
   spawn-protected: '&c生成保護：[description]'
+
 enums:
   DamageCause:
     CONTACT: 接觸（如仙人掌）
@@ -812,6 +820,7 @@ enums:
     HOT_FLOOR: 熔岩塊
     CRAMMING: 擁擠
     DRYOUT: 乾燥（魚類暴露在空氣中）
+  
   panel:
     next: 下一頁
     previous: 上一頁
@@ -844,10 +853,12 @@ enums:
         &7當前設置：[setting]
       setting-active: '&a激活'
       setting-disabled: '&c禁止'
+
 language:
   panel-title: 選擇您的語言
   selected: '&a當前選中。'
   edited: '&a更改您的語言為 &e[lang]&a。'
+
 successfully-loaded: |2
 
   &6  ____             _        ____
