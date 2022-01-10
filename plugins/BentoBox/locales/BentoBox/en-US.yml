@@ -1518,6 +1518,8 @@ management:
 
 
 
+
+
 catalog:
   panel:
     GAMEMODES:
@@ -1554,6 +1556,8 @@ catalog:
 
         &a Allow BentoBox to connect to GitHub in
         &a the configuration or try again later.
+
+
 
 
 
@@ -1604,6 +1608,8 @@ panel:
 
         &a Allow BentoBox to connect to GitHub in
         &a the configuration or try again later.
+
+
 
 
 

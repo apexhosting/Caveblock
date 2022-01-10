@@ -1430,6 +1430,8 @@ catalog:
 
 
 
+
+
 enums:
   DamageCause:
     CONTACT: 接触（如仙人掌）

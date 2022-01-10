@@ -18,4 +18,9 @@ whitelist.json
 versions/*
 usercache.json
 version_history.json
-plugins/BentoBox/locales/BentoBox/zh-CN.yml
+caveblock_world/advancements/*
+caveblock_world/playerdata/*
+plugins/ServerListPlus/PlayerCache.json
+plugins/Essentials/userdata/*
+plugins/Essentials/usermap.csv
+plugins/BentoBox/locales/*

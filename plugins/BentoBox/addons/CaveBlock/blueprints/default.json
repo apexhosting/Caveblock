@@ -1,0 +1,15 @@
+{
+  "uniqueId": "default",
+  "icon": "STONE",
+  "displayName": "&eThe Default CaveBlock",
+  "description": [
+    "Default Cave"
+  ],
+  "requirePermission": false,
+  "blueprints": {
+    "NORMAL": "cave",
+    "NETHER": "nether-cave",
+    "THE_END": "end-cave"
+  },
+  "slot": 0
+}

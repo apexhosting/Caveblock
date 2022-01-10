@@ -1315,6 +1315,8 @@ management:
 
 
 
+
+
 catalog:
   panel:
     GAMEMODES:
@@ -1354,6 +1356,8 @@ catalog:
 
 
 
+
+
 panel:
   credits:
     title: '&8 [name] &2 Autoři'
@@ -1369,6 +1373,8 @@ panel:
 
         &a Povol pluginu BentoBox v připojení na GitHub
         &a v konfiguraci nebo to zkus později.
+
+
 
 
 
