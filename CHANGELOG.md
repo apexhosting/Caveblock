@@ -1,6 +1,16 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [3.2]
+
+### Changed
+- Updated to 1.18.1
+- Added Cave Bank System
+- Added Cave Chat system 
+- Added ExtraMobs addon 
+- Added Tiered cobble gen 
+- Minor Tweaks
+
 ## [3.1]
 
 ### Changed
@@ -9,7 +19,7 @@ All notable changes to this project will be documented in this file.
 ## [3.0]
 
 ### Changed
-- Upadted to 1.17.1.
+- Updated to 1.17.1.
 - Updated Worldguard ✔️
 - Updated Worldedit ✔️
 - Updated Holographic Displays ✔️
@@ -96,6 +106,7 @@ All notable changes to this project will be documented in this file.
 ### Added
 - Initial commit of pack to Github for version control
 
+[3.2]: https://github.com/apexhosting/Caveblock/releases/tag/3.2
 [3.1]: https://github.com/apexhosting/Caveblock/releases/tag/3.1
 [3.0]: https://github.com/apexhosting/Caveblock/releases/tag/3.0
 [2.3.1]: https://github.com/apexhosting/Caveblock/releases/tag/2.3.1
