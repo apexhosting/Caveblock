@@ -1490,6 +1490,8 @@ management:
 
 
 
+
+
 catalog:
   panel:
     GAMEMODES:
@@ -1531,6 +1533,8 @@ catalog:
 
 
 
+
+
 panel:
   credits:
     title: '&8 [name] &2 credits'
@@ -1546,6 +1550,8 @@ panel:
 
         &a Sta BentoBox toe om verbinding te maken met GitHub in
         &a de configuratie of probeer het later opnieuw.
+
+
 
 
 

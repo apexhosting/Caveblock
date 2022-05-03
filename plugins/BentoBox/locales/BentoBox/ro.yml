@@ -1467,6 +1467,8 @@ management:
 
 
 
+
+
 catalog:
   panel:
     GAMEMODES:
@@ -1508,6 +1510,8 @@ catalog:
 
 
 
+
+
 panel:
   credits:
     title: '&8 [name] &2 credite'
@@ -1523,6 +1527,8 @@ panel:
 
         &o Permiteți BentoBox să se conecteze la GitHub în
         &a configurația sau încercați din nou mai târziu.
+
+
 
 
 
