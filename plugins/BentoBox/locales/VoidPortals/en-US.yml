@@ -1,0 +1,10 @@
+protection:
+  flags:
+    VOID_WORLD_TELEPORT_FLAG:
+      description: |-
+        &5&oThis allows to enable/disable
+        &5&oability to teleport to
+        &5&odiferent dimension if
+        &5&oplayer falls in void.
+      name: Void world teleports
+      hint: Falling in void will not end in death.

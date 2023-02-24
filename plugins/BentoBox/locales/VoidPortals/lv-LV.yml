@@ -1,0 +1,10 @@
+protection:
+  flags:
+    VOID_WORLD_TELEPORT_FLAG:
+      description: |-
+        &5&oŠis karogs ļauj ieslēgt/izslēgt
+        &5&oaiespēju teleportēties uz citu
+        &5&odimensiju ja sēlētājs
+        &5&oizkrīt no pasaules.
+      name: Teleports krītot tukšumā
+      hint: Izkrītot no pasaules spēlētājs uzreiz nenomirs.
