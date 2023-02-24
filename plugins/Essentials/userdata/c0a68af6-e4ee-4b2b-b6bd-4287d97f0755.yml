@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 103.100.225.214
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1641779267737
+  login: 1641779234752
+money: '0'
+last-account-name: robert_beckley
+lastlocation:
+  world: 2dfa58d9-055d-48c8-907d-1add39898447
+  world-name: caveblock_world
+  x: 1.4318272006667943
+  y: 65.0
+  z: -1.4782446013501398
+  yaw: 179.37245178222656
+  pitch: 2.314178228378296
+logoutlocation:
+  world: 1ed08230-7cca-4f95-82a9-fb6ef53222f5
+  world-name: caveblock-world
+  x: 127.5
+  y: 62.0
+  z: 127.5
+  yaw: 90.0
+  pitch: 30.0
